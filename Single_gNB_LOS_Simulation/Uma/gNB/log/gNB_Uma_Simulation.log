@@ -1,0 +1,152 @@
+2022/05/30,21:27:00,WARNING,Start Server
+2022/05/30,21:27:00,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/05/30,21:27:00,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/05/30,21:27:00,INFO, * Restarting with stat
+2022/05/30,21:27:00,WARNING,Start Server
+2022/05/30,21:27:00,WARNING, * Debugger is active!
+2022/05/30,21:27:00,INFO, * Debugger PIN: 275-905-018
+2022/05/30,21:27:08,WARNING,Start Server
+2022/05/30,21:27:08,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/05/30,21:27:08,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/05/30,21:27:08,INFO, * Restarting with stat
+2022/05/30,21:27:08,WARNING,Start Server
+2022/05/30,21:27:08,WARNING, * Debugger is active!
+2022/05/30,21:27:08,INFO, * Debugger PIN: 275-905-018
+2022/05/30,21:45:20,INFO,10.0.2.121 - - [30/May/2022 21:45:20] "[33mPOST /RRCSetupRequest HTTP/1.1[0m" 404 -
+2022/05/30,21:59:11,WARNING,Start Server
+2022/05/30,21:59:11,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/05/30,21:59:11,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/05/30,21:59:11,INFO, * Restarting with stat
+2022/05/30,21:59:11,WARNING,Start Server
+2022/05/30,21:59:11,WARNING, * Debugger is active!
+2022/05/30,21:59:11,INFO, * Debugger PIN: 275-905-018
+2022/05/30,22:02:48,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/30,22:02:48,INFO, * Restarting with stat
+2022/05/30,22:02:48,WARNING,Start Server
+2022/05/30,22:02:51,WARNING,Start Server
+2022/05/30,22:03:08,WARNING,Start Server
+2022/05/30,22:03:38,WARNING,Start Server
+2022/05/30,22:09:12,WARNING,Start Server
+2022/05/30,22:09:12,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/05/30,22:09:12,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/05/30,22:09:12,INFO, * Restarting with stat
+2022/05/30,22:09:13,WARNING,Start Server
+2022/05/30,22:09:13,WARNING, * Debugger is active!
+2022/05/30,22:09:13,INFO, * Debugger PIN: 275-905-018
+2022/05/30,22:09:17,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:09:17,INFO,10.0.2.121 - - [30/May/2022 22:09:17] "[31m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 400 -
+2022/05/30,22:09:48,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:09:48,INFO,10.0.2.121 - - [30/May/2022 22:09:48] "[31m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 400 -
+2022/05/30,22:10:52,WARNING,Start Server
+2022/05/30,22:10:52,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/05/30,22:10:52,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/05/30,22:10:52,INFO, * Restarting with stat
+2022/05/30,22:10:53,WARNING,Start Server
+2022/05/30,22:10:53,WARNING, * Debugger is active!
+2022/05/30,22:10:53,INFO, * Debugger PIN: 275-905-018
+2022/05/30,22:12:06,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:12:06,INFO,10.0.2.121 - - [30/May/2022 22:12:06] "[31m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 400 -
+2022/05/30,22:12:14,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:12:14,INFO,10.0.2.121 - - [30/May/2022 22:12:14] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:12:41,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:12:41,INFO,10.0.2.121 - - [30/May/2022 22:12:41] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:13:36,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:13:36,INFO,10.0.2.121 - - [30/May/2022 22:13:36] "[31m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 400 -
+2022/05/30,22:14:44,WARNING,Start Server
+2022/05/30,22:14:44,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/05/30,22:14:44,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/05/30,22:14:44,INFO, * Restarting with stat
+2022/05/30,22:14:44,WARNING,Start Server
+2022/05/30,22:14:44,WARNING, * Debugger is active!
+2022/05/30,22:14:44,INFO, * Debugger PIN: 275-905-018
+2022/05/30,22:14:54,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:14:54,INFO,10.0.2.121 - - [30/May/2022 22:14:54] "[31m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 400 -
+2022/05/30,22:15:13,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:15:13,INFO,10.0.2.121 - - [30/May/2022 22:15:13] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:16:14,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:16:14,INFO,10.0.2.121 - - [30/May/2022 22:16:14] "[31m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 400 -
+2022/05/30,22:16:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:16:29,INFO,10.0.2.121 - - [30/May/2022 22:16:29] "[31m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 400 -
+2022/05/30,22:18:51,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:18:51,INFO,10.0.2.121 - - [30/May/2022 22:18:51] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:27:49,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:27:49,INFO,10.0.2.121 - - [30/May/2022 22:27:49] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:31:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:31:33,INFO,10.0.2.121 - - [30/May/2022 22:31:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:31:56,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/30,22:31:56,INFO, * Restarting with stat
+2022/05/30,22:31:56,WARNING,Start Server
+2022/05/30,22:31:56,WARNING, * Debugger is active!
+2022/05/30,22:31:56,INFO, * Debugger PIN: 275-905-018
+2022/05/30,22:37:24,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:37:24,INFO,10.0.2.121 - - [30/May/2022 22:37:24] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:38:38,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:38:38,INFO,10.0.2.121 - - [30/May/2022 22:38:38] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:47:08,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:47:08,INFO,10.0.2.121 - - [30/May/2022 22:47:08] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:47:12,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:47:12,INFO,10.0.2.121 - - [30/May/2022 22:47:12] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:47:40,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:47:40,INFO,10.0.2.121 - - [30/May/2022 22:47:40] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:48:15,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:48:15,INFO,10.0.2.121 - - [30/May/2022 22:48:15] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:48:19,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:48:19,INFO,10.0.2.121 - - [30/May/2022 22:48:19] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:48:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:48:21,INFO,10.0.2.121 - - [30/May/2022 22:48:21] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:49:58,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:49:58,INFO,10.0.2.121 - - [30/May/2022 22:49:58] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:50:07,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:50:07,INFO,10.0.2.121 - - [30/May/2022 22:50:07] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:50:17,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:50:17,INFO,10.0.2.121 - - [30/May/2022 22:50:17] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,22:58:06,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,22:58:06,INFO,10.0.2.121 - - [30/May/2022 22:58:06] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,23:01:37,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/30,23:01:37,INFO,10.0.2.121 - - [30/May/2022 23:01:37] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/30,23:06:09,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/30,23:06:09,INFO, * Restarting with stat
+2022/05/30,23:06:09,WARNING,Start Server
+2022/05/30,23:06:09,WARNING, * Debugger is active!
+2022/05/30,23:06:09,INFO, * Debugger PIN: 275-905-018
+2022/05/30,23:06:12,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/30,23:06:12,INFO, * Restarting with stat
+2022/05/30,23:06:12,WARNING,Start Server
+2022/05/30,23:06:12,WARNING, * Debugger is active!
+2022/05/30,23:06:12,INFO, * Debugger PIN: 275-905-018
+2022/05/30,23:06:24,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/30,23:06:24,INFO, * Restarting with stat
+2022/05/30,23:06:25,WARNING,Start Server
+2022/05/30,23:06:25,WARNING, * Debugger is active!
+2022/05/30,23:06:25,INFO, * Debugger PIN: 275-905-018
+2022/05/30,23:06:35,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/30,23:06:35,INFO, * Restarting with stat
+2022/05/30,23:06:35,WARNING,Start Server
+2022/05/30,23:06:35,WARNING, * Debugger is active!
+2022/05/30,23:06:35,INFO, * Debugger PIN: 275-905-018
+2022/05/30,23:07:38,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/30,23:07:38,INFO, * Restarting with stat
+2022/05/30,23:07:39,WARNING,Start Server
+2022/05/30,23:07:39,WARNING, * Debugger is active!
+2022/05/30,23:07:39,INFO, * Debugger PIN: 275-905-018
+2022/05/30,23:07:40,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/30,23:07:40,INFO, * Restarting with stat
+2022/05/30,23:07:40,WARNING,Start Server
+2022/05/30,23:07:40,WARNING, * Debugger is active!
+2022/05/30,23:07:40,INFO, * Debugger PIN: 275-905-018
+2022/05/30,23:08:08,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/30,23:08:08,INFO, * Restarting with stat
+2022/05/30,23:08:09,WARNING,Start Server
+2022/05/30,23:08:09,WARNING, * Debugger is active!
+2022/05/30,23:08:09,INFO, * Debugger PIN: 275-905-018
+2022/05/30,23:10:58,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/30,23:10:58,INFO, * Restarting with stat
+2022/05/30,23:10:58,WARNING,Start Server
+2022/05/30,23:10:58,WARNING, * Debugger is active!
+2022/05/30,23:10:58,INFO, * Debugger PIN: 275-905-018

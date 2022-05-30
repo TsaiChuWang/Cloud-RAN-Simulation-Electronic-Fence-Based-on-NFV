@@ -1,0 +1,74 @@
+
+{
+    "gNB_Name": "gNB_A",
+    "gNB_IP": "10.0.2.100",
+    "MAC": "080027B457A5",
+    "status": "NORMAL",
+
+    "CU_IP":"10.0.2.99",
+    "NR_CGI": "4669251019990691",
+    "PLMN": "46692",
+    "MCC": 466,
+    "MNC": 92,
+    "Telecommunications":"Chunghwa",
+    "Frequency_Band_Name":"GSM 900 / UMTS 2100",
+    "Bit_Length_gNB_ID":32,
+    "Bit_Length_Cell_ID":4,
+    "gNB_ID":"3188749418",
+    "Cell_ID":3,
+    "NR_Cell_ID":"51019990691",
+    "Transaction_ID":99,
+
+    "gNB_Movement_Status":"OPEN",
+    "gNB_Registered_UEs":["10.0.2.121"],
+
+    "gNB_Information_Access_Status":"OPEN",
+    "gNB_Position_X":0,
+    "gNB_Position_Y":0,
+    "gNB_BS_Height":25,
+
+    "NR_Operating_Band":"n78",
+    "FRaster":30,
+    "Uplink_NR_ARFCN":"",
+    "Downlink_NR_ARFCN": 627573,
+    "Duplex_Mode":"TDD",
+    "gNB_Center_Frequency": 3413.595,
+
+    "Frequency_Band": "3.5MHz",
+    "Uplink_Frequency": "3300-3800 MHz",
+    "Downlink_Frequency": "3300-3800 MHz",
+    "Bandwidth": 60, 
+
+    "Subcarrier_Spacing_Cofiguration": 30,
+    "Subcarrier_Quantity":1200,
+    "Number_Used_RB":60,
+    "Number_Subcarrier_per_RB":12,
+    "Subcarrier_Num": 2000,
+    "RRU_Port_Power": 320000,
+
+    "Transmit_Power_Resource_Element_mW": 24.2596873227,
+    "Transmit_Power_Resource_Element_dBm": 43.84885199,
+
+
+    "RB_slot_time": 0.5,
+    "RB_slot_freq": 180,
+    "RE_Modulation_Symbol": "QPSK",
+    "RE_RP": 0.1,
+    "RE_Num": 3200,
+    
+
+    
+
+    "gNB_Antenna_model": "C2D2F030404X6",
+    "gNB_Antenna_gain": 17,
+
+    "feed_system": "LTE",
+    "feed_loss_per_hunrad": 12.1,
+    "feed_distance":100,
+    "feed_line_loss":12.1,
+
+    "gNB_Antenna_Power": 22.941199827,
+
+    "NR-ARFCN": 653333,
+    "eNodeB_Admission_Control": true
+}
