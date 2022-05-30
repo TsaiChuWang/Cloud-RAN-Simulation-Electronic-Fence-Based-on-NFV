@@ -1,0 +1,26 @@
+{
+    "Y_RANGE": 400,
+    "X_RANGE": 400,
+    "UE_Color": "#FF5733",
+    "Motion_Speed": 5,
+    "gNB_Config": {
+        "gNB_Name": "gNB_A",
+        "gNB_Position_X": 0,
+        "gNB_Position_Y": 0,
+        "gNB_Limit_Range": 150,
+        "gNB_Center_Color": "#2CD8C1",
+        "gNB_Range_Color": "#40F8DF",
+        "gNB_Antenna_Power": 22.941199827,
+        "gNB_Center_Frequency": 3413.595,
+        "gNB_IP": "10.0.2.100",
+        "msg": "ok",
+        "gNB_BS_Height": 25
+    },
+    "Distance_Breakpoint": 3038.5020760604075,
+    "Distance_2D": 87.20665112249179,
+    "Distance_3D": 90.26566346069805,
+    "Pathloss": 81.68573660380946,
+    "Pathloss_Model": 0,
+    "Pathloss_Model_Permanent": true,
+    "RSRP": -58.74453677680946
+}

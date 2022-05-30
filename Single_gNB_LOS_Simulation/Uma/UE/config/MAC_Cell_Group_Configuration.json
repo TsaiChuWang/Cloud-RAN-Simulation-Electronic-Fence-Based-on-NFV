@@ -1,0 +1,11 @@
+{
+    "bsr_Config": "",
+    "periodicBSR_Timer": "sf10",
+    "retxBSR_Timer": "sf80",
+    "phr_Config": {
+        "phr_PeriodicTimer": "sf10",
+        "phr_ProhibitTimer": "sf10",
+        "phr_Tx_PowerFactorChange": "dB1",
+        "phr_ModeOtherCG": "real"
+    }
+}

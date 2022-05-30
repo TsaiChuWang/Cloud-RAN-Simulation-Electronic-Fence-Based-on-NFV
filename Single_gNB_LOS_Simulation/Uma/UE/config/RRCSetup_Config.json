@@ -1,0 +1,1 @@
+{"RRC_CONNECTED": true, "RRC_IDLE": false, "Cell_Reselection": "RUN", "PCell": "10.0.2.100", "PLMN-IdentityList": ["46692"], "RegisteredAMF": "4669217922854", "AMF_Identifier": "101100110011100100", "AMF_Region_ID": "10110011", "AMF_Set_ID": "0011100100", "AMF_Pointer": "110110", "s_NSSAI_List": [], "CU_Distibuted_SRB_ID": 3, "pendingRnaUpdate": false}
