@@ -150,3 +150,1078 @@
 2022/05/30,23:10:58,WARNING,Start Server
 2022/05/30,23:10:58,WARNING, * Debugger is active!
 2022/05/30,23:10:58,INFO, * Debugger PIN: 275-905-018
+2022/05/31,14:42:07,WARNING,Start Server
+2022/05/31,14:42:07,WARNING, * Debugger is active!
+2022/05/31,14:42:07,INFO, * Debugger PIN: 275-905-018
+2022/05/31,14:42:10,WARNING,Start Server
+2022/05/31,14:42:10,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/05/31,14:42:10,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/05/31,14:42:10,INFO, * Restarting with stat
+2022/05/31,14:42:10,WARNING,Start Server
+2022/05/31,14:42:10,WARNING, * Debugger is active!
+2022/05/31,14:42:10,INFO, * Debugger PIN: 275-905-018
+2022/05/31,14:42:34,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:42:34,INFO,10.0.2.121 - - [31/May/2022 14:42:34] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:42:49,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/31,14:42:49,INFO, * Restarting with stat
+2022/05/31,14:42:49,WARNING,Start Server
+2022/05/31,14:42:49,WARNING, * Debugger is active!
+2022/05/31,14:42:49,INFO, * Debugger PIN: 275-905-018
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:26,INFO,10.0.2.121 - - [31/May/2022 14:44:26] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:27,INFO,10.0.2.121 - - [31/May/2022 14:44:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:28,INFO,10.0.2.121 - - [31/May/2022 14:44:28] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:29,INFO,10.0.2.121 - - [31/May/2022 14:44:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:30,INFO,10.0.2.121 - - [31/May/2022 14:44:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:31,INFO,10.0.2.121 - - [31/May/2022 14:44:31] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:32,INFO,10.0.2.121 - - [31/May/2022 14:44:32] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,14:44:33,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/31,14:44:33,INFO, * Restarting with stat
+2022/05/31,14:44:33,WARNING,Start Server
+2022/05/31,14:44:33,WARNING, * Debugger is active!
+2022/05/31,14:44:33,INFO, * Debugger PIN: 275-905-018
+2022/05/31,14:44:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,14:44:33,INFO,10.0.2.121 - - [31/May/2022 14:44:33] "POST /RRCSetupRequest HTTP/1.1" 200 -

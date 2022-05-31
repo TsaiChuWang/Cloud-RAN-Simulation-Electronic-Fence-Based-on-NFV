@@ -74,6 +74,10 @@ def Update_Timer_Configuration(data):
 Functions of Sub Process for UE Accessing to Core Network
 1.Get_UE_Identity
 2.Reception of the RRCSetup by the UE 
+  2.1.Perform Cell Group Configuration
+  2.2.Perform_Radio_Bearer_Configuration
+  2.3.Set_Content_RRCSetupComplete_Message
+3.Reception of the RRCReject by the UE
 """
 
 #Get Obtain_UE_Identity for RRCSetupRequest
@@ -87,13 +91,59 @@ def Obtain_UE_Identity(G_S_TMSI):
         UE_Identity=Obtain_UE_Configuration()["ng-5G-S-TMSI-Part1"]
     return UE_Identity
 
-
 # Reception of the RRCSetup by the UE for RRCSetupRequest
 def Reception_RRCSetup_UE():
     Update_UE_Configuration({"UE_Inactive_AS_Context":{}})
     Update_UE_Configuration({"SuspendConfig":{}})
     Update_UE_Configuration({"AS_Security_Context":{}})
     Update_Timer_Configuration({"T380":"STOP"})
+    Perform_Cell_Group_Configuration()
+    Perform_Radio_Bearer_Configuration()
+    Update_Timer_Configuration({"T300":"STOP"})
+    Update_Timer_Configuration({"T301":"STOP"})
+    Update_Timer_Configuration({"T319":"STOP"})
+    Update_Timer_Configuration({"T390":"STOP"})
+    Update_Timer_Configuration({"T302":"STOP"})
+    Update_Timer_Configuration({"T320":"STOP"})
+    Update_Timer_Configuration({"T331":"STOP"})
+    Update_UE_Configuration({"RRC":"RRC_CONNECTED"})
+    Update_UE_Configuration({"Connected_Primary_Cell_Name":"gNB_A"})
+    Set_Content_RRCSetupComplete_Message()
+
+#Perform the cell group configuration procedure in accordance with the received masterCellGroup
+def Perform_Cell_Group_Configuration():
+    logging.info("Cell_Group_Configuration waiting update")
+    return -1
+
+#Perform the radio bearer configuration procedure in accordance with the received radioBearerConfig
+def Perform_Radio_Bearer_Configuration():
+    logging.info("Cell_Group_Configuration waiting update")
+    return -1
+
+#Set the content of RRCSetupComplete message
+def Set_Content_RRCSetupComplete_Message():
+    logging.info("Set_Content_RRCSetupComplete_Message waiting update")
+    return -1
+
+#Reception of the RRCReject by the UE
+def Reception_RRCReject_UE():
+    Update_Timer_Configuration({"T300":"STOP"})
+    Update_Timer_Configuration({"T319":"STOP"})
+    Update_Timer_Configuration({"T302":"STOP"})
+    MAC_Cell_Group_Configuration={
+        "bsr_Config":{
+            "periodicBSR_Timer":"sf10",
+            "retxBSR_Timer":"sf80"
+        },
+        "phr_Config":{
+            "phr_PeriodicTimer":"sf10",
+            "phr_ProhibitTimer ":"sf10",
+            "phr_Tx_PowerFactorChange":"dB1"
+        }
+    }
+    Update_UE_Configuration({"MAC_Cell_Group_Configuration":MAC_Cell_Group_Configuration})
+
+
 """
 Functions of UE Access to Core Network
 0.RRCInitialization
@@ -162,12 +212,30 @@ def RRCSetupRequest():
         "establishmentCause":"mo-Signalling"
     }
     payload=json.dumps(payload)
+    
     headers = { 'Content-Type': 'application/json' }
     response = requests.request("POST", url, headers=headers, data=payload)
+    if(response.status_code==200):
+        response_data=json.loads(response.text)
+        if(response_data['RRC']=="RRCSetUp"):
+            Reception_RRCSetup_UE()
+        else:
+            Reception_RRCReject_UE()
+            Update_UE_Configuration({"RRC":"RRC_IDLE"})
+    else:
+        print("HTTP STATUS: "+str(response.status_code))
+        logging.warn("HTTP STATUS: "+str(response.status_code))
     print(response.text)
 
+#For TESTING
+def CLEAN_UP():
+    Update_UE_Configuration({"RRC":"RRC_IDLE"})
+
+CLEAN_UP()
 while(True):#[0.599s]
     if(Obtain_UE_Configuration()["RRC"]=="RRC_IDLE"):
         if(RRCInitialization()==0):
             RRCSetupRequest()
-            break
+            continue
+    if(Obtain_UE_Configuration()["RRC"]=="RRC_CONNECTED"):
+        break

@@ -37,7 +37,7 @@ def RRCSetupRequest():
     request_data=request.get_json()
     
     print(request_data)
-    return jsonify({"RRC":"RRCSetup"})
+    return jsonify({"RRC":"RRCSetUp"})
 
 
 if __name__ == '__main__':
