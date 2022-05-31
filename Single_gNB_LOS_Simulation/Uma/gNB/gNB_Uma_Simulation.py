@@ -38,13 +38,14 @@ def Obtain_gNB_DU_UE_F1AP_ID(UE_Name):
     gNB_DU_UE_F1AP_ID=Obtain_gNB_UEs_Configuration()[UE_Name]['gNB_DU_UE_F1AP_ID']
     if(gNB_DU_UE_F1AP_ID==""):
         logging.warning("gNB-DU UE F1AP ID is empty for "+UE_Name)
-        gNB_DU_UE_F1AP_ID=Allocate_gNB_DU_UE_F1AP_ID()
+        gNB_DU_UE_F1AP_ID=Allocate_gNB_DU_UE_F1AP_ID(UE_Name)
         Update_gNB_UEs_Configuration(UE_Name,{"gNB_DU_UE_F1AP_ID":gNB_DU_UE_F1AP_ID})
     return gNB_DU_UE_F1AP_ID
 
 #Allocate gNB-DU UE F1AP ID if it is empty
-def Allocate_gNB_DU_UE_F1AP_ID():
+def Allocate_gNB_DU_UE_F1AP_ID(UE_Name):
     ID=random.randint(0,2**32)
+    Update_gNB_UEs_Configuration(UE_Name,{"gNB_DU_UE_F1AP_ID":"{0:b}".format(ID)})
     return "{0:b}".format(ID)
 
 #Obtain gNB_UEs_Configuration.json 
@@ -132,6 +133,7 @@ def INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data):
     headers = { 'Content-Type': 'application/json' }
     response = requests.request("POST", url, headers=headers, data=payload)
     print(response.text)
+    return json.loads(response.text)
 
 """
 Functions of APIs to UE Access
@@ -145,7 +147,11 @@ def RRCSetupRequest():
     request_data=request.get_json()
     
     print(request_data)
-    INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
+    UE_Name=request_data['UE_Name']
+    response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
+    Update_gNB_UEs_Configuration(UE_Name,{"gNB_DU_UE_F1AP_ID":response_data["gNB_DU_UE_F1AP_ID"]})
+    Update_gNB_UEs_Configuration(UE_Name,{"gNB_CU_UE_F1AP_ID":response_data["gNB_CU_UE_F1AP_ID"]})
+    
     return jsonify({"RRC":"RRCSetUp"})
 
 

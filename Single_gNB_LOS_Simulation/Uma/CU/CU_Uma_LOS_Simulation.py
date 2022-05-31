@@ -25,6 +25,7 @@ def Initialize():
 """
 Functions of Configurations
 1.CU_gNB_UEs_Configuration
+2.gNB_CU_UE_F1AP_ID
 """
 #Obtain CU_gNB_UEs_Configuration.json
 def Obtain_CU_gNB_UEs_Configuration(gNB_Name,UE_Name):
@@ -51,9 +52,17 @@ def Update_CU_gNB_UEs_Configuration(gNB_Name,UE_Name,data):
 
 #Allocate gNB-CU UE F1AP ID
 def Allocate_gNB_CU_UE_F1AP_ID(gNB_Name,UE_Name):
-    ID=random.randint(0,65535)
+    ID=random.randint(0,2**32)
     gNB_CU_UE_F1AP_ID="{0:b}".format(ID)
     Update_CU_gNB_UEs_Configuration(gNB_Name,UE_Name,{"gNB_CU_UE_F1AP_ID":gNB_CU_UE_F1AP_ID})
+    return gNB_CU_UE_F1AP_ID
+
+#Allocate gNB-DU UE F1AP ID
+def Allocate_gNB_DU_UE_F1AP_ID(gNB_Name,UE_Name):
+    ID=random.randint(0,2**32)
+    gNB_DU_UE_F1AP_ID="{0:b}".format(ID)
+    Update_CU_gNB_UEs_Configuration(gNB_Name,UE_Name,{"gNB_DU_UE_F1AP_ID":gNB_DU_UE_F1AP_ID})
+    return gNB_DU_UE_F1AP_ID
 """
 Functions response to DU
 1.DL_RRC_MESSAGE_TRANSFER
@@ -62,20 +71,27 @@ Functions response to DU
 #Step(3) forward the RRC message RRCSetup to the gNB-DU.
 def DL_RRC_MESSAGE_TRANSFER(request_data):
     UE_Name=request_data['UE_Name']
+    gNB_Name=request_data['gNB_Name']
+    
     response_data={
         "UE_Name":UE_Name,
-        "UE_IP":request_data['IP'],
+        "UE_IP":request_data['UE_IP'],
         "gNB_Name":request_data['gNB_Name'],
         "gNB_IP":request_data['gNB_IP'],
-        "gNB_DU_UE_F1AP_ID":request_data["gNB_DU_UE_F1AP_ID"],
-        # "NR_CGI":Obtain_gNB_Configuration()["NR_CGI"],
-        # "C_RNTI":Allocate_C_RNTI(UE_Name),
-        # "RRC_Container":"RRCSetupRequest",
-        # "DU_CU_RRC_Container":{
-        #     "CellGroupConfig":Obtain_CellGroupConfiguration()
-        # },
-        # "SUL_Access_Indication":True,
-        # "Transaction_ID":Allocate_Transaction_ID(UE_Name)
+        "gNB_DU_UE_F1AP_ID":Allocate_gNB_DU_UE_F1AP_ID(gNB_Name,UE_Name),
+        "gNB_CU_UE_F1AP_ID":Allocate_gNB_CU_UE_F1AP_ID(gNB_Name,UE_Name),
+        "SRB_ID":1,
+        "RRC_Container":"RRCSetup",
+        "Execute_Duplication":True,
+        "RAT_Frequency_Priority_Information":{
+            "EN_DC":{
+                "Subscriber_Profile_ID_RAT_Frequency_priority":"111111"
+            },
+            "NG_RAN":{
+                "Index_RAT_Frequency_Selection_Priority":"1010111"
+            }
+        },
+        "RRC_Delivery_Status_Request":True
     }
     return response_data
 
@@ -90,7 +106,7 @@ def INITIAL_UL_RRC_MESSAGE_TRANSFER():
     request_data=request.get_json()
     
     print(request_data)
-    return jsonify({"RRC":"RRCSetUp"})
+    return jsonify(DL_RRC_MESSAGE_TRANSFER(request_data))
 
 
 if __name__ == '__main__':

@@ -10,6 +10,6 @@
 # print(response.text)
 import random
 print(2**22)
-ID=random.randint(0,65535)
+ID=random.randint(0,255)
 print("{0:b}".format(ID))
 

@@ -2978,3 +2978,387 @@
 21:22:56,191 root INFO Cell_Group_Configuration waiting update
 21:22:56,191 root INFO Cell_Group_Configuration waiting update
 21:22:56,195 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:13:26,280 root INFO PCell has existed.
+22:13:26,286 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,306 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,307 root WARNING HTTP STATUS: 500
+22:13:26,340 root INFO PCell has existed.
+22:13:26,345 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,371 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,374 root WARNING HTTP STATUS: 500
+22:13:26,379 root INFO PCell has existed.
+22:13:26,396 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,433 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,438 root WARNING HTTP STATUS: 500
+22:13:26,440 root INFO PCell has existed.
+22:13:26,445 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,479 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,484 root WARNING HTTP STATUS: 500
+22:13:26,486 root INFO PCell has existed.
+22:13:26,491 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,524 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,528 root WARNING HTTP STATUS: 500
+22:13:26,529 root INFO PCell has existed.
+22:13:26,534 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,586 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,587 root WARNING HTTP STATUS: 500
+22:13:26,590 root INFO PCell has existed.
+22:13:26,595 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,612 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,613 root WARNING HTTP STATUS: 500
+22:13:26,614 root INFO PCell has existed.
+22:13:26,619 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,640 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,642 root WARNING HTTP STATUS: 500
+22:13:26,645 root INFO PCell has existed.
+22:13:26,656 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,678 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,681 root WARNING HTTP STATUS: 500
+22:13:26,684 root INFO PCell has existed.
+22:13:26,698 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,723 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,725 root WARNING HTTP STATUS: 500
+22:13:26,727 root INFO PCell has existed.
+22:13:26,732 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,768 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,770 root WARNING HTTP STATUS: 500
+22:13:26,772 root INFO PCell has existed.
+22:13:26,776 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,807 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,809 root WARNING HTTP STATUS: 500
+22:13:26,811 root INFO PCell has existed.
+22:13:26,815 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,844 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,845 root WARNING HTTP STATUS: 500
+22:13:26,847 root INFO PCell has existed.
+22:13:26,851 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,879 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,880 root WARNING HTTP STATUS: 500
+22:13:26,881 root INFO PCell has existed.
+22:13:26,886 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,910 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,911 root WARNING HTTP STATUS: 500
+22:13:26,912 root INFO PCell has existed.
+22:13:26,917 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,950 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,951 root WARNING HTTP STATUS: 500
+22:13:26,952 root INFO PCell has existed.
+22:13:26,957 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:26,981 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:26,982 root WARNING HTTP STATUS: 500
+22:13:26,983 root INFO PCell has existed.
+22:13:26,988 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,19 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,21 root WARNING HTTP STATUS: 500
+22:13:27,23 root INFO PCell has existed.
+22:13:27,30 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,58 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,60 root WARNING HTTP STATUS: 500
+22:13:27,62 root INFO PCell has existed.
+22:13:27,67 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,107 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,109 root WARNING HTTP STATUS: 500
+22:13:27,110 root INFO PCell has existed.
+22:13:27,115 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,137 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,139 root WARNING HTTP STATUS: 500
+22:13:27,140 root INFO PCell has existed.
+22:13:27,148 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,183 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,184 root WARNING HTTP STATUS: 500
+22:13:27,185 root INFO PCell has existed.
+22:13:27,191 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,233 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,234 root WARNING HTTP STATUS: 500
+22:13:27,235 root INFO PCell has existed.
+22:13:27,240 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,274 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,275 root WARNING HTTP STATUS: 500
+22:13:27,283 root INFO PCell has existed.
+22:13:27,291 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,314 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,315 root WARNING HTTP STATUS: 500
+22:13:27,316 root INFO PCell has existed.
+22:13:27,322 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,358 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,359 root WARNING HTTP STATUS: 500
+22:13:27,360 root INFO PCell has existed.
+22:13:27,367 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,406 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,407 root WARNING HTTP STATUS: 500
+22:13:27,408 root INFO PCell has existed.
+22:13:27,415 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,450 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,451 root WARNING HTTP STATUS: 500
+22:13:27,453 root INFO PCell has existed.
+22:13:27,461 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,489 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,491 root WARNING HTTP STATUS: 500
+22:13:27,501 root INFO PCell has existed.
+22:13:27,507 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,540 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,542 root WARNING HTTP STATUS: 500
+22:13:27,544 root INFO PCell has existed.
+22:13:27,552 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,577 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,578 root WARNING HTTP STATUS: 500
+22:13:27,583 root INFO PCell has existed.
+22:13:27,588 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,625 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,626 root WARNING HTTP STATUS: 500
+22:13:27,628 root INFO PCell has existed.
+22:13:27,635 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,657 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,658 root WARNING HTTP STATUS: 500
+22:13:27,659 root INFO PCell has existed.
+22:13:27,666 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,699 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,700 root WARNING HTTP STATUS: 500
+22:13:27,701 root INFO PCell has existed.
+22:13:27,709 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,734 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,735 root WARNING HTTP STATUS: 500
+22:13:27,737 root INFO PCell has existed.
+22:13:27,744 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,780 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,782 root WARNING HTTP STATUS: 500
+22:13:27,789 root INFO PCell has existed.
+22:13:27,798 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,823 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,828 root WARNING HTTP STATUS: 500
+22:13:27,830 root INFO PCell has existed.
+22:13:27,838 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,869 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,872 root WARNING HTTP STATUS: 500
+22:13:27,874 root INFO PCell has existed.
+22:13:27,879 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,921 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,922 root WARNING HTTP STATUS: 500
+22:13:27,923 root INFO PCell has existed.
+22:13:27,931 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:27,957 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:27,958 root WARNING HTTP STATUS: 500
+22:13:27,962 root INFO PCell has existed.
+22:13:27,974 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:28,0 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:28,1 root WARNING HTTP STATUS: 500
+22:13:28,3 root INFO PCell has existed.
+22:13:28,10 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:28,40 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:28,40 root WARNING HTTP STATUS: 500
+22:13:28,42 root INFO PCell has existed.
+22:13:28,52 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:28,108 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:28,109 root WARNING HTTP STATUS: 500
+22:13:28,111 root INFO PCell has existed.
+22:13:28,117 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:28,197 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:28,198 root WARNING HTTP STATUS: 500
+22:13:28,199 root INFO PCell has existed.
+22:13:28,204 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:28,220 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:28,221 root WARNING HTTP STATUS: 500
+22:13:28,225 root INFO PCell has existed.
+22:13:28,230 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:28,250 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:13:28,251 root WARNING HTTP STATUS: 500
+22:13:28,252 root INFO PCell has existed.
+22:13:28,258 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:45,530 root INFO PCell has existed.
+22:13:45,537 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:13:45,556 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 24
+22:13:45,561 root INFO Cell_Group_Configuration waiting update
+22:13:45,561 root INFO Cell_Group_Configuration waiting update
+22:13:45,565 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:17:37,290 root INFO PCell has existed.
+22:17:37,295 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:17:37,307 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 24
+22:17:37,311 root INFO Cell_Group_Configuration waiting update
+22:17:37,311 root INFO Cell_Group_Configuration waiting update
+22:17:37,316 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:20:22,136 root INFO PCell has existed.
+22:20:22,142 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:20:22,157 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 24
+22:20:22,163 root INFO Cell_Group_Configuration waiting update
+22:20:22,163 root INFO Cell_Group_Configuration waiting update
+22:20:22,167 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:50:34,910 root INFO PCell has existed.
+22:50:34,916 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:34,941 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:34,944 root WARNING HTTP STATUS: 500
+22:50:34,965 root INFO PCell has existed.
+22:50:34,971 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:34,989 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:34,990 root WARNING HTTP STATUS: 500
+22:50:34,994 root INFO PCell has existed.
+22:50:35,1 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,31 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,32 root WARNING HTTP STATUS: 500
+22:50:35,33 root INFO PCell has existed.
+22:50:35,38 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,59 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,60 root WARNING HTTP STATUS: 500
+22:50:35,61 root INFO PCell has existed.
+22:50:35,66 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,85 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,86 root WARNING HTTP STATUS: 500
+22:50:35,87 root INFO PCell has existed.
+22:50:35,93 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,112 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,114 root WARNING HTTP STATUS: 500
+22:50:35,117 root INFO PCell has existed.
+22:50:35,126 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,144 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,145 root WARNING HTTP STATUS: 500
+22:50:35,147 root INFO PCell has existed.
+22:50:35,152 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,172 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,173 root WARNING HTTP STATUS: 500
+22:50:35,175 root INFO PCell has existed.
+22:50:35,181 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,199 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,200 root WARNING HTTP STATUS: 500
+22:50:35,201 root INFO PCell has existed.
+22:50:35,206 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,225 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,226 root WARNING HTTP STATUS: 500
+22:50:35,227 root INFO PCell has existed.
+22:50:35,232 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,252 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,253 root WARNING HTTP STATUS: 500
+22:50:35,261 root INFO PCell has existed.
+22:50:35,267 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,288 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,290 root WARNING HTTP STATUS: 500
+22:50:35,292 root INFO PCell has existed.
+22:50:35,297 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,316 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,317 root WARNING HTTP STATUS: 500
+22:50:35,319 root INFO PCell has existed.
+22:50:35,330 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,353 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,354 root WARNING HTTP STATUS: 500
+22:50:35,356 root INFO PCell has existed.
+22:50:35,366 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,383 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,384 root WARNING HTTP STATUS: 500
+22:50:35,386 root INFO PCell has existed.
+22:50:35,391 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,412 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,414 root WARNING HTTP STATUS: 500
+22:50:35,427 root INFO PCell has existed.
+22:50:35,432 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,452 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,453 root WARNING HTTP STATUS: 500
+22:50:35,454 root INFO PCell has existed.
+22:50:35,459 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,479 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,481 root WARNING HTTP STATUS: 500
+22:50:35,483 root INFO PCell has existed.
+22:50:35,488 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,507 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,508 root WARNING HTTP STATUS: 500
+22:50:35,510 root INFO PCell has existed.
+22:50:35,514 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,533 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,534 root WARNING HTTP STATUS: 500
+22:50:35,535 root INFO PCell has existed.
+22:50:35,539 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,563 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,564 root WARNING HTTP STATUS: 500
+22:50:35,574 root INFO PCell has existed.
+22:50:35,579 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,596 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,597 root WARNING HTTP STATUS: 500
+22:50:35,599 root INFO PCell has existed.
+22:50:35,610 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,643 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,644 root WARNING HTTP STATUS: 500
+22:50:35,648 root INFO PCell has existed.
+22:50:35,668 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,687 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,688 root WARNING HTTP STATUS: 500
+22:50:35,691 root INFO PCell has existed.
+22:50:35,695 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,716 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,717 root WARNING HTTP STATUS: 500
+22:50:35,725 root INFO PCell has existed.
+22:50:35,731 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,751 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,752 root WARNING HTTP STATUS: 500
+22:50:35,759 root INFO PCell has existed.
+22:50:35,764 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,782 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,783 root WARNING HTTP STATUS: 500
+22:50:35,785 root INFO PCell has existed.
+22:50:35,790 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,809 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,810 root WARNING HTTP STATUS: 500
+22:50:35,811 root INFO PCell has existed.
+22:50:35,817 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,835 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,836 root WARNING HTTP STATUS: 500
+22:50:35,837 root INFO PCell has existed.
+22:50:35,848 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,866 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,867 root WARNING HTTP STATUS: 500
+22:50:35,869 root INFO PCell has existed.
+22:50:35,874 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,895 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,896 root WARNING HTTP STATUS: 500
+22:50:35,907 root INFO PCell has existed.
+22:50:35,912 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,931 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,931 root WARNING HTTP STATUS: 500
+22:50:35,935 root INFO PCell has existed.
+22:50:35,941 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:35,964 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:35,966 root WARNING HTTP STATUS: 500
+22:50:35,975 root INFO PCell has existed.
+22:50:35,980 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:36,0 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:36,1 root WARNING HTTP STATUS: 500
+22:50:36,8 root INFO PCell has existed.
+22:50:36,13 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:36,31 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:36,32 root WARNING HTTP STATUS: 500
+22:50:36,41 root INFO PCell has existed.
+22:50:36,45 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:36,64 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:36,65 root WARNING HTTP STATUS: 500
+22:50:36,66 root INFO PCell has existed.
+22:50:36,72 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:36,89 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:36,90 root WARNING HTTP STATUS: 500
+22:50:36,91 root INFO PCell has existed.
+22:50:36,95 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:36,117 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:36,118 root WARNING HTTP STATUS: 500
+22:50:36,119 root INFO PCell has existed.
+22:50:36,125 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:36,144 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:36,145 root WARNING HTTP STATUS: 500
+22:50:36,152 root INFO PCell has existed.
+22:50:36,156 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:36,177 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:36,177 root WARNING HTTP STATUS: 500
+22:50:36,186 root INFO PCell has existed.
+22:50:36,192 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:36,218 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:36,219 root WARNING HTTP STATUS: 500
+22:50:36,221 root INFO PCell has existed.
+22:50:36,227 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:36,245 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:36,247 root WARNING HTTP STATUS: 500
+22:50:36,254 root INFO PCell has existed.
+22:50:36,258 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:36,289 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 500 None
+22:50:36,290 root WARNING HTTP STATUS: 500
+22:50:36,297 root INFO PCell has existed.
+22:50:36,302 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:52,67 root INFO PCell has existed.
+22:50:52,73 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:50:52,86 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 24
+22:50:52,89 root INFO Cell_Group_Configuration waiting update
+22:50:52,89 root INFO Cell_Group_Configuration waiting update
+22:50:52,93 root INFO Set_Content_RRCSetupComplete_Message waiting update

@@ -1948,3 +1948,320 @@
 2022/05/31,22:08:53,WARNING,Start Server
 2022/05/31,22:08:53,WARNING, * Debugger is active!
 2022/05/31,22:08:53,INFO, * Debugger PIN: 275-905-018
+2022/05/31,22:10:46,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/31,22:10:46,INFO, * Restarting with stat
+2022/05/31,22:10:46,WARNING,Start Server
+2022/05/31,22:10:46,WARNING, * Debugger is active!
+2022/05/31,22:10:46,INFO, * Debugger PIN: 275-905-018
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:26,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:26,INFO,10.0.2.121 - - [31/May/2022 22:13:26] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:26,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:27,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:28,INFO,10.0.2.121 - - [31/May/2022 22:13:27] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:28,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:28,INFO,10.0.2.121 - - [31/May/2022 22:13:28] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:28,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:28,INFO,10.0.2.121 - - [31/May/2022 22:13:28] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:28,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:28,INFO,10.0.2.121 - - [31/May/2022 22:13:28] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:28,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:28,INFO,10.0.2.121 - - [31/May/2022 22:13:28] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:28,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:28,INFO,10.0.2.121 - - [31/May/2022 22:13:28] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:28,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:28,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:28,INFO,10.0.2.121 - - [31/May/2022 22:13:28] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:13:38,WARNING,Start Server
+2022/05/31,22:13:38,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/05/31,22:13:38,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/05/31,22:13:38,INFO, * Restarting with stat
+2022/05/31,22:13:38,WARNING,Start Server
+2022/05/31,22:13:38,WARNING, * Debugger is active!
+2022/05/31,22:13:38,INFO, * Debugger PIN: 275-905-018
+2022/05/31,22:13:45,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:13:45,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:13:45,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 500 None
+2022/05/31,22:13:45,INFO,10.0.2.121 - - [31/May/2022 22:13:45] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,22:17:37,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:17:37,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:17:37,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 209
+2022/05/31,22:17:37,INFO,10.0.2.121 - - [31/May/2022 22:17:37] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,22:18:14,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/31,22:18:14,INFO, * Restarting with stat
+2022/05/31,22:18:14,WARNING,Start Server
+2022/05/31,22:18:14,WARNING, * Debugger is active!
+2022/05/31,22:18:14,INFO, * Debugger PIN: 275-905-018
+2022/05/31,22:20:19,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/31,22:20:19,INFO, * Restarting with stat
+2022/05/31,22:20:19,WARNING,Start Server
+2022/05/31,22:20:19,WARNING, * Debugger is active!
+2022/05/31,22:20:19,INFO, * Debugger PIN: 275-905-018
+2022/05/31,22:20:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:20:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:20:22,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 209
+2022/05/31,22:20:22,INFO,10.0.2.121 - - [31/May/2022 22:20:22] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/05/31,22:36:50,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/05/31,22:36:50,INFO, * Restarting with stat
+2022/05/31,22:36:50,WARNING,Start Server
+2022/05/31,22:36:50,WARNING, * Debugger is active!
+2022/05/31,22:36:50,INFO, * Debugger PIN: 275-905-018
+2022/05/31,22:50:34,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:34,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:34,INFO,10.0.2.121 - - [31/May/2022 22:50:34] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:34,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:34,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:34,INFO,10.0.2.121 - - [31/May/2022 22:50:34] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:35,INFO,10.0.2.121 - - [31/May/2022 22:50:35] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:36,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:36,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:36,INFO,10.0.2.121 - - [31/May/2022 22:50:36] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:36,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:36,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:36,INFO,10.0.2.121 - - [31/May/2022 22:50:36] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:36,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:36,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:36,INFO,10.0.2.121 - - [31/May/2022 22:50:36] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:36,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:36,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:36,INFO,10.0.2.121 - - [31/May/2022 22:50:36] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:36,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:36,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:36,INFO,10.0.2.121 - - [31/May/2022 22:50:36] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:36,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:36,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:36,INFO,10.0.2.121 - - [31/May/2022 22:50:36] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:36,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:36,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:36,INFO,10.0.2.121 - - [31/May/2022 22:50:36] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:36,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:36,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:36,INFO,10.0.2.121 - - [31/May/2022 22:50:36] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:36,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:36,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:36,INFO,10.0.2.121 - - [31/May/2022 22:50:36] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:36,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:36,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:36,INFO,10.0.2.121 - - [31/May/2022 22:50:36] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/05/31,22:50:52,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/05/31,22:50:52,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/05/31,22:50:52,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 544
+2022/05/31,22:50:52,INFO,10.0.2.121 - - [31/May/2022 22:50:52] "POST /RRCSetupRequest HTTP/1.1" 200 -
