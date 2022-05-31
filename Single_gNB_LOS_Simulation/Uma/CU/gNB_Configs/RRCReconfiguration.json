@@ -1,0 +1,8 @@
+{
+    "UE_A":{
+        "Signalling_Radio_Bearer":"SRB3",
+        "RLC-SAP":"AM",
+        "Logical_Channel":"DCCH",
+        "Direction":"DL"
+    }
+}

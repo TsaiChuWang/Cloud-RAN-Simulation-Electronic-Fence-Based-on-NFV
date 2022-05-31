@@ -1,0 +1,19 @@
+{
+    "CU_Name": "CU",
+    "CU_IP": "10.0.2.99",
+    "CU_Movement_Status": "OPEN",
+    "gNBs": ["gNB_A"],
+    "gNB_A": {
+        "gNB_IP": "10.0.2.100",
+        "gNB_Registered_UEs": ["10.0.2.121"]
+    },
+    "Execute_Duplication": true,
+    "RAT_Frequency_Priority_Information": 233,
+    "RAT-Frequency Priority Information_Option": "NG-RAN",
+    "RRC_Delivery_Status_Request": false,
+    "5G-S-TMSI": "",
+    "UE_Context_Request": "",
+    "Allowed_NSSAI": "",
+    "PLMN": "46692",
+    "Bearer_Context_Status_Change": "SUSPEND"
+}

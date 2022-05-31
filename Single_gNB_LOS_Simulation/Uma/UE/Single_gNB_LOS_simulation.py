@@ -9,7 +9,7 @@
 
 # print(response.text)
 import random
-print(2**64)
-a=random.randint(0,2**64)
-print("{0:b}".format(a))
+print(2**22)
+ID=random.randint(0,65535)
+print("{0:b}".format(ID))
 
