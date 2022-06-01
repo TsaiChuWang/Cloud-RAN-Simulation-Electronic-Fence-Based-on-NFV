@@ -5,7 +5,7 @@ import math
 import matplotlib.animation as animation
 import mpl_toolkits.axisartist as axisartist 
 import matplotlib.patches as patches
-
+import time
 
 gNB_Name="gNB_A"
 
@@ -35,15 +35,30 @@ Functions Related to Parameters:
 def Obtain_CU_gNB_UEs_Configuration(gNB_Name,UE_Name):
     CU_gNB_UEs_Configuration={}
     with open('./configuration/CU_gNB_UEs_Configuration.json', 'r',encoding='utf-8',errors='ignore') as CU_gNB_UEs_Configuration_file:
-        CU_gNB_UEs_Configuration = json.load(CU_gNB_UEs_Configuration_file)
-        print(CU_gNB_UEs_Configuration)
+        
+        try:
+            CU_gNB_UEs_Configuration = json.load(CU_gNB_UEs_Configuration_file)
+        except json.decoder.JSONDecodeError:
+            print("json.decoder.JSONDecodeError")
+            print("json.decoder.JSONDecodeError")
+            print("json.decoder.JSONDecodeError")
+            time.sleep(30)
+            CU_gNB_UEs_Configuration = json.load(CU_gNB_UEs_Configuration_file)
         CU_gNB_UEs_Configuration_file.close()
     return CU_gNB_UEs_Configuration[gNB_Name][UE_Name]
 
 def Obtain_System_Field_Configuration(key):
     System_Field_Configuration={}
     with open('./configuration/System_Field_Configuration.json', 'r',encoding='utf-8',errors='ignore') as System_Field_Configuration_file:
-        System_Field_Configuration= json.load(System_Field_Configuration_file)
+        
+        try:
+            System_Field_Configuration = json.load(System_Field_Configuration_file)
+        except json.decoder.JSONDecodeError:
+            print("json.decoder.JSONDecodeError")
+            print("json.decoder.JSONDecodeError")
+            print("json.decoder.JSONDecodeError")
+            time.sleep(30)
+            System_Field_Configuration= json.load(System_Field_Configuration_file)
         System_Field_Configuration_file.close()
     return System_Field_Configuration[key]
 

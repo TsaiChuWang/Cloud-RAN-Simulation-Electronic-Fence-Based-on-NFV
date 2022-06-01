@@ -15,7 +15,9 @@ We can see in this phenomenon that it used in this situation and playing an impo
 We can imagine more applications of it, such as boarding schools, or workplaces. If it is more open to imagination, it can be "avoid entering certain areas" rather than "prohibit leaving certain areas", which can mark hazardous substances or Dangerous places, so that we can immediately go over and take action when others enter the area, we think this is a feasible idea, after all, who said fences are for keeping others in?
 
 ---
+
 ## The relationship between electronic fence and 5G
+
 Why is 5G-based electronic fence suitable for development? We explain why 5G is suitable for the development of electronic fences based on several characteristics
 
 1. **Deployment of small base stations to increase handover frequency** 1
@@ -33,3 +35,27 @@ Why is 5G-based electronic fence suitable for development? We explain why 5G is 
     MEC technology is a technology to improve the speed of 5G. Edge computing allows different blocks to do different tasks so that the access network does not need to calculate other things to slow down performance.
 
 ---
+
+## Problems with current electronic fences
+
+### Frequent errors still occur
+
+As you can see, the search results are based on whether or not the base station outside the range has an IMEI code with a Converse registration number, and are not precise, so errors can still occur.
+
+### Human Rights Privacy? Technology enforcement issues?
+
+China's SkyNet system is considered to be an infringement of people's privacy, but in reality, the electronic fence is the same in nature as the SkyNet, and the constitution protects people's freedom of residence and movement, which would normally make the system unconstitutional, and this part of the system is also controversial.
+In the event of an epidemic, people can compromise for the safety of others, but after that it is a matter of concern for those who give their freedom to examine whether the electronic fence system is really working as it should.
+
+---
+
+## What could be improved?
+
+1. **Improving precision** 1
+   We can try to reduce the error as much as possible by using MEC to calculate the range, if we can get the error of 1 in the same way as GPS.
+2. **Irregularities in scope** 2
+   Determine the extent of bounded, irregular shapes through algorithms
+3. **Positioning in three dimensions** 3
+   For Apartment we can know whether specified user left his leyer.
+4. **Encryption algorithms for personal data security** 4
+    Ensure the flow of personal data, its use and the lack of easy access to third parties

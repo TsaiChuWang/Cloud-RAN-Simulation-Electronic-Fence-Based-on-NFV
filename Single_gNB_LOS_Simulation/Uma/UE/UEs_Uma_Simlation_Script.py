@@ -57,7 +57,14 @@ def Obtain_UE_Identity(UE_Name,G_S_TMSI):
 def Obtain_System_Field_Configuration(key):
     System_Field_Configuration={}
     with open('./configuration/System_Field_Configuration.json', 'r') as System_Field_Configuration_file:
-        System_Field_Configuration = json.load(System_Field_Configuration_file)
+        try:
+            System_Field_Configuration = json.load(System_Field_Configuration_file)
+        except json.decoder.JSONDecodeError:
+            print("json.decoder.JSONDecodeError")
+            print("json.decoder.JSONDecodeError")
+            print("json.decoder.JSONDecodeError")
+            time.sleep(30)
+            System_Field_Configuration = json.load(System_Field_Configuration_file)
         System_Field_Configuration_file.close()
     if(key==""):
         return System_Field_Configuration
