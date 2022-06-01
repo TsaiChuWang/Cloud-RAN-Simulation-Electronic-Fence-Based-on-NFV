@@ -115,8 +115,10 @@ def Obtain_radioBearerConfig():
     return radioBearerConfig
 
 """
-Functions to request gNB_DU
+Functions to request gNB_CU
 1.INITIAL UL RRC MESSAGE TRANSFER
+
+6.RSRPRequest
 """
 
 #The purpose of the Initial UL RRC Message Transfer procedure is to transfer the initial RRC message to the gNB-CU.
@@ -143,6 +145,18 @@ def INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data):
     headers = { 'Content-Type': 'application/json' }
     response = requests.request("POST", url, headers=headers, data=payload)
     return json.loads(response.text)
+
+#Response RSRP tp CU
+def RSRPRequest(UE_Name):
+    url = "http://"+CU_IP+":1440/RecieveRSRPResponse"
+    payload={
+        "gNB_Name":Obtain_gNB_Configuration()["gNB_Name"],
+        "UE_Name":UE_Name,
+        "RSRP":Obtain_gNB_UEs_Configuration()[UE_Name]['RSRP']
+    }
+    payload=json.dumps(payload)
+    headers = { 'Content-Type': 'application/json' }
+    response = requests.request("POST", url, headers=headers, data=payload)
 
 """
 Functions Response Data to UE
@@ -204,11 +218,16 @@ def gNB_Information_Request():
 Functions About RSRP Detection
 1.RecieveRSRPResponse
 """
+
+#Recive RSRP from UE
 @app.route("/RecieveRSRPResponse", methods=['POST'])
 def RecieveRSRPResponse():
     request_data=request.get_json()
-    print(request_data)
-    return jsonify({})
+    UE_Name=request_data["UE_Name"]
+    Update_gNB_UEs_Configuration(UE_Name,{"RSRP":request_data["RSRP"]})
+    RSRPRequest(UE_Name)
+    return "RECIEVE SUCCESS"
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True,port=PORT)

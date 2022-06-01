@@ -1,0 +1,16 @@
+{
+    "Y_RANGE": 800,
+    "X_RANGE": 800,
+    "gNB_A": {
+        "gNB_Antenna_Power": 22.941199827,
+        "gNB_BS_Height": 25,
+        "gNB_Center_Color": "#2CD8C1",
+        "gNB_Center_Frequency": 3413.595,
+        "gNB_IP": "",
+        "gNB_Limit_Range": 150,
+        "gNB_Name": "gNB_A",
+        "gNB_Position_X": 5,
+        "gNB_Position_Y": -10,
+        "gNB_Range_Color": "#40F8DF"
+    }
+}

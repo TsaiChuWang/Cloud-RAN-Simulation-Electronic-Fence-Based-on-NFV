@@ -107,6 +107,15 @@ def INITIAL_UL_RRC_MESSAGE_TRANSFER():
     request_data=request.get_json()
     return jsonify(DL_RRC_MESSAGE_TRANSFER(request_data))
 
+"""
+Functions of RSRP Detections
+1.RecieveRSRPResponse
+"""
+@app.route("/RecieveRSRPResponse", methods=['POST'])
+def RecieveRSRPResponse():
+    request_data=request.get_json()
+    Update_CU_gNB_UEs_Configuration(request_data["gNB_Name"],request_data["UE_Name"],{"RSRP":request_data["RSRP"]})
+    return "RECIEVE SUCCESS"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True,port=PORT)

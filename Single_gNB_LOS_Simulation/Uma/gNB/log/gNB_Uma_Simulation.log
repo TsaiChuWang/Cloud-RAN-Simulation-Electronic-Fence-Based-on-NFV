@@ -3785,3 +3785,265 @@
 2022/06/01,13:12:53,INFO,10.0.2.121 - - [01/Jun/2022 13:12:53] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
 2022/06/01,13:12:53,INFO,10.0.2.121 - - [01/Jun/2022 13:12:53] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
 2022/06/01,13:12:54,INFO,10.0.2.121 - - [01/Jun/2022 13:12:54] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:15:40,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/01,13:15:40,INFO, * Restarting with stat
+2022/06/01,13:15:41,WARNING,Start Server
+2022/06/01,13:15:41,WARNING, * Debugger is active!
+2022/06/01,13:15:41,INFO, * Debugger PIN: 275-905-018
+2022/06/01,13:15:47,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/01,13:15:47,INFO, * Restarting with stat
+2022/06/01,13:15:47,WARNING,Start Server
+2022/06/01,13:15:47,WARNING, * Debugger is active!
+2022/06/01,13:15:47,INFO, * Debugger PIN: 275-905-018
+2022/06/01,13:15:52,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/01,13:15:52,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/01,13:15:52,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:15:52,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 542
+2022/06/01,13:15:52,INFO,Response RRCSetUp to UE.
+2022/06/01,13:15:52,INFO,10.0.2.121 - - [01/Jun/2022 13:15:52] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/01,13:15:52,INFO,gNB Information request
+2022/06/01,13:15:52,INFO,10.0.2.121 - - [01/Jun/2022 13:15:52] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/01,13:15:53,INFO,10.0.2.121 - - [01/Jun/2022 13:15:53] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:15:56,INFO,10.0.2.121 - - [01/Jun/2022 13:15:56] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:15:57,INFO,10.0.2.121 - - [01/Jun/2022 13:15:57] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:15:58,INFO,10.0.2.121 - - [01/Jun/2022 13:15:58] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:15:59,INFO,10.0.2.121 - - [01/Jun/2022 13:15:59] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:00,INFO,10.0.2.121 - - [01/Jun/2022 13:16:00] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:01,INFO,10.0.2.121 - - [01/Jun/2022 13:16:01] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:01,INFO,10.0.2.121 - - [01/Jun/2022 13:16:01] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:02,INFO,10.0.2.121 - - [01/Jun/2022 13:16:02] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:02,INFO,10.0.2.121 - - [01/Jun/2022 13:16:02] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:03,INFO,10.0.2.121 - - [01/Jun/2022 13:16:03] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:03,INFO,10.0.2.121 - - [01/Jun/2022 13:16:03] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:03,INFO,10.0.2.121 - - [01/Jun/2022 13:16:03] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:04,INFO,10.0.2.121 - - [01/Jun/2022 13:16:04] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:04,INFO,10.0.2.121 - - [01/Jun/2022 13:16:04] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:05,INFO,10.0.2.121 - - [01/Jun/2022 13:16:05] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:06,INFO,10.0.2.121 - - [01/Jun/2022 13:16:06] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:08,INFO,10.0.2.121 - - [01/Jun/2022 13:16:08] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:09,INFO,10.0.2.121 - - [01/Jun/2022 13:16:09] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:09,INFO,10.0.2.121 - - [01/Jun/2022 13:16:09] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:10,INFO,10.0.2.121 - - [01/Jun/2022 13:16:10] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:16:33,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/01,13:16:33,INFO, * Restarting with stat
+2022/06/01,13:16:33,WARNING,Start Server
+2022/06/01,13:16:33,WARNING, * Debugger is active!
+2022/06/01,13:16:33,INFO, * Debugger PIN: 275-905-018
+2022/06/01,13:17:18,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/01,13:17:18,INFO, * Restarting with stat
+2022/06/01,13:17:18,WARNING,Start Server
+2022/06/01,13:17:18,WARNING, * Debugger is active!
+2022/06/01,13:17:18,INFO, * Debugger PIN: 275-905-018
+2022/06/01,13:19:15,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/01,13:19:15,INFO, * Restarting with stat
+2022/06/01,13:19:15,WARNING,Start Server
+2022/06/01,13:19:15,WARNING, * Debugger is active!
+2022/06/01,13:19:15,INFO, * Debugger PIN: 275-905-018
+2022/06/01,13:20:17,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/01,13:20:18,INFO, * Restarting with stat
+2022/06/01,13:20:18,WARNING,Start Server
+2022/06/01,13:20:18,WARNING, * Debugger is active!
+2022/06/01,13:20:18,INFO, * Debugger PIN: 275-905-018
+2022/06/01,13:20:23,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/01,13:20:23,INFO, * Restarting with stat
+2022/06/01,13:20:23,WARNING,Start Server
+2022/06/01,13:20:23,WARNING, * Debugger is active!
+2022/06/01,13:20:23,INFO, * Debugger PIN: 275-905-018
+2022/06/01,13:25:24,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/01,13:25:24,INFO, * Restarting with stat
+2022/06/01,13:25:24,WARNING,Start Server
+2022/06/01,13:25:24,WARNING, * Debugger is active!
+2022/06/01,13:25:24,INFO, * Debugger PIN: 275-905-018
+2022/06/01,13:25:27,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/01,13:25:27,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/01,13:25:27,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:25:27,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 543
+2022/06/01,13:25:27,INFO,Response RRCSetUp to UE.
+2022/06/01,13:25:27,INFO,10.0.2.121 - - [01/Jun/2022 13:25:27] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/01,13:25:27,INFO,gNB Information request
+2022/06/01,13:25:27,INFO,10.0.2.121 - - [01/Jun/2022 13:25:27] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/01,13:25:30,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/01,13:25:30,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/01,13:25:30,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:25:30,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 540
+2022/06/01,13:25:30,INFO,Response RRCSetUp to UE.
+2022/06/01,13:25:30,INFO,10.0.2.121 - - [01/Jun/2022 13:25:30] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/01,13:25:30,INFO,gNB Information request
+2022/06/01,13:25:30,INFO,10.0.2.121 - - [01/Jun/2022 13:25:30] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/01,13:25:30,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:25:30,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:25:30,INFO,10.0.2.121 - - [01/Jun/2022 13:25:30] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:33,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:25:33,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:25:33,INFO,10.0.2.121 - - [01/Jun/2022 13:25:33] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:25:35,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:25:35,INFO,10.0.2.121 - - [01/Jun/2022 13:25:35] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:36,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:25:36,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:25:36,INFO,10.0.2.121 - - [01/Jun/2022 13:25:36] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:38,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:25:38,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:25:39,INFO,10.0.2.121 - - [01/Jun/2022 13:25:39] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:39,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:25:39,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:25:39,INFO,10.0.2.121 - - [01/Jun/2022 13:25:39] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:41,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:25:41,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:25:41,INFO,10.0.2.121 - - [01/Jun/2022 13:25:41] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:42,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:25:42,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:25:42,INFO,10.0.2.121 - - [01/Jun/2022 13:25:42] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:44,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:25:44,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:25:44,INFO,10.0.2.121 - - [01/Jun/2022 13:25:44] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:56,WARNING,Start Server
+2022/06/01,13:25:56,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/06/01,13:25:56,INFO, * Running on http://10.0.3.15:1440/ (Press CTRL+C to quit)
+2022/06/01,13:25:56,INFO, * Restarting with stat
+2022/06/01,13:25:56,WARNING,Start Server
+2022/06/01,13:25:56,WARNING, * Debugger is active!
+2022/06/01,13:25:56,INFO, * Debugger PIN: 275-905-018
+2022/06/01,13:27:47,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/01,13:27:47,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/01,13:27:47,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:27:47,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 543
+2022/06/01,13:27:47,INFO,Response RRCSetUp to UE.
+2022/06/01,13:27:47,INFO,10.0.2.121 - - [01/Jun/2022 13:27:47] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/01,13:27:47,INFO,gNB Information request
+2022/06/01,13:27:47,INFO,10.0.2.121 - - [01/Jun/2022 13:27:47] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/01,13:27:48,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:27:48,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:27:48,INFO,10.0.2.121 - - [01/Jun/2022 13:27:48] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:50,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:27:50,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:27:50,INFO,10.0.2.121 - - [01/Jun/2022 13:27:50] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:51,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:27:51,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:27:51,INFO,10.0.2.121 - - [01/Jun/2022 13:27:51] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:53,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:27:53,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:27:53,INFO,10.0.2.121 - - [01/Jun/2022 13:27:53] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:55,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:27:55,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:27:55,INFO,10.0.2.121 - - [01/Jun/2022 13:27:55] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:57,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:27:57,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:27:57,INFO,10.0.2.121 - - [01/Jun/2022 13:27:57] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:58,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:27:58,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:27:58,INFO,10.0.2.121 - - [01/Jun/2022 13:27:58] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:00,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:28:00,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:28:00,INFO,10.0.2.121 - - [01/Jun/2022 13:28:00] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:01,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:28:01,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:28:01,INFO,10.0.2.121 - - [01/Jun/2022 13:28:01] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:03,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:28:03,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:28:03,INFO,10.0.2.121 - - [01/Jun/2022 13:28:03] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:04,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:28:04,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:28:04,INFO,10.0.2.121 - - [01/Jun/2022 13:28:04] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:05,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:28:05,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:28:05,INFO,10.0.2.121 - - [01/Jun/2022 13:28:05] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:06,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:28:06,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:28:06,INFO,10.0.2.121 - - [01/Jun/2022 13:28:06] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:07,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:28:07,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:28:07,INFO,10.0.2.121 - - [01/Jun/2022 13:28:07] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:08,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:28:08,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:28:08,INFO,10.0.2.121 - - [01/Jun/2022 13:28:08] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:09,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:28:09,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:28:09,INFO,10.0.2.121 - - [01/Jun/2022 13:28:09] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:10,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:28:10,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:28:10,INFO,10.0.2.121 - - [01/Jun/2022 13:28:10] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:11,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,13:28:11,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,13:28:11,INFO,10.0.2.121 - - [01/Jun/2022 13:28:11] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:20,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/01,14:02:20,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/01,14:02:20,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:20,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 542
+2022/06/01,14:02:20,INFO,Response RRCSetUp to UE.
+2022/06/01,14:02:20,INFO,10.0.2.121 - - [01/Jun/2022 14:02:20] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/01,14:02:20,INFO,gNB Information request
+2022/06/01,14:02:20,INFO,10.0.2.121 - - [01/Jun/2022 14:02:20] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/01,14:02:29,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:29,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:29,INFO,10.0.2.121 - - [01/Jun/2022 14:02:29] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:31,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:31,INFO,10.0.2.121 - - [01/Jun/2022 14:02:31] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:35,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:35,INFO,10.0.2.121 - - [01/Jun/2022 14:02:35] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:39,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:39,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:39,INFO,10.0.2.121 - - [01/Jun/2022 14:02:39] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:41,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:41,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:41,INFO,10.0.2.121 - - [01/Jun/2022 14:02:41] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:43,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:43,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:43,INFO,10.0.2.121 - - [01/Jun/2022 14:02:43] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:45,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:45,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:45,INFO,10.0.2.121 - - [01/Jun/2022 14:02:45] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:47,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:47,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:47,INFO,10.0.2.121 - - [01/Jun/2022 14:02:47] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:49,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:49,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:49,INFO,10.0.2.121 - - [01/Jun/2022 14:02:49] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:51,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:51,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:51,INFO,10.0.2.121 - - [01/Jun/2022 14:02:51] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:52,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:52,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:52,INFO,10.0.2.121 - - [01/Jun/2022 14:02:52] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:53,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:53,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:53,INFO,10.0.2.121 - - [01/Jun/2022 14:02:53] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:55,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:55,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:55,INFO,10.0.2.121 - - [01/Jun/2022 14:02:55] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:56,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:56,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:56,INFO,10.0.2.121 - - [01/Jun/2022 14:02:56] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:57,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:57,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:57,INFO,10.0.2.121 - - [01/Jun/2022 14:02:57] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:58,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:58,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:58,INFO,10.0.2.121 - - [01/Jun/2022 14:02:58] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:59,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:02:59,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:02:59,INFO,10.0.2.121 - - [01/Jun/2022 14:02:59] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:03,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:03:03,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:03:03,INFO,10.0.2.121 - - [01/Jun/2022 14:03:03] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:04,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:03:04,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:03:04,INFO,10.0.2.121 - - [01/Jun/2022 14:03:04] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:06,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:03:06,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:03:06,INFO,10.0.2.121 - - [01/Jun/2022 14:03:06] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:07,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:03:07,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:03:07,INFO,10.0.2.121 - - [01/Jun/2022 14:03:07] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:11,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:03:11,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:03:11,INFO,10.0.2.121 - - [01/Jun/2022 14:03:11] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:14,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:03:14,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:03:14,INFO,10.0.2.121 - - [01/Jun/2022 14:03:14] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:15,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/01,14:03:15,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+2022/06/01,14:03:15,INFO,10.0.2.121 - - [01/Jun/2022 14:03:15] "POST /RecieveRSRPResponse HTTP/1.1" 200 -

@@ -507,3 +507,144 @@
 2022/06/01,13:07:18,INFO,10.0.2.100 - - [01/Jun/2022 13:07:18] "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 -
 2022/06/01,13:07:47,INFO,10.0.2.100 - - [01/Jun/2022 13:07:47] "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 -
 2022/06/01,13:12:26,INFO,10.0.2.100 - - [01/Jun/2022 13:12:26] "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 -
+2022/06/01,13:15:52,INFO,10.0.2.100 - - [01/Jun/2022 13:15:52] "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 -
+2022/06/01,13:24:53,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/CU_Uma_LOS_Simulation.py', reloading
+2022/06/01,13:24:54,INFO, * Restarting with stat
+2022/06/01,13:24:54,WARNING,Start Server
+2022/06/01,13:24:54,WARNING, * Debugger is active!
+2022/06/01,13:24:54,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:25:27,INFO,10.0.2.100 - - [01/Jun/2022 13:25:27] "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 -
+2022/06/01,13:25:30,INFO,10.0.2.100 - - [01/Jun/2022 13:25:30] "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 -
+2022/06/01,13:25:30,INFO,10.0.2.100 - - [01/Jun/2022 13:25:30] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:33,INFO,10.0.2.100 - - [01/Jun/2022 13:25:33] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:35,INFO,10.0.2.100 - - [01/Jun/2022 13:25:35] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:36,INFO,10.0.2.100 - - [01/Jun/2022 13:25:36] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:39,INFO,10.0.2.100 - - [01/Jun/2022 13:25:39] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:39,INFO,10.0.2.100 - - [01/Jun/2022 13:25:39] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:41,INFO,10.0.2.100 - - [01/Jun/2022 13:25:41] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:42,INFO,10.0.2.100 - - [01/Jun/2022 13:25:42] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:25:44,INFO,10.0.2.100 - - [01/Jun/2022 13:25:44] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:44,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/CU_Uma_LOS_Simulation.py', reloading
+2022/06/01,13:27:44,INFO, * Restarting with stat
+2022/06/01,13:27:44,WARNING,Start Server
+2022/06/01,13:27:44,WARNING, * Debugger is active!
+2022/06/01,13:27:44,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:27:47,INFO,10.0.2.100 - - [01/Jun/2022 13:27:47] "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 -
+2022/06/01,13:27:48,INFO,10.0.2.100 - - [01/Jun/2022 13:27:48] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:50,INFO,10.0.2.100 - - [01/Jun/2022 13:27:50] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:51,INFO,10.0.2.100 - - [01/Jun/2022 13:27:51] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:53,INFO,10.0.2.100 - - [01/Jun/2022 13:27:53] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:55,INFO,10.0.2.100 - - [01/Jun/2022 13:27:55] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:57,INFO,10.0.2.100 - - [01/Jun/2022 13:27:57] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:27:58,INFO,10.0.2.100 - - [01/Jun/2022 13:27:58] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:00,INFO,10.0.2.100 - - [01/Jun/2022 13:28:00] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:01,INFO,10.0.2.100 - - [01/Jun/2022 13:28:01] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:03,INFO,10.0.2.100 - - [01/Jun/2022 13:28:03] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:04,INFO,10.0.2.100 - - [01/Jun/2022 13:28:04] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:05,INFO,10.0.2.100 - - [01/Jun/2022 13:28:05] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:06,INFO,10.0.2.100 - - [01/Jun/2022 13:28:06] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:07,INFO,10.0.2.100 - - [01/Jun/2022 13:28:07] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:08,INFO,10.0.2.100 - - [01/Jun/2022 13:28:08] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:09,INFO,10.0.2.100 - - [01/Jun/2022 13:28:09] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:10,INFO,10.0.2.100 - - [01/Jun/2022 13:28:10] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:28:11,INFO,10.0.2.100 - - [01/Jun/2022 13:28:11] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,13:34:26,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,13:34:26,INFO, * Restarting with stat
+2022/06/01,13:34:27,WARNING,Start Server
+2022/06/01,13:34:27,WARNING, * Debugger is active!
+2022/06/01,13:34:27,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:34:43,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/CU_Uma_LOS_Simulation.py', reloading
+2022/06/01,13:34:43,INFO, * Restarting with stat
+2022/06/01,13:34:43,WARNING,Start Server
+2022/06/01,13:34:43,WARNING, * Debugger is active!
+2022/06/01,13:34:43,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:38:01,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,13:38:01,INFO, * Restarting with stat
+2022/06/01,13:38:01,WARNING,Start Server
+2022/06/01,13:38:01,WARNING, * Debugger is active!
+2022/06/01,13:38:01,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:41:34,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,13:41:34,INFO, * Restarting with stat
+2022/06/01,13:41:35,WARNING,Start Server
+2022/06/01,13:41:35,WARNING, * Debugger is active!
+2022/06/01,13:41:35,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:42:35,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,13:42:35,INFO, * Restarting with stat
+2022/06/01,13:42:35,WARNING,Start Server
+2022/06/01,13:42:35,WARNING, * Debugger is active!
+2022/06/01,13:42:35,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:42:40,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,13:42:40,INFO, * Restarting with stat
+2022/06/01,13:42:40,WARNING,Start Server
+2022/06/01,13:42:40,WARNING, * Debugger is active!
+2022/06/01,13:42:40,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:44:52,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,13:44:52,INFO, * Restarting with stat
+2022/06/01,13:44:52,WARNING,Start Server
+2022/06/01,13:44:53,WARNING, * Debugger is active!
+2022/06/01,13:44:53,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:45:07,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,13:45:07,INFO, * Restarting with stat
+2022/06/01,13:45:07,WARNING,Start Server
+2022/06/01,13:45:07,WARNING, * Debugger is active!
+2022/06/01,13:45:07,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:46:16,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,13:46:16,INFO, * Restarting with stat
+2022/06/01,13:46:17,WARNING,Start Server
+2022/06/01,13:46:17,WARNING, * Debugger is active!
+2022/06/01,13:46:17,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:47:51,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,13:47:51,INFO, * Restarting with stat
+2022/06/01,13:47:52,WARNING,Start Server
+2022/06/01,13:47:52,WARNING, * Debugger is active!
+2022/06/01,13:47:52,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:49:36,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,13:49:36,INFO, * Restarting with stat
+2022/06/01,13:49:36,WARNING,Start Server
+2022/06/01,13:49:36,WARNING, * Debugger is active!
+2022/06/01,13:49:36,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:55:33,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,13:55:33,INFO, * Restarting with stat
+2022/06/01,13:55:33,WARNING,Start Server
+2022/06/01,13:55:33,WARNING, * Debugger is active!
+2022/06/01,13:55:33,INFO, * Debugger PIN: 138-845-205
+2022/06/01,13:58:50,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,13:58:50,INFO, * Restarting with stat
+2022/06/01,13:58:50,WARNING,Start Server
+2022/06/01,13:58:50,WARNING, * Debugger is active!
+2022/06/01,13:58:50,INFO, * Debugger PIN: 138-845-205
+2022/06/01,14:01:29,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,14:01:29,INFO, * Restarting with stat
+2022/06/01,14:01:29,WARNING,Start Server
+2022/06/01,14:01:29,WARNING, * Debugger is active!
+2022/06/01,14:01:29,INFO, * Debugger PIN: 138-845-205
+2022/06/01,14:01:40,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/System_Field_Configuration.py', reloading
+2022/06/01,14:01:40,INFO, * Restarting with stat
+2022/06/01,14:01:40,WARNING,Start Server
+2022/06/01,14:01:40,WARNING, * Debugger is active!
+2022/06/01,14:01:40,INFO, * Debugger PIN: 138-845-205
+2022/06/01,14:02:20,INFO,10.0.2.100 - - [01/Jun/2022 14:02:20] "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 -
+2022/06/01,14:02:29,INFO,10.0.2.100 - - [01/Jun/2022 14:02:29] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:31,INFO,10.0.2.100 - - [01/Jun/2022 14:02:31] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:35,INFO,10.0.2.100 - - [01/Jun/2022 14:02:35] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:39,INFO,10.0.2.100 - - [01/Jun/2022 14:02:39] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:41,INFO,10.0.2.100 - - [01/Jun/2022 14:02:41] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:43,INFO,10.0.2.100 - - [01/Jun/2022 14:02:43] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:45,INFO,10.0.2.100 - - [01/Jun/2022 14:02:45] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:47,INFO,10.0.2.100 - - [01/Jun/2022 14:02:47] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:49,INFO,10.0.2.100 - - [01/Jun/2022 14:02:49] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:51,INFO,10.0.2.100 - - [01/Jun/2022 14:02:51] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:52,INFO,10.0.2.100 - - [01/Jun/2022 14:02:52] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:53,INFO,10.0.2.100 - - [01/Jun/2022 14:02:53] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:55,INFO,10.0.2.100 - - [01/Jun/2022 14:02:55] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:56,INFO,10.0.2.100 - - [01/Jun/2022 14:02:56] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:57,INFO,10.0.2.100 - - [01/Jun/2022 14:02:57] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:58,INFO,10.0.2.100 - - [01/Jun/2022 14:02:58] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:02:59,INFO,10.0.2.100 - - [01/Jun/2022 14:02:59] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:03,INFO,10.0.2.100 - - [01/Jun/2022 14:03:03] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:04,INFO,10.0.2.100 - - [01/Jun/2022 14:03:04] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:06,INFO,10.0.2.100 - - [01/Jun/2022 14:03:06] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:07,INFO,10.0.2.100 - - [01/Jun/2022 14:03:07] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:11,INFO,10.0.2.100 - - [01/Jun/2022 14:03:11] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:14,INFO,10.0.2.100 - - [01/Jun/2022 14:03:14] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/01,14:03:15,INFO,10.0.2.100 - - [01/Jun/2022 14:03:15] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
