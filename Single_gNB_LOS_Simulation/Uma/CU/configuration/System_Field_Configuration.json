@@ -7,7 +7,7 @@
         "gNB_Center_Color": "#2CD8C1",
         "gNB_Center_Frequency": 3413.595,
         "gNB_IP": "",
-        "gNB_Limit_Range": 150,
+        "gNB_Limit_Range": 500,
         "gNB_Name": "gNB_A",
         "gNB_Position_X": 5,
         "gNB_Position_Y": -10,

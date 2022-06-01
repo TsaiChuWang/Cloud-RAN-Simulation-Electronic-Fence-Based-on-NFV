@@ -37,7 +37,7 @@
 
     "NR-ARFCN": 653333,
     "eNodeB_Admission_Control": true,
-    "gNB_Limit_Range": 150,
+    "gNB_Limit_Range": 500,
     "gNB_Center_Color": "#2CD8C1",
     "gNB_Range_Color": "#40F8DF"
 }

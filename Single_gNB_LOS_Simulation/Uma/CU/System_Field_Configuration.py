@@ -34,14 +34,15 @@ Functions Related to Parameters:
 """
 def Obtain_CU_gNB_UEs_Configuration(gNB_Name,UE_Name):
     CU_gNB_UEs_Configuration={}
-    with open('./configuration/CU_gNB_UEs_Configuration.json', 'r') as CU_gNB_UEs_Configuration_file:
+    with open('./configuration/CU_gNB_UEs_Configuration.json', 'r',encoding='utf-8',errors='ignore') as CU_gNB_UEs_Configuration_file:
         CU_gNB_UEs_Configuration = json.load(CU_gNB_UEs_Configuration_file)
+        print(CU_gNB_UEs_Configuration)
         CU_gNB_UEs_Configuration_file.close()
     return CU_gNB_UEs_Configuration[gNB_Name][UE_Name]
 
 def Obtain_System_Field_Configuration(key):
     System_Field_Configuration={}
-    with open('./configuration/System_Field_Configuration.json', 'r') as System_Field_Configuration_file:
+    with open('./configuration/System_Field_Configuration.json', 'r',encoding='utf-8',errors='ignore') as System_Field_Configuration_file:
         System_Field_Configuration= json.load(System_Field_Configuration_file)
         System_Field_Configuration_file.close()
     return System_Field_Configuration[key]
@@ -72,18 +73,24 @@ def animate(i):
             edgecolor="white"
         )
     )
-    gNB_Center_Point= plt.Circle((Obtain_System_Field_Configuration('gNB_A')["gNB_Position_X"],Obtain_System_Field_Configuration('gNB_A')["gNB_Position_Y"]), 10,color=Obtain_System_Field_Configuration('gNB_A')["gNB_Center_Color"])
+    gNB_Position_X=Obtain_System_Field_Configuration('gNB_A')["gNB_Position_X"]
+    gNB_Position_Y=Obtain_System_Field_Configuration('gNB_A')["gNB_Position_Y"]
+    gNB_Center_Point= plt.Circle((gNB_Position_X,gNB_Position_Y), 10,color=Obtain_System_Field_Configuration('gNB_A')["gNB_Center_Color"])
     axes.add_artist(gNB_Center_Point)
 
-    gNB_Range_Point= plt.Circle((Obtain_System_Field_Configuration('gNB_A')["gNB_Position_X"],Obtain_System_Field_Configuration('gNB_A')["gNB_Position_Y"]), Obtain_System_Field_Configuration('gNB_A')["gNB_Limit_Range"],color=Obtain_System_Field_Configuration('gNB_A')["gNB_Range_Color"],fill=False)
+    gNB_Range_Point= plt.Circle((gNB_Position_X,gNB_Position_Y), Obtain_System_Field_Configuration('gNB_A')["gNB_Limit_Range"],color=Obtain_System_Field_Configuration('gNB_A')["gNB_Range_Color"],fill=False)
     axes.add_artist(gNB_Range_Point)
 
-    plt.text(Obtain_System_Field_Configuration('gNB_A')["gNB_Position_X"]-100, Obtain_System_Field_Configuration('gNB_A')["gNB_Position_Y"]+20, Obtain_System_Field_Configuration('gNB_A')["gNB_Name"], fontsize=10, color=Obtain_System_Field_Configuration('gNB_A')["gNB_Center_Color"])
+    plt.text(gNB_Position_X-100, Obtain_System_Field_Configuration('gNB_A')["gNB_Position_Y"]+20, Obtain_System_Field_Configuration('gNB_A')["gNB_Name"], fontsize=10, color=Obtain_System_Field_Configuration('gNB_A')["gNB_Center_Color"])
     UEs_List=Obtain_CU_gNB_UEs_Configuration(gNB_Name,"UEs_List")
     for UE_Name in UEs_List:
         Distance_2D=RSRP_TRANSLATION_DISTANCE(UE_Name,Obtain_CU_gNB_UEs_Configuration(gNB_Name,UE_Name)['RSRP'])
-        UE_RSRP_Line = plt.Circle((Obtain_System_Field_Configuration('gNB_A')["gNB_Position_X"],Obtain_System_Field_Configuration('gNB_A')["gNB_Position_Y"]), Distance_2D,color=Obtain_CU_gNB_UEs_Configuration(gNB_Name,UE_Name)['UE_Color'],fill=False)
+        
+        UE_RSRP_Line = plt.Circle((gNB_Position_X,gNB_Position_Y), Distance_2D,color=Obtain_CU_gNB_UEs_Configuration(gNB_Name,UE_Name)['UE_Color'],fill=False)
+        print(UE_Name+"[RSRP]: "+str(Obtain_CU_gNB_UEs_Configuration(gNB_Name,UE_Name)['RSRP'])+" dBm")
+        if(Distance_2D>Obtain_System_Field_Configuration('gNB_A')["gNB_Limit_Range"]):
+            print(UE_Name+" is out of range!!")
         axes.add_artist(UE_RSRP_Line)
 
-anim = animation.FuncAnimation(figure, animate, interval=2000) 
+anim = animation.FuncAnimation(figure, animate, interval=1000) 
 plt.show()

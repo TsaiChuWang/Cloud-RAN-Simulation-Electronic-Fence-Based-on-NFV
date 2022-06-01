@@ -416,8 +416,8 @@ def animate(i):
     plt.text(Obtain_System_Field_Configuration('gNB_A')["gNB_Position_X"]-100, Obtain_System_Field_Configuration('gNB_A')["gNB_Position_Y"]+20, Obtain_System_Field_Configuration('gNB_A')["gNB_Name"], fontsize=10, color=Obtain_System_Field_Configuration('gNB_A')["gNB_Center_Color"])
     UE_Point = plt.Circle((UE_Position_X,UE_Position_Y), 5,color=Obtain_System_Field_Configuration("UE_Color"))
     axes.add_artist(UE_Point)
-    plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+90, "Distance: "+str(Obtain_System_Field_Configuration('Distance_2D')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
-    plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+50, "PathLoss: "+str(Obtain_System_Field_Configuration('PathLoss')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
+    plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+90, "Distance: "+format(Obtain_System_Field_Configuration('Distance_2D'), '.11f'), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
+    plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+50, "PathLoss: "+format(Obtain_System_Field_Configuration('PathLoss'), '.12f'), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
     plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+10, "RSRP: "+str(Obtain_System_Field_Configuration('RSRP')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
 
 anim = animation.FuncAnimation(figure, animate, interval=1500) 
