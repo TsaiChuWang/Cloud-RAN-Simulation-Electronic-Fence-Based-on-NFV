@@ -25,6 +25,7 @@ Functions Related to Parameters:
 1.Current Time
 2.UE_Configuration
 3.Timer_Configuration
+4.System_Field_Configuration
 """
 
 #Return Now Time in String Format [0.631s]
@@ -65,6 +66,25 @@ def Update_Timer_Configuration(data):
     with open('./configuration/Timer_Configuration.json', 'w') as Timer_Config_file:
         json.dump(Timer_Config, Timer_Config_file, ensure_ascii=False)
         Timer_Config_file.close()
+
+#Obtain System Field Configuration
+def Obtain_System_Field_Configuration(key):
+    System_Field_Configuration={}
+    with open('./configuration/System_Field_Configuration.json', 'r') as System_Field_Configuration_file:
+        System_Field_Configuration = json.load(System_Field_Configuration_file)
+        System_Field_Configuration_file.close()
+    if(key==""):
+        return System_Field_Configuration
+    return System_Field_Configuration[key]
+
+#Update System Field Configuration
+def Update_System_Field_Configuration(data):
+    System_Field_Configuration=Obtain_System_Field_Configuration("")
+    System_Field_Configuration.update(data)
+    with open('./configuration/System_Field_Configuration.json', 'w') as System_Field_Configuration_file:
+        json.dump(System_Field_Configuration, System_Field_Configuration_file, ensure_ascii=False)
+        System_Field_Configuration_file.close()
+
 
 """
 Functions of Sub Process for UE Accessing to Core Network
@@ -140,6 +160,7 @@ def Reception_RRCReject_UE():
         }
     }
     Update_UE_Configuration({"MAC_Cell_Group_Configuration":MAC_Cell_Group_Configuration})
+
 
 
 """
@@ -226,6 +247,72 @@ def RRCSetupRequest():
         print("HTTP STATUS: "+str(response.status_code))
         logging.warn("HTTP STATUS: "+str(response.status_code))
 
+"""
+Functions of RSRP Request and Response
+1.gNB_Information_Request
+"""
+
+#gNB_Information_Request to calculate RSRP
+def gNB_Information_Request():
+    url = "http://"+Obtain_UE_Configuration()["Connected_Primary_Cell_IP"]+":1440/gNB_Information_Request"
+    payload={}
+    headers = {}
+    response = requests.request("GET", url, headers=headers, data=payload)
+    response_data=json.loads(response.text)
+    Update_System_Field_Configuration({response_data["gNB_Name"]:response_data})
+
+"""
+Functions of Calculation
+1.Distance 2D
+2.Break_Point
+3.Distance 3D
+4.PathLoss
+4.1.PathLoss1
+4.2.PathLoss2
+"""
+def Calculate_Distance_2D():
+    Delta_X=Obtain_System_Field_Configuration("gNB_A")["gNB_Position_X"]-Obtain_System_Field_Configuration("UE_Position_X")
+    Delta_Y=Obtain_System_Field_Configuration("gNB_A")["gNB_Position_Y"]-Obtain_System_Field_Configuration("UE_Position_Y")
+    Distance_2D=math.sqrt((Delta_X*Delta_X)+(Delta_Y*Delta_Y))
+    Update_System_Field_Configuration({"Distance_2D":Distance_2D})
+
+def Calculate_Distance_Break_Point():
+    Distance_Break_Point=Obtain_System_Field_Configuration("gNB_A")["gNB_BS_Height"]*Obtain_System_Field_Configuration("User_Terminal_Height")
+    Distance_Break_Point=Distance_Break_Point*2*math.pi*Obtain_System_Field_Configuration("gNB_A")["gNB_Center_Frequency"]*1000000
+    Distance_Break_Point=Distance_Break_Point/(3*100000000)
+    Update_System_Field_Configuration({"Distance_Break_Point":Distance_Break_Point})
+
+def Calculate_Distance_3D():
+    Distance_2D=Obtain_System_Field_Configuration("Distance_2D")
+    Delta_H=Obtain_System_Field_Configuration("gNB_A")["gNB_BS_Height"]-Obtain_System_Field_Configuration("User_Terminal_Height")
+    Distance_3D=math.sqrt((Distance_2D*Distance_2D)+(Delta_H*Delta_H))
+    Update_System_Field_Configuration({"Distance_3D":Distance_3D})
+
+def PathLoss_1():
+    PathLoss=28.0
+    PathLoss=PathLoss+22.0*np.log10(Obtain_System_Field_Configuration("Distance_3D"))
+    PathLoss=PathLoss+20.0*np.log10(Obtain_System_Field_Configuration("gNB_A")["gNB_Center_Frequency"]/1000)
+    Update_System_Field_Configuration({"PathLoss":PathLoss})
+
+def PathLoss_2():
+    PathLoss=28.0
+    PathLoss=PathLoss+22.0*np.log10(Obtain_System_Field_Configuration("Distance_3D"))
+    PathLoss=PathLoss+20.0*np.log10(Obtain_System_Field_Configuration("gNB_A")["gNB_Center_Frequency"]/1000)
+    Delta_H=Obtain_System_Field_Configuration("gNB_A")["gNB_BS_Height"]-Obtain_System_Field_Configuration("User_Terminal_Height")
+    PathLoss=PathLoss-9*np.log10((Delta_H*Delta_H)+(Obtain_System_Field_Configuration("Distance_Break_Point")*Obtain_System_Field_Configuration("Distance_Break_Point")))
+    Update_System_Field_Configuration({"PathLoss":PathLoss})
+
+def Initial_Calculation():
+    Calculate_Distance_2D()
+    Calculate_Distance_Break_Point()
+    Calculate_Distance_3D()
+    if(Obtain_System_Field_Configuration("Distance_2D")<Obtain_System_Field_Configuration("Distance_Break_Point")):
+        Update_System_Field_Configuration({"PathLoss_Model":1})
+        PathLoss_1()
+    else:
+        Update_System_Field_Configuration({"PathLoss_Model":2})
+        PathLoss_2()
+
 #For TESTING
 def CLEAN_UP():
     Update_UE_Configuration({"RRC":"RRC_IDLE"})
@@ -239,3 +326,6 @@ while(True):#[0.684s]
             continue
     if(Obtain_UE_Configuration()["RRC"]=="RRC_CONNECTED"):
         break
+
+gNB_Information_Request()
+Initial_Calculation()

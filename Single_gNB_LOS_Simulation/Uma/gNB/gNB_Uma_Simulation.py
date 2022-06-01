@@ -176,6 +176,29 @@ def RRCSetupRequest():
     return jsonify(RRCSetup())
 
 
+"""
+Functions od RSRP Detections
+1.gNB_Information_Request
+"""
+
+#Get informations of gNB for UE
+@app.route("/gNB_Information_Request", methods=['GET'])
+def gNB_Information_Request():
+    logging.info("gNB Information request")
+    gNB_data={
+        "gNB_Name": Obtain_gNB_Configuration()['gNB_Name'],
+        "gNB_IP": gNB_IP,
+        "gNB_Position_X":Obtain_gNB_Configuration()["gNB_Position_X"],
+        "gNB_Position_Y":Obtain_gNB_Configuration()["gNB_Position_Y"],
+        "gNB_BS_Height":Obtain_gNB_Configuration()["gNB_BS_Height"],
+        "gNB_Center_Frequency": Obtain_gNB_Configuration()["gNB_Center_Frequency"],
+        "gNB_Antenna_Power": Obtain_gNB_Configuration()["gNB_Antenna_Power"],
+        "gNB_Limit_Range": Obtain_gNB_Configuration()["gNB_Limit_Range"],
+        "gNB_Center_Color": Obtain_gNB_Configuration()["gNB_Center_Color"],
+        "gNB_Range_Color": Obtain_gNB_Configuration()["gNB_Range_Color"]
+    }
+    return jsonify(gNB_data)
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True,port=PORT)
 

@@ -7,5 +7,37 @@
     "PLMN":"46692",
     "MCC":466,
     "MNC":92,
-    "NR_CGI":"4669210100101110001010100101111001000000"
+    "NR_CGI":"4669210100101110001010100101111001000000",
+    "Telecommunications":"Chunghwa",
+    "Frequency_Band_Name":"GSM 900 / UMTS 2100",
+    "Bit_Length_gNB_ID":22,
+    "Bit_Length_Cell_ID":14,
+
+    "gNB_Position_X":5,
+    "gNB_Position_Y":-10,
+    "gNB_BS_Height":25,
+
+    "NR_Operating_Band":"n78",
+    "FRaster":30,
+    "Uplink_NR_ARFCN":"",
+    "Downlink_NR_ARFCN": 627573,
+    "Duplex_Mode":"TDD",
+    "gNB_Center_Frequency": 3413.595,
+
+    "Bandwidth": 20,
+    "gNB_Antenna_model": "C2D2F030404X6",
+    "gNB_Antenna_gain": 17,
+
+    "feeder_system": "LTE",
+    "feeder_loss_per_hunrad": 12.1,
+    "feeder_distance":100,
+    "feeder_line_loss":12.1,
+
+    "gNB_Antenna_Power": 22.941199827,
+
+    "NR-ARFCN": 653333,
+    "eNodeB_Admission_Control": true,
+    "gNB_Limit_Range": 150,
+    "gNB_Center_Color": "#2CD8C1",
+    "gNB_Range_Color": "#40F8DF"
 }
