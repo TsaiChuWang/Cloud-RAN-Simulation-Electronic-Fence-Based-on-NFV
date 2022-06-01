@@ -2635,3 +2635,1582 @@
 16:02:27,935 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
 16:02:30,19 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
 16:02:30,29 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:48:59,695 root INFO UE_B perform RRCInitialization to RRCSetupRequest.
+21:48:59,696 root INFO PCell has existed.
+21:48:59,731 root INFO UE_B send RRCSetupRequest to 10.0.2.100
+21:48:59,741 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:48:59,794 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:48:59,796 root INFO UE_B recieve RRCSetup.
+21:48:59,810 root INFO Cell_Group_Configuration waiting update
+21:48:59,810 root INFO Cell_Group_Configuration waiting update
+21:48:59,816 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:48:59,819 root INFO UE_C perform RRCInitialization to RRCSetupRequest.
+21:48:59,820 root INFO PCell has existed.
+21:48:59,825 root INFO UE_C send RRCSetupRequest to 10.0.2.100
+21:48:59,830 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:48:59,846 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:48:59,847 root INFO UE_C recieve RRCSetup.
+21:48:59,856 root INFO Cell_Group_Configuration waiting update
+21:48:59,857 root INFO Cell_Group_Configuration waiting update
+21:48:59,862 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:48:59,863 root INFO UE_D perform RRCInitialization to RRCSetupRequest.
+21:48:59,863 root INFO PCell has existed.
+21:48:59,868 root INFO UE_D send RRCSetupRequest to 10.0.2.100
+21:48:59,873 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:48:59,893 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:48:59,894 root INFO UE_D recieve RRCSetup.
+21:48:59,903 root INFO Cell_Group_Configuration waiting update
+21:48:59,903 root INFO Cell_Group_Configuration waiting update
+21:48:59,908 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:48:59,910 root INFO UE_E perform RRCInitialization to RRCSetupRequest.
+21:48:59,910 root INFO PCell has existed.
+21:48:59,916 root INFO UE_E send RRCSetupRequest to 10.0.2.100
+21:48:59,924 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:48:59,942 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:48:59,943 root INFO UE_E recieve RRCSetup.
+21:48:59,951 root INFO Cell_Group_Configuration waiting update
+21:48:59,951 root INFO Cell_Group_Configuration waiting update
+21:48:59,956 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:48:59,957 root INFO UE_F perform RRCInitialization to RRCSetupRequest.
+21:48:59,958 root INFO PCell has existed.
+21:48:59,963 root INFO UE_F send RRCSetupRequest to 10.0.2.100
+21:48:59,968 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:48:59,988 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:48:59,988 root INFO UE_F recieve RRCSetup.
+21:48:59,997 root INFO Cell_Group_Configuration waiting update
+21:48:59,997 root INFO Cell_Group_Configuration waiting update
+21:49:00,1 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:49:00,29 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:49:00,40 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:50:41,587 root INFO UE_B perform RRCInitialization to RRCSetupRequest.
+21:50:41,593 root INFO PCell has existed.
+21:50:41,609 root INFO UE_B send RRCSetupRequest to 10.0.2.100
+21:50:41,627 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:50:41,674 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:50:41,676 root INFO UE_B recieve RRCSetup.
+21:50:41,695 root INFO Cell_Group_Configuration waiting update
+21:50:41,695 root INFO Cell_Group_Configuration waiting update
+21:50:41,708 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:50:41,711 root INFO UE_C perform RRCInitialization to RRCSetupRequest.
+21:50:41,712 root INFO PCell has existed.
+21:50:41,721 root INFO UE_C send RRCSetupRequest to 10.0.2.100
+21:50:41,727 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:50:41,741 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:50:41,742 root INFO UE_C recieve RRCSetup.
+21:50:41,751 root INFO Cell_Group_Configuration waiting update
+21:50:41,751 root INFO Cell_Group_Configuration waiting update
+21:50:41,757 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:50:41,758 root INFO UE_D perform RRCInitialization to RRCSetupRequest.
+21:50:41,759 root INFO PCell has existed.
+21:50:41,764 root INFO UE_D send RRCSetupRequest to 10.0.2.100
+21:50:41,769 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:50:41,783 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:50:41,784 root INFO UE_D recieve RRCSetup.
+21:50:41,792 root INFO Cell_Group_Configuration waiting update
+21:50:41,793 root INFO Cell_Group_Configuration waiting update
+21:50:41,797 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:50:41,799 root INFO UE_E perform RRCInitialization to RRCSetupRequest.
+21:50:41,799 root INFO PCell has existed.
+21:50:41,804 root INFO UE_E send RRCSetupRequest to 10.0.2.100
+21:50:41,809 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:50:41,823 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:50:41,824 root INFO UE_E recieve RRCSetup.
+21:50:41,832 root INFO Cell_Group_Configuration waiting update
+21:50:41,832 root INFO Cell_Group_Configuration waiting update
+21:50:41,837 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:50:41,838 root INFO UE_F perform RRCInitialization to RRCSetupRequest.
+21:50:41,839 root INFO PCell has existed.
+21:50:41,845 root INFO UE_F send RRCSetupRequest to 10.0.2.100
+21:50:41,850 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:50:41,863 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:50:41,864 root INFO UE_F recieve RRCSetup.
+21:50:41,872 root INFO Cell_Group_Configuration waiting update
+21:50:41,872 root INFO Cell_Group_Configuration waiting update
+21:50:41,877 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:50:41,902 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:50:41,912 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:50:44,14 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:50:44,24 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:50:44,47 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:50:44,56 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:50:48,138 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:50:48,150 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:50:48,188 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:50:48,200 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:55:29,246 root INFO UE_B perform RRCInitialization to RRCSetupRequest.
+21:55:29,247 root INFO PCell has existed.
+21:55:29,253 root INFO UE_B send RRCSetupRequest to 10.0.2.100
+21:55:29,258 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:29,279 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:55:29,280 root INFO UE_B recieve RRCSetup.
+21:55:29,288 root INFO Cell_Group_Configuration waiting update
+21:55:29,288 root INFO Cell_Group_Configuration waiting update
+21:55:29,293 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:55:29,295 root INFO UE_C perform RRCInitialization to RRCSetupRequest.
+21:55:29,295 root INFO PCell has existed.
+21:55:29,300 root INFO UE_C send RRCSetupRequest to 10.0.2.100
+21:55:29,305 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:29,318 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:55:29,319 root INFO UE_C recieve RRCSetup.
+21:55:29,325 root INFO Cell_Group_Configuration waiting update
+21:55:29,326 root INFO Cell_Group_Configuration waiting update
+21:55:29,330 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:55:29,332 root INFO UE_D perform RRCInitialization to RRCSetupRequest.
+21:55:29,332 root INFO PCell has existed.
+21:55:29,337 root INFO UE_D send RRCSetupRequest to 10.0.2.100
+21:55:29,341 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:29,354 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:55:29,355 root INFO UE_D recieve RRCSetup.
+21:55:29,361 root INFO Cell_Group_Configuration waiting update
+21:55:29,362 root INFO Cell_Group_Configuration waiting update
+21:55:29,367 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:55:29,368 root INFO UE_E perform RRCInitialization to RRCSetupRequest.
+21:55:29,369 root INFO PCell has existed.
+21:55:29,374 root INFO UE_E send RRCSetupRequest to 10.0.2.100
+21:55:29,378 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:29,390 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:55:29,391 root INFO UE_E recieve RRCSetup.
+21:55:29,399 root INFO Cell_Group_Configuration waiting update
+21:55:29,399 root INFO Cell_Group_Configuration waiting update
+21:55:29,403 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:55:29,405 root INFO UE_F perform RRCInitialization to RRCSetupRequest.
+21:55:29,405 root INFO PCell has existed.
+21:55:29,410 root INFO UE_F send RRCSetupRequest to 10.0.2.100
+21:55:29,414 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:29,427 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:55:29,427 root INFO UE_F recieve RRCSetup.
+21:55:29,435 root INFO Cell_Group_Configuration waiting update
+21:55:29,436 root INFO Cell_Group_Configuration waiting update
+21:55:29,441 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:55:34,642 root INFO UE_B perform RRCInitialization to RRCSetupRequest.
+21:55:34,642 root INFO PCell has existed.
+21:55:34,647 root INFO UE_B send RRCSetupRequest to 10.0.2.100
+21:55:34,652 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:34,665 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:55:34,666 root INFO UE_B recieve RRCSetup.
+21:55:34,674 root INFO Cell_Group_Configuration waiting update
+21:55:34,675 root INFO Cell_Group_Configuration waiting update
+21:55:34,680 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:55:34,681 root INFO UE_C perform RRCInitialization to RRCSetupRequest.
+21:55:34,681 root INFO PCell has existed.
+21:55:34,686 root INFO UE_C send RRCSetupRequest to 10.0.2.100
+21:55:34,690 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:34,702 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:55:34,703 root INFO UE_C recieve RRCSetup.
+21:55:34,710 root INFO Cell_Group_Configuration waiting update
+21:55:34,710 root INFO Cell_Group_Configuration waiting update
+21:55:34,715 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:55:34,716 root INFO UE_D perform RRCInitialization to RRCSetupRequest.
+21:55:34,716 root INFO PCell has existed.
+21:55:34,721 root INFO UE_D send RRCSetupRequest to 10.0.2.100
+21:55:34,725 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:34,737 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:55:34,738 root INFO UE_D recieve RRCSetup.
+21:55:34,744 root INFO Cell_Group_Configuration waiting update
+21:55:34,744 root INFO Cell_Group_Configuration waiting update
+21:55:34,750 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:55:34,751 root INFO UE_E perform RRCInitialization to RRCSetupRequest.
+21:55:34,751 root INFO PCell has existed.
+21:55:34,793 root INFO UE_E send RRCSetupRequest to 10.0.2.100
+21:55:34,808 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:34,832 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:55:34,833 root INFO UE_E recieve RRCSetup.
+21:55:34,845 root INFO Cell_Group_Configuration waiting update
+21:55:34,845 root INFO Cell_Group_Configuration waiting update
+21:55:34,852 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:55:34,854 root INFO UE_F perform RRCInitialization to RRCSetupRequest.
+21:55:34,855 root INFO PCell has existed.
+21:55:34,863 root INFO UE_F send RRCSetupRequest to 10.0.2.100
+21:55:34,869 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:34,884 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:55:34,885 root INFO UE_F recieve RRCSetup.
+21:55:34,893 root INFO Cell_Group_Configuration waiting update
+21:55:34,893 root INFO Cell_Group_Configuration waiting update
+21:55:34,898 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:55:34,922 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:34,931 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:55:36,968 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:36,991 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:55:39,22 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:39,34 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:55:41,63 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:41,83 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:55:45,179 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:45,189 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:55:45,213 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:55:45,223 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:12,978 root INFO UE_B perform RRCInitialization to RRCSetupRequest.
+21:56:12,978 root INFO PCell has existed.
+21:56:12,984 root INFO UE_B send RRCSetupRequest to 10.0.2.100
+21:56:12,990 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:13,2 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:56:13,3 root INFO UE_B recieve RRCSetup.
+21:56:13,10 root INFO Cell_Group_Configuration waiting update
+21:56:13,10 root INFO Cell_Group_Configuration waiting update
+21:56:13,16 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:56:13,18 root INFO UE_C perform RRCInitialization to RRCSetupRequest.
+21:56:13,18 root INFO PCell has existed.
+21:56:13,75 root INFO UE_C send RRCSetupRequest to 10.0.2.100
+21:56:13,93 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:13,109 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:56:13,110 root INFO UE_C recieve RRCSetup.
+21:56:13,118 root INFO Cell_Group_Configuration waiting update
+21:56:13,118 root INFO Cell_Group_Configuration waiting update
+21:56:13,123 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:56:13,125 root INFO UE_D perform RRCInitialization to RRCSetupRequest.
+21:56:13,125 root INFO PCell has existed.
+21:56:13,130 root INFO UE_D send RRCSetupRequest to 10.0.2.100
+21:56:13,134 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:13,146 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:56:13,147 root INFO UE_D recieve RRCSetup.
+21:56:13,154 root INFO Cell_Group_Configuration waiting update
+21:56:13,154 root INFO Cell_Group_Configuration waiting update
+21:56:13,159 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:56:13,160 root INFO UE_E perform RRCInitialization to RRCSetupRequest.
+21:56:13,160 root INFO PCell has existed.
+21:56:13,165 root INFO UE_E send RRCSetupRequest to 10.0.2.100
+21:56:13,170 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:13,182 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:56:13,183 root INFO UE_E recieve RRCSetup.
+21:56:13,191 root INFO Cell_Group_Configuration waiting update
+21:56:13,191 root INFO Cell_Group_Configuration waiting update
+21:56:13,196 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:56:13,197 root INFO UE_F perform RRCInitialization to RRCSetupRequest.
+21:56:13,198 root INFO PCell has existed.
+21:56:13,203 root INFO UE_F send RRCSetupRequest to 10.0.2.100
+21:56:13,207 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:13,219 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+21:56:13,220 root INFO UE_F recieve RRCSetup.
+21:56:13,228 root INFO Cell_Group_Configuration waiting update
+21:56:13,228 root INFO Cell_Group_Configuration waiting update
+21:56:13,233 root INFO Set_Content_RRCSetupComplete_Message waiting update
+21:56:13,258 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:13,267 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:15,377 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:15,388 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:15,418 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:15,431 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:17,512 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:17,525 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:17,599 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:17,613 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:17,654 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:17,663 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:19,754 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:19,764 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:23,893 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:23,904 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:23,928 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:23,936 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:26,48 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:26,57 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:28,136 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:28,146 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:30,234 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:30,244 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:30,269 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:30,278 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:30,304 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:30,312 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:32,398 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:32,406 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:32,430 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:32,439 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:35,53 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:35,68 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:35,94 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:35,108 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:35,153 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:35,163 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:37,249 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:37,259 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:37,288 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:37,299 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:39,457 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:39,468 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:41,533 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:41,542 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:43,624 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:43,634 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:45,723 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:45,734 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:45,760 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:45,770 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:45,796 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:45,804 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:47,891 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:47,900 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:47,926 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:47,935 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:47,960 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:47,968 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:50,1 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:50,12 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:50,59 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:50,72 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:50,118 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:50,128 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:52,161 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:52,172 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:54,273 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:54,283 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:58,428 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:58,448 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:56:58,527 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:56:58,539 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:00,626 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:00,635 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:00,660 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:00,671 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:02,706 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:02,715 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:04,811 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:04,828 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:06,937 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:06,947 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:06,974 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:06,984 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:09,76 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:09,86 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:11,176 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:11,186 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:11,213 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:11,223 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:11,248 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:11,257 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:13,347 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:13,362 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:13,408 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:13,419 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:13,450 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:13,458 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:15,487 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:15,498 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:17,621 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:17,638 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:19,757 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:19,771 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:21,862 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:21,871 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:21,895 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:21,904 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:23,993 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:24,1 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:24,27 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:24,36 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:26,121 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:26,132 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:32,236 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:32,247 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:34,290 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:34,300 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:36,416 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:36,427 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:36,459 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:36,469 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:36,493 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:36,502 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:40,586 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:40,595 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:48,679 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:48,687 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:50,771 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:50,782 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:50,809 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:50,819 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:54,859 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:54,868 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:54,893 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:54,909 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:54,935 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:54,945 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:57,6 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:57,19 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:59,60 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:59,71 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:57:59,97 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:57:59,107 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:01,163 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:01,174 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:01,203 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:01,212 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:01,238 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:01,247 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:03,281 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:03,293 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:03,327 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:03,338 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:05,380 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:05,391 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:05,415 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:05,425 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:05,449 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:05,459 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:05,483 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:05,493 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:07,563 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:07,574 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:07,596 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:07,607 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:11,691 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:11,702 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:13,739 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:13,749 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:13,779 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:13,788 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:13,813 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:13,822 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:15,908 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:15,922 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:18,7 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:18,21 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:20,108 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:20,119 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:22,192 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:22,203 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:22,227 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:22,236 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:24,320 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:24,365 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:24,394 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:24,405 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:26,435 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:26,445 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:26,470 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:26,479 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:26,503 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:26,514 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:26,538 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:26,548 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:28,580 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:28,591 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:28,615 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:28,624 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:30,724 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:30,734 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:30,759 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:30,768 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:32,840 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:32,850 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:32,877 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:32,887 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:32,911 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:32,921 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:34,988 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:34,998 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:35,22 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:35,31 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:35,55 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:35,64 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:37,163 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:37,174 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:37,198 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:37,208 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:37,232 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:37,241 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:39,285 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:39,294 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:43,404 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:43,415 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:43,440 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:43,449 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:45,493 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:45,504 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:45,531 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:45,540 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:47,639 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:47,649 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:47,676 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:47,686 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:51,759 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:51,769 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:51,793 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:51,802 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:53,874 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:53,885 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:53,907 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:53,916 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:55,995 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:56,5 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:56,28 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:56,38 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:56,60 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:56,70 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:58,161 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:58,170 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:58:58,193 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:58:58,203 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:00,272 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:00,282 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:00,308 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:00,318 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:02,421 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:02,435 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:02,463 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:02,472 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:04,541 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:04,550 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:04,575 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:04,584 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:06,655 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:06,664 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:08,734 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:08,744 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:12,848 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:12,859 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:20,954 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:20,963 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:20,987 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:20,996 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:23,67 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:23,77 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:23,101 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:23,109 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:25,179 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:25,188 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:27,233 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:27,244 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:29,282 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:29,292 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:29,316 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:29,326 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:33,413 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:33,424 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:35,499 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:35,509 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:37,551 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:37,562 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:39,606 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:39,615 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:41,662 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:41,671 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:41,697 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:41,708 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:43,755 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:43,764 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:43,789 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:43,800 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:43,824 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:43,854 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:45,942 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:45,954 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:45,979 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:45,989 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:46,12 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:46,20 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:48,94 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:48,103 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:48,127 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:48,137 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:50,229 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:50,263 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:50,311 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:50,320 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:52,390 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:52,409 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:52,439 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:52,448 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:54,520 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:54,548 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+21:59:56,619 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+21:59:56,629 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:00,689 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:00,697 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:00,720 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:00,729 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:00,752 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:00,761 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:02,833 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:02,842 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:02,868 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:02,876 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:02,900 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:02,908 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:04,978 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:04,988 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:07,48 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:07,57 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:07,82 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:07,91 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:07,115 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:07,125 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:07,148 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:07,157 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:09,243 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:09,252 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:09,279 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:09,289 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:13,368 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:13,379 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:15,459 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:15,469 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:17,545 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:17,555 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:19,642 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:19,652 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:19,680 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:19,690 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:29,828 root INFO UE_B perform RRCInitialization to RRCSetupRequest.
+22:00:29,829 root INFO PCell has existed.
+22:00:29,834 root INFO UE_B send RRCSetupRequest to 10.0.2.100
+22:00:29,840 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:29,854 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:00:29,855 root INFO UE_B recieve RRCSetup.
+22:00:29,863 root INFO Cell_Group_Configuration waiting update
+22:00:29,863 root INFO Cell_Group_Configuration waiting update
+22:00:29,868 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:00:29,869 root INFO UE_C perform RRCInitialization to RRCSetupRequest.
+22:00:29,870 root INFO PCell has existed.
+22:00:29,875 root INFO UE_C send RRCSetupRequest to 10.0.2.100
+22:00:29,879 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:29,891 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:00:29,892 root INFO UE_C recieve RRCSetup.
+22:00:29,900 root INFO Cell_Group_Configuration waiting update
+22:00:29,900 root INFO Cell_Group_Configuration waiting update
+22:00:29,904 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:00:29,906 root INFO UE_D perform RRCInitialization to RRCSetupRequest.
+22:00:29,906 root INFO PCell has existed.
+22:00:29,912 root INFO UE_D send RRCSetupRequest to 10.0.2.100
+22:00:29,916 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:29,930 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:00:29,931 root INFO UE_D recieve RRCSetup.
+22:00:29,938 root INFO Cell_Group_Configuration waiting update
+22:00:29,939 root INFO Cell_Group_Configuration waiting update
+22:00:29,943 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:00:29,945 root INFO UE_E perform RRCInitialization to RRCSetupRequest.
+22:00:29,945 root INFO PCell has existed.
+22:00:29,951 root INFO UE_E send RRCSetupRequest to 10.0.2.100
+22:00:29,955 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:29,969 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:00:29,970 root INFO UE_E recieve RRCSetup.
+22:00:29,977 root INFO Cell_Group_Configuration waiting update
+22:00:29,978 root INFO Cell_Group_Configuration waiting update
+22:00:29,982 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:00:29,984 root INFO UE_F perform RRCInitialization to RRCSetupRequest.
+22:00:29,984 root INFO PCell has existed.
+22:00:29,989 root INFO UE_F send RRCSetupRequest to 10.0.2.100
+22:00:29,993 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:30,6 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:00:30,6 root INFO UE_F recieve RRCSetup.
+22:00:30,14 root INFO Cell_Group_Configuration waiting update
+22:00:30,14 root INFO Cell_Group_Configuration waiting update
+22:00:30,19 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:00:30,44 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:30,52 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:30,78 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:30,88 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:30,111 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:30,119 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:00:30,143 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:00:30,151 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:39,7 root INFO UE_B perform RRCInitialization to RRCSetupRequest.
+22:01:39,8 root INFO PCell has existed.
+22:01:39,13 root INFO UE_B send RRCSetupRequest to 10.0.2.100
+22:01:39,19 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:39,33 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:01:39,34 root INFO UE_B recieve RRCSetup.
+22:01:39,42 root INFO Cell_Group_Configuration waiting update
+22:01:39,42 root INFO Cell_Group_Configuration waiting update
+22:01:39,46 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:01:39,48 root INFO UE_C perform RRCInitialization to RRCSetupRequest.
+22:01:39,48 root INFO PCell has existed.
+22:01:39,53 root INFO UE_C send RRCSetupRequest to 10.0.2.100
+22:01:39,58 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:39,102 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:01:39,104 root INFO UE_C recieve RRCSetup.
+22:01:39,117 root INFO Cell_Group_Configuration waiting update
+22:01:39,117 root INFO Cell_Group_Configuration waiting update
+22:01:39,126 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:01:39,129 root INFO UE_D perform RRCInitialization to RRCSetupRequest.
+22:01:39,130 root INFO PCell has existed.
+22:01:39,140 root INFO UE_D send RRCSetupRequest to 10.0.2.100
+22:01:39,147 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:39,162 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:01:39,163 root INFO UE_D recieve RRCSetup.
+22:01:39,173 root INFO Cell_Group_Configuration waiting update
+22:01:39,173 root INFO Cell_Group_Configuration waiting update
+22:01:39,180 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:01:39,182 root INFO UE_E perform RRCInitialization to RRCSetupRequest.
+22:01:39,183 root INFO PCell has existed.
+22:01:39,188 root INFO UE_E send RRCSetupRequest to 10.0.2.100
+22:01:39,193 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:39,206 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:01:39,207 root INFO UE_E recieve RRCSetup.
+22:01:39,214 root INFO Cell_Group_Configuration waiting update
+22:01:39,214 root INFO Cell_Group_Configuration waiting update
+22:01:39,220 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:01:39,221 root INFO UE_F perform RRCInitialization to RRCSetupRequest.
+22:01:39,221 root INFO PCell has existed.
+22:01:39,226 root INFO UE_F send RRCSetupRequest to 10.0.2.100
+22:01:39,231 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:39,242 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:01:39,243 root INFO UE_F recieve RRCSetup.
+22:01:39,251 root INFO Cell_Group_Configuration waiting update
+22:01:39,251 root INFO Cell_Group_Configuration waiting update
+22:01:39,256 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:01:41,370 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:41,378 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:41,405 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:41,414 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:41,440 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:41,448 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:43,571 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:43,580 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:43,608 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:43,618 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:45,726 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:45,736 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:45,766 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:45,775 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:45,803 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:45,854 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:47,887 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:47,901 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:47,942 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:47,952 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:50,10 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:50,21 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:50,50 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:50,59 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:54,135 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:54,145 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:54,172 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:54,181 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:01:56,251 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:01:56,261 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:19,539 root INFO UE_B perform RRCInitialization to RRCSetupRequest.
+22:02:19,540 root INFO PCell has existed.
+22:02:19,545 root INFO UE_B send RRCSetupRequest to 10.0.2.100
+22:02:19,551 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:19,565 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:02:19,565 root INFO UE_B recieve RRCSetup.
+22:02:19,573 root INFO Cell_Group_Configuration waiting update
+22:02:19,573 root INFO Cell_Group_Configuration waiting update
+22:02:19,578 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:02:19,579 root INFO UE_C perform RRCInitialization to RRCSetupRequest.
+22:02:19,580 root INFO PCell has existed.
+22:02:19,584 root INFO UE_C send RRCSetupRequest to 10.0.2.100
+22:02:19,589 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:19,617 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:02:19,618 root INFO UE_C recieve RRCSetup.
+22:02:19,626 root INFO Cell_Group_Configuration waiting update
+22:02:19,626 root INFO Cell_Group_Configuration waiting update
+22:02:19,631 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:02:19,632 root INFO UE_D perform RRCInitialization to RRCSetupRequest.
+22:02:19,633 root INFO PCell has existed.
+22:02:19,637 root INFO UE_D send RRCSetupRequest to 10.0.2.100
+22:02:19,642 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:19,654 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:02:19,654 root INFO UE_D recieve RRCSetup.
+22:02:19,663 root INFO Cell_Group_Configuration waiting update
+22:02:19,663 root INFO Cell_Group_Configuration waiting update
+22:02:19,668 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:02:19,669 root INFO UE_E perform RRCInitialization to RRCSetupRequest.
+22:02:19,670 root INFO PCell has existed.
+22:02:19,675 root INFO UE_E send RRCSetupRequest to 10.0.2.100
+22:02:19,680 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:19,692 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:02:19,693 root INFO UE_E recieve RRCSetup.
+22:02:19,700 root INFO Cell_Group_Configuration waiting update
+22:02:19,700 root INFO Cell_Group_Configuration waiting update
+22:02:19,705 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:02:19,706 root INFO UE_F perform RRCInitialization to RRCSetupRequest.
+22:02:19,707 root INFO PCell has existed.
+22:02:19,712 root INFO UE_F send RRCSetupRequest to 10.0.2.100
+22:02:19,716 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:19,728 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:02:19,729 root INFO UE_F recieve RRCSetup.
+22:02:19,736 root INFO Cell_Group_Configuration waiting update
+22:02:19,736 root INFO Cell_Group_Configuration waiting update
+22:02:19,741 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:02:21,858 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:21,867 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:21,896 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:21,906 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:21,947 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:21,978 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:24,90 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:24,101 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:24,127 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:24,136 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:24,160 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:24,169 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:26,249 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:26,260 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:26,316 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:26,327 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:26,355 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:26,366 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:28,433 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:28,451 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:30,520 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:30,530 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:30,553 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:30,563 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:32,633 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:32,644 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:32,670 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:32,678 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:32,702 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:32,710 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:34,804 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:34,815 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:36,926 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:36,937 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:36,963 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:36,971 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:36,995 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:37,3 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:39,73 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:39,84 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:41,157 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:41,168 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:41,192 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:41,201 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:43,275 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:43,286 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:43,313 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:43,322 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:43,350 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:43,358 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:45,387 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:45,397 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:45,421 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:45,430 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:47,457 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:47,467 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:47,490 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:47,503 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:47,527 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:47,536 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:49,594 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:49,603 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:49,626 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:49,636 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:51,668 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:51,677 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:51,702 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:51,711 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:51,735 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:51,743 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:53,777 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:53,788 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:53,811 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:53,820 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:55,860 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:55,870 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:57,898 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:02:57,913 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:02:59,996 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:00,8 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:00,31 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:00,40 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:02,105 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:02,134 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:04,169 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:04,179 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:04,202 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:04,211 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:04,234 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:04,244 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:08,291 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:08,299 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:08,323 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:08,332 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:10,399 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:10,408 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:10,431 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:10,440 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:12,510 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:12,529 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:14,560 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:14,569 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:14,591 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:14,600 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:16,672 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:16,681 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:16,704 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:16,713 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:16,735 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:16,744 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:16,767 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:16,776 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:18,847 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:18,856 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:18,880 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:18,889 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:20,959 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:20,968 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:23,38 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:23,48 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:23,73 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:23,85 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:25,154 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:25,164 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:25,188 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:25,196 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:27,261 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:27,270 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:29,338 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:29,349 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:29,375 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:29,385 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:31,454 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:31,463 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:33,524 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:33,533 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:33,557 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:33,567 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:35,634 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:35,643 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:37,692 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:37,701 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:39,729 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:39,740 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:39,766 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:39,775 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:43,836 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:43,845 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:45,876 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:45,886 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:49,981 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:49,991 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:50,17 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:50,26 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:52,58 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:52,69 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:54,125 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:54,135 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:54,159 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:54,168 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:56,235 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:56,244 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:03:58,305 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:03:58,314 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:00,369 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:00,378 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:00,402 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:00,411 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:02,473 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:02,483 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:02,507 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:02,516 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:04,547 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:04,555 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:04,582 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:04,591 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:08,674 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:08,684 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:08,708 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:08,717 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:10,745 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:10,755 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:10,780 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:10,790 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:10,819 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:10,828 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:10,854 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:10,863 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:12,948 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:12,957 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:12,984 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:12,993 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:15,20 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:15,30 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:15,54 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:15,63 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:17,94 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:17,104 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:17,133 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:17,143 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:19,170 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:19,181 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:21,267 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:21,278 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:21,303 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:21,322 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:21,348 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:21,358 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:23,491 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:23,510 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:23,571 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:23,581 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:23,606 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:23,616 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:27,669 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:27,678 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:27,707 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:27,716 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:29,838 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:29,850 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:29,877 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:29,886 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:29,913 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:29,922 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:32,32 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:32,48 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:32,108 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:32,132 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:32,159 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:32,167 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:34,225 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:34,236 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:36,297 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:36,326 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:36,367 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:36,377 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:38,426 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:38,436 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:40,505 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:40,514 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:40,540 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:40,549 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:40,576 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:40,585 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:42,688 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:42,699 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:42,730 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:42,739 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:44,830 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:44,841 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:46,949 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:46,959 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:51,37 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:51,47 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:53,97 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:53,107 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:55,194 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:55,206 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:55,236 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:55,245 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:04:59,286 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:04:59,295 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:01,369 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:01,379 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:01,403 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:01,412 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:03,499 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:03,512 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:03,541 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:03,554 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:05,615 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:05,624 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:05,646 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:05,655 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:07,703 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:07,713 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:07,734 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:07,742 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:07,766 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:07,775 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:13,948 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:13,959 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:13,988 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:13,997 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:14,19 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:14,28 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:16,67 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:16,79 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:18,143 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:18,153 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:18,179 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:18,190 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:20,252 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:20,263 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:20,287 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:20,295 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:26,356 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:26,380 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:26,407 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:26,416 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:26,439 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:26,447 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:28,517 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:28,527 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:30,588 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:30,598 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:34,682 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:34,692 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:34,716 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:34,725 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:36,796 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:36,806 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:38,879 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:38,889 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:40,919 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:40,929 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:42,981 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:42,989 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:43,39 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:43,47 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:43,93 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:43,105 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:43,197 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:43,209 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:45,240 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:45,250 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:45,278 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:45,289 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:45,317 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:45,326 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:47,393 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:47,405 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:49,454 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:49,465 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:51,530 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:51,547 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:55,634 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:55,643 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:57,704 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:57,715 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:59,788 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:59,815 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:59,837 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:59,848 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:59,872 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:59,880 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:05:59,903 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:05:59,912 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:03,995 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:04,7 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:06,99 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:06,112 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:08,183 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:08,193 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:12,279 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:12,289 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:12,312 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:12,321 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:14,386 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:14,395 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:14,418 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:14,426 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:16,494 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:16,504 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:16,530 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:16,538 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:18,569 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:18,582 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:18,614 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:18,623 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:18,648 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:18,657 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:20,695 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:20,707 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:22,735 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:22,745 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:24,793 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:24,803 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:24,827 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:24,835 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:24,860 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:24,868 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:26,903 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:26,912 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:28,982 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:28,991 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:29,18 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:29,27 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:29,52 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:29,61 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:31,104 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:31,115 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:33,168 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:33,178 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:35,256 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:35,268 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:35,297 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:35,307 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:41,399 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:41,408 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:43,437 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:43,448 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:45,478 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:45,487 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:45,512 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:45,521 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:45,545 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:45,553 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:47,581 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:47,590 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:47,615 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:47,637 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:49,708 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:49,717 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:49,741 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:49,750 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:51,818 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:51,828 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:51,852 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:51,860 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:53,930 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:53,940 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:56,9 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:56,18 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:58,78 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:58,89 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:06:58,113 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:06:58,123 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:02,236 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:02,247 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:02,273 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:02,282 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:04,353 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:04,370 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:04,420 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:04,432 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:04,458 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:04,467 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:06,532 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:06,541 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:08,607 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:08,618 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:08,642 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:08,652 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:08,677 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:08,685 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:10,757 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:10,767 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:10,790 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:10,800 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:10,825 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:10,833 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:12,867 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:12,877 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:12,900 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:12,909 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:14,947 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:14,959 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:14,986 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:14,994 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:17,62 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:17,72 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:17,96 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:17,105 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:21,204 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:21,214 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:21,238 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:21,246 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:23,282 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:23,293 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:25,339 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:25,350 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:29,416 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:29,426 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:29,450 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:29,459 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:29,482 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:29,492 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:31,539 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:31,549 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:31,578 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:31,587 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:33,615 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:33,625 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:35,686 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:35,698 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:35,725 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:35,734 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:37,763 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:37,773 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:37,797 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:37,810 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:37,834 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:37,844 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:41,930 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:41,941 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:43,976 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:43,986 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:46,18 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:46,28 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:46,55 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:46,64 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:46,87 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:46,96 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:52,161 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:52,171 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:52,195 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:52,204 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:54,284 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:54,292 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:54,319 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:54,328 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:56,416 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:56,428 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:56,452 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:56,460 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:56,484 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:56,492 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:58,572 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:58,585 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:58,613 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:58,622 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:58,646 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:58,655 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:07:58,677 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:07:58,686 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:00,718 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:00,729 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:00,754 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:00,763 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:00,789 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:00,798 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:02,825 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:02,834 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:02,860 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:02,869 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:04,904 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:04,915 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:04,942 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:04,951 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:09,16 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:09,27 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:11,81 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:11,91 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:13,120 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:13,131 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:13,156 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:13,164 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:13,189 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:13,199 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:15,385 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:15,395 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:15,426 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:15,436 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:17,471 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:17,482 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:17,511 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:17,520 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:21,585 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:21,634 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:25,742 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:25,752 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:25,777 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:25,785 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:27,868 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:27,877 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:27,903 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:27,911 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:29,963 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:29,976 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:30,2 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:30,11 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:32,103 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:32,117 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:08:34,217 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:08:34,229 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:22,624 root INFO UE_B perform RRCInitialization to RRCSetupRequest.
+22:15:22,626 root INFO PCell has existed.
+22:15:22,659 root INFO UE_B send RRCSetupRequest to 10.0.2.100
+22:15:22,665 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:22,688 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:15:22,689 root INFO UE_B recieve RRCSetup.
+22:15:22,696 root INFO Cell_Group_Configuration waiting update
+22:15:22,697 root INFO Cell_Group_Configuration waiting update
+22:15:22,701 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:15:22,702 root INFO UE_C perform RRCInitialization to RRCSetupRequest.
+22:15:22,703 root INFO PCell has existed.
+22:15:22,709 root INFO UE_C send RRCSetupRequest to 10.0.2.100
+22:15:22,713 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:22,729 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:15:22,730 root INFO UE_C recieve RRCSetup.
+22:15:22,740 root INFO Cell_Group_Configuration waiting update
+22:15:22,740 root INFO Cell_Group_Configuration waiting update
+22:15:22,746 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:15:22,748 root INFO UE_D perform RRCInitialization to RRCSetupRequest.
+22:15:22,748 root INFO PCell has existed.
+22:15:22,755 root INFO UE_D send RRCSetupRequest to 10.0.2.100
+22:15:22,760 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:22,773 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:15:22,774 root INFO UE_D recieve RRCSetup.
+22:15:22,782 root INFO Cell_Group_Configuration waiting update
+22:15:22,782 root INFO Cell_Group_Configuration waiting update
+22:15:22,786 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:15:22,788 root INFO UE_E perform RRCInitialization to RRCSetupRequest.
+22:15:22,788 root INFO PCell has existed.
+22:15:22,793 root INFO UE_E send RRCSetupRequest to 10.0.2.100
+22:15:22,797 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:22,809 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:15:22,810 root INFO UE_E recieve RRCSetup.
+22:15:22,817 root INFO Cell_Group_Configuration waiting update
+22:15:22,817 root INFO Cell_Group_Configuration waiting update
+22:15:22,821 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:15:22,822 root INFO UE_F perform RRCInitialization to RRCSetupRequest.
+22:15:22,823 root INFO PCell has existed.
+22:15:22,827 root INFO UE_F send RRCSetupRequest to 10.0.2.100
+22:15:22,832 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:22,844 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+22:15:22,844 root INFO UE_F recieve RRCSetup.
+22:15:22,851 root INFO Cell_Group_Configuration waiting update
+22:15:22,851 root INFO Cell_Group_Configuration waiting update
+22:15:22,856 root INFO Set_Content_RRCSetupComplete_Message waiting update
+22:15:22,883 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:22,892 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:24,958 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:24,967 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:27,47 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:27,57 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:27,87 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:27,96 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:31,217 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:31,227 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:33,322 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:33,331 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:35,456 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:35,468 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:35,499 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:35,528 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:37,645 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:37,655 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:37,684 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:37,694 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:37,721 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:37,730 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:37,763 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:37,773 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:37,807 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:37,819 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:39,938 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:39,947 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:39,973 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:39,982 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:40,9 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:40,17 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:42,102 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:42,111 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:42,137 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:42,150 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:42,174 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:42,183 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:42,209 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:42,218 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:44,251 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:44,262 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:46,295 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:46,305 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:48,342 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:48,353 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:48,389 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:48,398 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:48,431 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:48,441 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:50,472 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:50,481 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:50,508 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:50,517 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:52,608 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:52,620 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:54,673 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:54,684 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:56,718 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:56,727 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:56,753 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:56,762 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:56,848 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:56,862 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:56,907 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:56,921 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:56,958 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:56,967 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:59,62 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:59,72 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:15:59,99 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:15:59,108 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:03,196 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:03,206 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:05,235 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:05,260 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:07,333 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:07,349 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:07,372 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:07,380 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:09,407 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:09,416 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:15,494 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:15,505 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:15,540 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:15,550 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:17,636 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:17,646 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:17,670 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:17,680 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:17,704 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:17,714 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:19,741 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:19,755 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:21,784 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:21,795 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:21,823 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:21,832 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:23,858 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:23,868 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:23,895 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:23,904 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:25,933 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:25,958 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:25,983 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:25,993 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:26,18 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:26,27 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:28,67 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:28,76 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:28,100 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:28,109 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:30,164 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:30,174 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:32,245 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:32,255 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:32,281 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:32,290 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:34,354 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:34,363 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:34,389 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:34,399 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:38,470 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:38,479 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:38,506 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:38,515 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:42,558 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:42,567 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:42,594 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:42,604 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:42,628 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:42,637 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:44,698 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:44,716 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:46,748 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:46,758 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:48,794 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:48,805 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:50,853 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:50,863 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:52,901 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:52,912 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:52,938 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:52,948 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:55,34 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:55,44 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:57,69 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:57,79 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:16:59,144 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:16:59,154 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:17:03,200 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:17:03,209 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:17:05,251 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:17:05,262 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:17:07,329 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:17:07,338 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:17:07,364 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:17:07,373 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:17:09,414 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:17:09,425 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:17:09,452 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:17:09,463 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:17:09,488 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:17:09,497 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:17:11,529 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:17:11,540 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:17:15,578 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:17:15,591 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
+22:17:15,616 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+22:17:15,628 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15

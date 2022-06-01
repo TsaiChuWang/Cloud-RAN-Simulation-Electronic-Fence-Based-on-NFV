@@ -236,7 +236,7 @@ def RandomStart():
         UE_Position_Y=random.randint(-600,600)
         Update_Specified_UE_Config(UE_Name,{"UE_Position_X":UE_Position_X})
         Update_Specified_UE_Config(UE_Name,{"UE_Position_Y":UE_Position_Y})
-        Motion_Speed=random.randint(2,10)
+        Motion_Speed=random.randint(15,35)
         Update_Specified_UE_Config(UE_Name,{"Motion_Speed":Motion_Speed})
         array=[0,0,0,0,1,-1]
         Script_Line=[random.choice(array) for i in range(180)]
