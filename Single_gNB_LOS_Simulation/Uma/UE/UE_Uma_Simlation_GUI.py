@@ -15,35 +15,6 @@ import time
 from flask import jsonify
 import random
 
-"""
-Plot Initailzation
-1.on_press
-2.MotionEvent
-"""
-figure=plt.figure(figsize=(8,8))
-def on_press(event):
-    #print('press', event.key)
-    sys.stdout.flush()
-
-    if event.key == 'up':
-        MotionEvent(0,1)
-    if event.key == 'down':
-        MotionEvent(0,-1)
-    if event.key == 'right':
-        MotionEvent(1,0)
-    if event.key == 'left':
-        MotionEvent(-1,0)
-
-def MotionEvent(x,y):
-    Update_System_Field_Configuration({"UE_Position_X":Obtain_System_Field_Configuration("UE_Position_X")+(x*Obtain_System_Field_Configuration("Motion_Speed"))})
-    Update_System_Field_Configuration({"UE_Position_Y":Obtain_System_Field_Configuration("UE_Position_Y")+(y*Obtain_System_Field_Configuration("Motion_Speed"))})
-    Calculate_Distance_2D()
-    Calculate_Distance_3D()
-    if(Obtain_System_Field_Configuration("PathLoss_Model")==1):
-        PathLoss_1()
-    else:
-        PathLoss_2()
-
 #Setting Log 
 logname='./log/UE_Uma_Simlation_GUI.log'
 logging.basicConfig(filename=logname,filemode='a',format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',datefmt='%H:%M:%S',level=logging.DEBUG)
@@ -295,6 +266,7 @@ Functions of Calculation
 4.PathLoss
 4.1.PathLoss1
 4.2.PathLoss2
+5.RSRP
 """
 def Calculate_Distance_2D():
     Delta_X=Obtain_System_Field_Configuration("gNB_A")["gNB_Position_X"]-Obtain_System_Field_Configuration("UE_Position_X")
@@ -328,6 +300,12 @@ def PathLoss_2():
     PathLoss=PathLoss-9*np.log10((Delta_H*Delta_H)+(Obtain_System_Field_Configuration("Distance_Break_Point")*Obtain_System_Field_Configuration("Distance_Break_Point")))
     Update_System_Field_Configuration({"PathLoss":PathLoss})
 
+def Calculate_RSRP():
+    gNB_Antenna_Power=Obtain_System_Field_Configuration('gNB_A')['gNB_Antenna_Power']
+    PathLoss=Obtain_System_Field_Configuration('PathLoss')
+    RSRP=gNB_Antenna_Power-PathLoss
+    Update_System_Field_Configuration({"RSRP":RSRP})
+
 def Initial_Calculation():
     Calculate_Distance_2D()
     Calculate_Distance_Break_Point()
@@ -338,6 +316,50 @@ def Initial_Calculation():
     else:
         Update_System_Field_Configuration({"PathLoss_Model":2})
         PathLoss_2()
+    Calculate_RSRP()
+
+"""
+Plot Initailzation
+1.on_press
+2.MotionEvent
+3.RSRP_Response
+"""
+figure=plt.figure(figsize=(8,8))
+def on_press(event):
+    #print('press', event.key)
+    sys.stdout.flush()
+
+    if event.key == 'up':
+        MotionEvent(0,1)
+    if event.key == 'down':
+        MotionEvent(0,-1)
+    if event.key == 'right':
+        MotionEvent(1,0)
+    if event.key == 'left':
+        MotionEvent(-1,0)
+
+def MotionEvent(x,y):
+    Update_System_Field_Configuration({"UE_Position_X":Obtain_System_Field_Configuration("UE_Position_X")+(x*Obtain_System_Field_Configuration("Motion_Speed"))})
+    Update_System_Field_Configuration({"UE_Position_Y":Obtain_System_Field_Configuration("UE_Position_Y")+(y*Obtain_System_Field_Configuration("Motion_Speed"))})
+    Calculate_Distance_2D()
+    Calculate_Distance_3D()
+    if(Obtain_System_Field_Configuration("PathLoss_Model")==1):
+        PathLoss_1()
+    else:
+        PathLoss_2()
+    Calculate_RSRP()
+    RSRP_Response()
+
+def RSRP_Response():
+    url = "http://"+Obtain_UE_Configuration()["Connected_Primary_Cell_IP"]+":1440/RecieveRSRPResponse"
+    payload={
+        "UE_Name":Obtain_UE_Configuration()["UE_Name"],
+        "UE_IP":Obtain_UE_Configuration()["UE_IP"],
+        "RSRP":Obtain_System_Field_Configuration('RSRP')
+    }
+    payload=json.dumps(payload)
+    headers = { 'Content-Type': 'application/json' }
+    response = requests.request("POST", url, headers=headers, data=payload)
 
 #For TESTING
 def CLEAN_UP():
@@ -356,6 +378,7 @@ while(True):#[0.684s]
 gNB_Information_Request()
 Initial_Calculation()
 
+#Animation
 def animate(i):
     UE_Position_X=Obtain_System_Field_Configuration("UE_Position_X")
     UE_Position_Y=Obtain_System_Field_Configuration("UE_Position_Y")
@@ -393,8 +416,9 @@ def animate(i):
     plt.text(Obtain_System_Field_Configuration('gNB_A')["gNB_Position_X"]-100, Obtain_System_Field_Configuration('gNB_A')["gNB_Position_Y"]+20, Obtain_System_Field_Configuration('gNB_A')["gNB_Name"], fontsize=10, color=Obtain_System_Field_Configuration('gNB_A')["gNB_Center_Color"])
     UE_Point = plt.Circle((UE_Position_X,UE_Position_Y), 5,color=Obtain_System_Field_Configuration("UE_Color"))
     axes.add_artist(UE_Point)
-    plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+80, "Distance: "+str(Obtain_System_Field_Configuration('Distance_2D')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
+    plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+90, "Distance: "+str(Obtain_System_Field_Configuration('Distance_2D')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
     plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+50, "PathLoss: "+str(Obtain_System_Field_Configuration('PathLoss')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
-    plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+20, "Distance: "+str(Obtain_System_Field_Configuration('Distance_2D')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
-anim = animation.FuncAnimation(figure, animate, interval=2000) 
+    plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+10, "RSRP: "+str(Obtain_System_Field_Configuration('RSRP')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
+
+anim = animation.FuncAnimation(figure, animate, interval=1500) 
 plt.show()

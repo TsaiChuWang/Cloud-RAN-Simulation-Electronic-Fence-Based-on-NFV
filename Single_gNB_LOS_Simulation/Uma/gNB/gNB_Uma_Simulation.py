@@ -199,6 +199,17 @@ def gNB_Information_Request():
     }
     return jsonify(gNB_data)
 
+
+"""
+Functions About RSRP Detection
+1.RecieveRSRPResponse
+"""
+@app.route("/RecieveRSRPResponse", methods=['POST'])
+def RecieveRSRPResponse():
+    request_data=request.get_json()
+    print(request_data)
+    return jsonify({})
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True,port=PORT)
 

@@ -8,7 +8,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="kxTTjO1hVpgOUanV7Kgc" name="Flow Chart">
-        <mxGraphModel dx="2950" dy="1542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2085" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="wU8dArdzLeq-rl65d7KV-0"/>
                 <mxCell id="wU8dArdzLeq-rl65d7KV-1" parent="wU8dArdzLeq-rl65d7KV-0"/>
@@ -119,14 +119,20 @@
                 <mxCell id="SRkGbtmF08TyHotfoRjQ-39" style="edgeStyle=none;html=1;" edge="1" parent="wU8dArdzLeq-rl65d7KV-1" source="SRkGbtmF08TyHotfoRjQ-32" target="SRkGbtmF08TyHotfoRjQ-20">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="SRkGbtmF08TyHotfoRjQ-41" style="edgeStyle=none;html=1;" edge="1" parent="wU8dArdzLeq-rl65d7KV-1" source="SRkGbtmF08TyHotfoRjQ-32" target="SRkGbtmF08TyHotfoRjQ-40">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="SRkGbtmF08TyHotfoRjQ-41" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="wU8dArdzLeq-rl65d7KV-1" source="SRkGbtmF08TyHotfoRjQ-32" target="SRkGbtmF08TyHotfoRjQ-40">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="410" y="1015"/>
+                            <mxPoint x="410" y="560"/>
+                            <mxPoint x="635" y="560"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="SRkGbtmF08TyHotfoRjQ-32" value="[UE]RSRP_Update" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wU8dArdzLeq-rl65d7KV-1">
                     <mxGeometry x="10" y="990" width="370" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="SRkGbtmF08TyHotfoRjQ-40" value="[gNB]Detect_RSRP_Request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wU8dArdzLeq-rl65d7KV-1">
-                    <mxGeometry x="450" y="990" width="370" height="50" as="geometry"/>
+                    <mxGeometry x="450" y="460" width="370" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
