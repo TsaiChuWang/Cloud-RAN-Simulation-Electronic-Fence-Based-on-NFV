@@ -15,6 +15,34 @@ import time
 from flask import jsonify
 import random
 
+"""
+Plot Initailzation
+1.on_press
+2.MotionEvent
+"""
+figure=plt.figure(figsize=(8,8))
+def on_press(event):
+    #print('press', event.key)
+    sys.stdout.flush()
+
+    if event.key == 'up':
+        MotionEvent(0,1)
+    if event.key == 'down':
+        MotionEvent(0,-1)
+    if event.key == 'right':
+        MotionEvent(1,0)
+    if event.key == 'left':
+        MotionEvent(-1,0)
+
+def MotionEvent(x,y):
+    Update_System_Field_Configuration({"UE_Position_X":Obtain_System_Field_Configuration("UE_Position_X")+(x*Obtain_System_Field_Configuration("Motion_Speed"))})
+    Update_System_Field_Configuration({"UE_Position_Y":Obtain_System_Field_Configuration("UE_Position_Y")+(y*Obtain_System_Field_Configuration("Motion_Speed"))})
+    Calculate_Distance_2D()
+    Calculate_Distance_3D()
+    if(Obtain_System_Field_Configuration("PathLoss_Model")==1):
+        PathLoss_1()
+    else:
+        PathLoss_2()
 
 #Setting Log 
 logname='./log/UE_Uma_Simlation_GUI.log'
@@ -160,8 +188,6 @@ def Reception_RRCReject_UE():
         }
     }
     Update_UE_Configuration({"MAC_Cell_Group_Configuration":MAC_Cell_Group_Configuration})
-
-
 
 """
 Functions of UE Access to Core Network
@@ -329,3 +355,46 @@ while(True):#[0.684s]
 
 gNB_Information_Request()
 Initial_Calculation()
+
+def animate(i):
+    UE_Position_X=Obtain_System_Field_Configuration("UE_Position_X")
+    UE_Position_Y=Obtain_System_Field_Configuration("UE_Position_Y")
+
+    axes=axisartist.Subplot(figure,111) 
+    axes.set_title('Plot of '+Obtain_System_Field_Configuration('UE_Name')+' Realtive Position with '+Obtain_System_Field_Configuration('gNB_A')["gNB_Name"]+'\n')
+    figure.add_axes(axes)
+    figure.canvas.mpl_connect('key_press_event', on_press)
+    axes.axis[:].set_visible(False)
+
+    axes.axis["x"]=axes.new_floating_axis(0,0,axis_direction="bottom")
+    axes.axis["y"]=axes.new_floating_axis(1,0,axis_direction="bottom")
+
+    axes.axis["x"].set_axisline_style("->",size=1.0)
+    axes.axis["y"].set_axisline_style("->",size=1.0)
+
+    plt.xlim((-1)*Obtain_System_Field_Configuration("X_RANGE"),Obtain_System_Field_Configuration("X_RANGE"))
+    plt.ylim((-1)*Obtain_System_Field_Configuration("Y_RANGE"),Obtain_System_Field_Configuration("Y_RANGE")) 
+
+    axes.add_patch(
+        patches.Rectangle(
+            ((-1)*Obtain_System_Field_Configuration("X_RANGE"), (-1)*Obtain_System_Field_Configuration("Y_RANGE")),
+            Obtain_System_Field_Configuration("X_RANGE")*2,
+            Obtain_System_Field_Configuration("X_RANGE")*2,    
+            color="white",
+            edgecolor="white"
+        )
+    )
+    gNB_Center_Point= plt.Circle((Obtain_System_Field_Configuration('gNB_A')["gNB_Position_X"],Obtain_System_Field_Configuration('gNB_A')["gNB_Position_Y"]), 10,color=Obtain_System_Field_Configuration('gNB_A')["gNB_Center_Color"])
+    axes.add_artist(gNB_Center_Point)
+
+    gNB_Range_Point= plt.Circle((Obtain_System_Field_Configuration('gNB_A')["gNB_Position_X"],Obtain_System_Field_Configuration('gNB_A')["gNB_Position_Y"]), Obtain_System_Field_Configuration('gNB_A')["gNB_Limit_Range"],color=Obtain_System_Field_Configuration('gNB_A')["gNB_Range_Color"],fill=False)
+    axes.add_artist(gNB_Range_Point)
+
+    plt.text(Obtain_System_Field_Configuration('gNB_A')["gNB_Position_X"]-100, Obtain_System_Field_Configuration('gNB_A')["gNB_Position_Y"]+20, Obtain_System_Field_Configuration('gNB_A')["gNB_Name"], fontsize=10, color=Obtain_System_Field_Configuration('gNB_A')["gNB_Center_Color"])
+    UE_Point = plt.Circle((UE_Position_X,UE_Position_Y), 5,color=Obtain_System_Field_Configuration("UE_Color"))
+    axes.add_artist(UE_Point)
+    plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+80, "Distance: "+str(Obtain_System_Field_Configuration('Distance_2D')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
+    plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+50, "PathLoss: "+str(Obtain_System_Field_Configuration('PathLoss')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
+    plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+20, "Distance: "+str(Obtain_System_Field_Configuration('Distance_2D')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
+anim = animation.FuncAnimation(figure, animate, interval=2000) 
+plt.show()
