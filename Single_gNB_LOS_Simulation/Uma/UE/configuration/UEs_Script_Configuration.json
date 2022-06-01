@@ -1,1 +1,273 @@
-{"UEs_List": ["UE_B", "UE_C", "UE_D", "UE_E", "UE_F"], "UE_B": {"UE_Name": "UE_B", "UE_IP": "10.0.2.121", "Connected_Primary_Cell_Name": "gNB_A", "Connected_Primary_Cell_IP": "10.0.2.100", "Connected_Secondary_Cell_Name": "", "Connected_Secondary_Cell_IP": "", "MasterCellGroup": ["10.0.2.100"], "SecondaryCellGroup": [], "RRC": "RRC_CONNECTED", "5G-S-TMSI": "", "Access_Category": 0, "UE_Identity": "100010110100000010101010101000000111111", "ng-5G-S-TMSI-Part1": "", "ng-5G-S-TMSI-Part2": "", "ng-5G-S-TMSI-Value": "", "MAC_Cell_Group_Configuration": {"bsr_Config": {"periodicBSR_Timer": "sf10", "retxBSR_Timer": "sf80"}, "phr_Config": {"phr_PeriodicTimer": "sf10", "phr_ProhibitTimer ": "sf10", "phr_Tx_PowerFactorChange": "dB1"}}, "CCCH_Configuration": {"SDAP_Configuration": "NOT_USED", "PDCP_Configuration": "NOT_USED", "RLC_Configuration": "TM", "Logical_Channel_Configuration": {"Priority": 1, "PrioritisedBitRate": "INFINITY", "BucketSizeDuration_ms": 1000, "LogicalChannelGroup": 0}}, "UE_Inactive_AS_Context": {}, "SuspendConfig": {}, "AS_Security_Context": {}}, "UE_C": {"UE_Name": "UE_C", "UE_IP": "10.0.2.121", "Connected_Primary_Cell_Name": "gNB_A", "Connected_Primary_Cell_IP": "10.0.2.100", "Connected_Secondary_Cell_Name": "", "Connected_Secondary_Cell_IP": "", "MasterCellGroup": ["10.0.2.100"], "SecondaryCellGroup": [], "RRC": "RRC_CONNECTED", "5G-S-TMSI": "", "Access_Category": 0, "UE_Identity": "111010100010111101111001011111001010111", "ng-5G-S-TMSI-Part1": "", "ng-5G-S-TMSI-Part2": "", "ng-5G-S-TMSI-Value": "", "MAC_Cell_Group_Configuration": {"bsr_Config": {"periodicBSR_Timer": "sf10", "retxBSR_Timer": "sf80"}, "phr_Config": {"phr_PeriodicTimer": "sf10", "phr_ProhibitTimer ": "sf10", "phr_Tx_PowerFactorChange": "dB1"}}, "CCCH_Configuration": {"SDAP_Configuration": "NOT_USED", "PDCP_Configuration": "NOT_USED", "RLC_Configuration": "TM", "Logical_Channel_Configuration": {"Priority": 1, "PrioritisedBitRate": "INFINITY", "BucketSizeDuration_ms": 1000, "LogicalChannelGroup": 0}}, "UE_Inactive_AS_Context": {}, "SuspendConfig": {}, "AS_Security_Context": {}}, "UE_D": {"UE_Name": "UE_D", "UE_IP": "10.0.2.121", "Connected_Primary_Cell_Name": "gNB_A", "Connected_Primary_Cell_IP": "10.0.2.100", "Connected_Secondary_Cell_Name": "", "Connected_Secondary_Cell_IP": "", "MasterCellGroup": ["10.0.2.100"], "SecondaryCellGroup": [], "RRC": "RRC_CONNECTED", "5G-S-TMSI": "", "Access_Category": 0, "UE_Identity": "1111000100110110100000110000100011011", "ng-5G-S-TMSI-Part1": "", "ng-5G-S-TMSI-Part2": "", "ng-5G-S-TMSI-Value": "", "MAC_Cell_Group_Configuration": {"bsr_Config": {"periodicBSR_Timer": "sf10", "retxBSR_Timer": "sf80"}, "phr_Config": {"phr_PeriodicTimer": "sf10", "phr_ProhibitTimer ": "sf10", "phr_Tx_PowerFactorChange": "dB1"}}, "CCCH_Configuration": {"SDAP_Configuration": "NOT_USED", "PDCP_Configuration": "NOT_USED", "RLC_Configuration": "TM", "Logical_Channel_Configuration": {"Priority": 1, "PrioritisedBitRate": "INFINITY", "BucketSizeDuration_ms": 1000, "LogicalChannelGroup": 0}}, "UE_Inactive_AS_Context": {}, "SuspendConfig": {}, "AS_Security_Context": {}}, "UE_E": {"UE_Name": "UE_E", "UE_IP": "10.0.2.121", "Connected_Primary_Cell_Name": "gNB_A", "Connected_Primary_Cell_IP": "10.0.2.100", "Connected_Secondary_Cell_Name": "", "Connected_Secondary_Cell_IP": "", "MasterCellGroup": ["10.0.2.100"], "SecondaryCellGroup": [], "RRC": "RRC_CONNECTED", "5G-S-TMSI": "", "Access_Category": 0, "UE_Identity": "1010110001000001001001110010010110111", "ng-5G-S-TMSI-Part1": "", "ng-5G-S-TMSI-Part2": "", "ng-5G-S-TMSI-Value": "", "MAC_Cell_Group_Configuration": {"bsr_Config": {"periodicBSR_Timer": "sf10", "retxBSR_Timer": "sf80"}, "phr_Config": {"phr_PeriodicTimer": "sf10", "phr_ProhibitTimer ": "sf10", "phr_Tx_PowerFactorChange": "dB1"}}, "CCCH_Configuration": {"SDAP_Configuration": "NOT_USED", "PDCP_Configuration": "NOT_USED", "RLC_Configuration": "TM", "Logical_Channel_Configuration": {"Priority": 1, "PrioritisedBitRate": "INFINITY", "BucketSizeDuration_ms": 1000, "LogicalChannelGroup": 0}}, "UE_Inactive_AS_Context": {}, "SuspendConfig": {}, "AS_Security_Context": {}}, "UE_F": {"UE_Name": "UE_F", "UE_IP": "10.0.2.121", "Connected_Primary_Cell_Name": "gNB_A", "Connected_Primary_Cell_IP": "10.0.2.100", "Connected_Secondary_Cell_Name": "", "Connected_Secondary_Cell_IP": "", "MasterCellGroup": ["10.0.2.100"], "SecondaryCellGroup": [], "RRC": "RRC_CONNECTED", "5G-S-TMSI": "", "Access_Category": 0, "UE_Identity": "1100001110000110001101011100011011010", "ng-5G-S-TMSI-Part1": "", "ng-5G-S-TMSI-Part2": "", "ng-5G-S-TMSI-Value": "", "MAC_Cell_Group_Configuration": {"bsr_Config": {"periodicBSR_Timer": "sf10", "retxBSR_Timer": "sf80"}, "phr_Config": {"phr_PeriodicTimer": "sf10", "phr_ProhibitTimer ": "sf10", "phr_Tx_PowerFactorChange": "dB1"}}, "CCCH_Configuration": {"SDAP_Configuration": "NOT_USED", "PDCP_Configuration": "NOT_USED", "RLC_Configuration": "TM", "Logical_Channel_Configuration": {"Priority": 1, "PrioritisedBitRate": "INFINITY", "BucketSizeDuration_ms": 1000, "LogicalChannelGroup": 0}}, "UE_Inactive_AS_Context": {}, "SuspendConfig": {}, "AS_Security_Context": {}}}
+{
+    "UEs_List": ["UE_B", "UE_C", "UE_D", "UE_E", "UE_F"],
+    "UE_B": {
+        "UE_Name": "UE_B",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Secondary_Cell_Name": "",
+        "Connected_Secondary_Cell_IP": "",
+        "MasterCellGroup": ["10.0.2.100"],
+        "SecondaryCellGroup": [],
+        "RRC": "RRC_CONNECTED",
+        "Motion_Speed": 2,
+        "UE_Position_X": -188,
+        "UE_Position_Y": 303,
+        "User_Terminal_Height": 1.7,
+        "5G-S-TMSI": "",
+        "Access_Category": 0,
+        "UE_Identity": "100100101111001100000110110100001000",
+        "ng-5G-S-TMSI-Part1": "",
+        "ng-5G-S-TMSI-Part2": "",
+        "ng-5G-S-TMSI-Value": "",
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        },
+        "UE_Inactive_AS_Context": {},
+        "SuspendConfig": {},
+        "AS_Security_Context": {},
+        "Script_Line": [-1, 0, 0, 0, 0, -1, -1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, -1, 0, 0, 0, 1, -1, 0, -1, -1, 0, 0, 0, -1, -1, 0, 0, 0, 0, -1, 0, 0, -1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, -1, 0, 1, 1, 0, 0, 0, 0, -1, 1, -1, 0, 0, 0, 1, 0, 1, -1, 0, 0, 1, 0, 0, -1, 1, 0, -1, 0, 0, 0, 0, -1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, -1, -1, -1, -1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, -1, 0, 0, -1, -1, 0, 0, 1, 0, 1, 0, -1, -1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, -1, 0, 0, 0, -1, 0, -1, 1, 0, 0, -1, 0, -1, 0, 0, 0, -1, -1, 0, 1, 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, -1, 1, -1],
+        "Script_Direct": [0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0],
+        "Distance_2D": 367.72000217556837,
+        "Distance_Break_Point": 3038.5020760604075,
+        "Distance_3D": 368.45744666107646,
+        "PathLoss_Model": 1,
+        "PathLoss": 95.12476131492497,
+        "RSRP": -72.18356148792498
+    },
+    "UE_C": {
+        "UE_Name": "UE_C",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Secondary_Cell_Name": "",
+        "Connected_Secondary_Cell_IP": "",
+        "MasterCellGroup": ["10.0.2.100"],
+        "SecondaryCellGroup": [],
+        "Motion_Speed": 5,
+        "UE_Position_X": -466,
+        "UE_Position_Y": -437,
+        "User_Terminal_Height": 1.7,
+        "RRC": "RRC_CONNECTED",
+        "5G-S-TMSI": "",
+        "Access_Category": 0,
+        "UE_Identity": "100010010110111001101100110110111101001",
+        "ng-5G-S-TMSI-Part1": "",
+        "ng-5G-S-TMSI-Part2": "",
+        "ng-5G-S-TMSI-Value": "",
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        },
+        "UE_Inactive_AS_Context": {},
+        "SuspendConfig": {},
+        "AS_Security_Context": {},
+        "Script_Line": [0, 0, 0, 0, 0, 0, 1, -1, 0, 0, 0, 0, 1, 1, -1, -1, 0, 0, 1, 0, 0, -1, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, -1, 0, 1, -1, 0, 1, 0, 0, -1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, -1, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, -1, -1, 1, 1, 0, 0, 0, 1, -1, 0, -1, 0, 1, 0, 0, 1, 0, 1, 1, 0, -1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, -1, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, -1, 0, 0, -1, 0, -1, 1, 0, 1, 0, -1],
+        "Script_Direct": [1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1],
+        "Distance_2D": 635.7436590324751,
+        "Distance_Break_Point": 3038.5020760604075,
+        "Distance_3D": 636.1704881554944,
+        "PathLoss_Model": 1,
+        "PathLoss": 100.34285727909477,
+        "RSRP": -77.40165745209478
+    },
+    "UE_D": {
+        "UE_Name": "UE_D",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Secondary_Cell_Name": "",
+        "Connected_Secondary_Cell_IP": "",
+        "MasterCellGroup": ["10.0.2.100"],
+        "SecondaryCellGroup": [],
+        "Motion_Speed": 10,
+        "UE_Position_X": -339,
+        "UE_Position_Y": -243,
+        "User_Terminal_Height": 1.7,
+        "RRC": "RRC_CONNECTED",
+        "5G-S-TMSI": "",
+        "Access_Category": 0,
+        "UE_Identity": "101110001011001011011110000011000110011",
+        "ng-5G-S-TMSI-Part1": "",
+        "ng-5G-S-TMSI-Part2": "",
+        "ng-5G-S-TMSI-Value": "",
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        },
+        "UE_Inactive_AS_Context": {},
+        "SuspendConfig": {},
+        "AS_Security_Context": {},
+        "Script_Line": [1, 0, 0, 0, 1, 0, 1, 0, 1, 0, -1, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, -1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 0, -1, -1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, -1, -1, 0, -1, 0, 0, -1, -1, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, -1, -1, 0, -1, -1, -1, 0, 1, 0, 0, -1, 0, 0, 1, 1, -1, -1, -1, 0, 0, 0, 0, 1, 1, 0, 0, 0, -1, 1, 0, 0, -1, 1, 0, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, -1, -1, 0, 0, -1, 0, 0, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, 0, -1, -1, 0],
+        "Script_Direct": [0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0],
+        "Distance_2D": 415.4816482108446,
+        "Distance_Break_Point": 3038.5020760604075,
+        "Distance_3D": 416.1344614424525,
+        "PathLoss_Model": 1,
+        "PathLoss": 96.28738089206404,
+        "RSRP": -73.34618106506403
+    },
+    "UE_E": {
+        "UE_Name": "UE_E",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Secondary_Cell_Name": "",
+        "Connected_Secondary_Cell_IP": "",
+        "MasterCellGroup": ["10.0.2.100"],
+        "SecondaryCellGroup": [],
+        "Motion_Speed": 3,
+        "UE_Position_X": 464,
+        "UE_Position_Y": -95,
+        "User_Terminal_Heigh2t": 1.7,
+        "RRC": "RRC_CONNECTED",
+        "5G-S-TMSI": "",
+        "Access_Category": 0,
+        "UE_Identity": "10000001110111010110000001110111001110",
+        "ng-5G-S-TMSI-Part1": "",
+        "ng-5G-S-TMSI-Part2": "",
+        "ng-5G-S-TMSI-Value": "",
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        },
+        "UE_Inactive_AS_Context": {},
+        "SuspendConfig": {},
+        "AS_Security_Context": {},
+        "Script_Line": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, -1, -1, 0, -1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, -1, 0, 0, 0, 0, -1, 1, 0, 0, 0, 1, -1, 0, -1, 1, 0, 0, 0, 0, 0, 1, -1, -1, 0, 0, 0, 0, 0, 0, -1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, -1, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, -1, -1, 0, -1, 1, 0, -1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1, 0, -1, -1, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, -1, 1, 0, 0, 0, 0, 1],
+        "Script_Direct": [0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0],
+        "Distance_2D": 466.80402740336336,
+        "Distance_Break_Point": 3038.5020760604075,
+        "Distance_3D": 484.0907869398053,
+        "PathLoss_Model": 1,
+        "PathLoss": 97.73262985660404,
+        "RSRP": -74.79143002960404
+    },
+    "UE_F": {
+        "UE_Name": "UE_F",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Secondary_Cell_Name": "",
+        "Connected_Secondary_Cell_IP": "",
+        "MasterCellGroup": ["10.0.2.100"],
+        "SecondaryCellGroup": [],
+        "Motion_Speed": 8,
+        "UE_Position_X": -263,
+        "UE_Position_Y": -223,
+        "User_Terminal_Height": 1.7,
+        "RRC": "RRC_CONNECTED",
+        "5G-S-TMSI": "",
+        "Access_Category": 0,
+        "UE_Identity": "110111011111010010000110000100110110",
+        "ng-5G-S-TMSI-Part1": "",
+        "ng-5G-S-TMSI-Part2": "",
+        "ng-5G-S-TMSI-Value": "",
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        },
+        "UE_Inactive_AS_Context": {},
+        "SuspendConfig": {},
+        "AS_Security_Context": {},
+        "Script_Line": [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, -1, 0, 0, 0, -1, 0, 1, 0, 0, 0, 1, 0, 1, -1, 1, -1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, -1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, -1, 0, 1, 1, 0, 0, -1, 0, 0, 0, 0, -1, 1, 0, 0, 0, -1, 0, 0, 0, 1, -1, 0, 0, 0, 0, -1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, -1, 0, 0, 1, 1, 1, 0, 0, 1, -1, 0, 1, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1, 0, 0, -1, 0, 0, 0, 0, 0, 0, -1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, -1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, -1, 0],
+        "Script_Direct": [1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1],
+        "Distance_2D": 342.33463161065083,
+        "Distance_Break_Point": 3038.5020760604075,
+        "Distance_3D": 343.12663842960376,
+        "PathLoss_Model": 1,
+        "PathLoss": 94.44423745675188,
+        "RSRP": -71.50303762975187
+    }
+}

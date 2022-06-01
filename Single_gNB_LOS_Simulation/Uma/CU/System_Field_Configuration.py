@@ -84,9 +84,6 @@ def animate(i):
         Distance_2D=RSRP_TRANSLATION_DISTANCE(UE_Name,Obtain_CU_gNB_UEs_Configuration(gNB_Name,UE_Name)['RSRP'])
         UE_RSRP_Line = plt.Circle((Obtain_System_Field_Configuration('gNB_A')["gNB_Position_X"],Obtain_System_Field_Configuration('gNB_A')["gNB_Position_Y"]), Distance_2D,color=Obtain_CU_gNB_UEs_Configuration(gNB_Name,UE_Name)['UE_Color'],fill=False)
         axes.add_artist(UE_RSRP_Line)
-    # plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+90, "Distance: "+str(Obtain_System_Field_Configuration('Distance_2D')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
-    # plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+50, "PathLoss: "+str(Obtain_System_Field_Configuration('PathLoss')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
-    # plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+10, "RSRP: "+str(Obtain_System_Field_Configuration('RSRP')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
 
 anim = animation.FuncAnimation(figure, animate, interval=2000) 
 plt.show()
