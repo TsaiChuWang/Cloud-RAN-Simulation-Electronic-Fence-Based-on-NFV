@@ -41,11 +41,12 @@ def Update_CU_gNB_UEs_Configuration(gNB_Name,UE_Name,data):
     with open('./configuration/CU_gNB_UEs_Configuration.json') as CU_gNB_UEs_Configuration_file:
         CU_gNB_UEs_Configuration = json.load(CU_gNB_UEs_Configuration_file)
         CU_gNB_UEs_Configuration_file.close()
+    
     CU_gNB_UEs_Configuration_gNB=CU_gNB_UEs_Configuration[gNB_Name]
     CU_gNB_UEs_Configuration_UE=CU_gNB_UEs_Configuration_gNB[UE_Name]
     CU_gNB_UEs_Configuration_UE.update(data)
-    CU_gNB_UEs_Configuration_gNB.update(CU_gNB_UEs_Configuration_UE)
-    CU_gNB_UEs_Configuration.update(CU_gNB_UEs_Configuration_gNB)
+    CU_gNB_UEs_Configuration_gNB.update({UE_Name:CU_gNB_UEs_Configuration_UE})
+    CU_gNB_UEs_Configuration.update({gNB_Name:CU_gNB_UEs_Configuration_gNB})
     with open('./configuration/CU_gNB_UEs_Configuration.json', 'w') as CU_gNB_UEs_Configuration_file:
         json.dump(CU_gNB_UEs_Configuration, CU_gNB_UEs_Configuration_file, ensure_ascii=False)
         CU_gNB_UEs_Configuration_file.close()

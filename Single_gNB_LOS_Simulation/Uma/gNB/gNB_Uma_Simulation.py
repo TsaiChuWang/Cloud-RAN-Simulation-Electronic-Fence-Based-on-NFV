@@ -140,7 +140,6 @@ def INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data):
         "Transaction_ID":Allocate_Transaction_ID(UE_Name)
     }
     payload=json.dumps(payload)
-    
     headers = { 'Content-Type': 'application/json' }
     response = requests.request("POST", url, headers=headers, data=payload)
     return json.loads(response.text)
@@ -169,14 +168,12 @@ def RRCSetupRequest():
     logging.info("Enable: gNB["+gNB_IP+"] Function:RRCSetupRequest")
     request_data=request.get_json()
 
-    print(request_data)
     UE_Name=request_data['UE_Name']
-    # response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
-    # Update_gNB_UEs_Configuration(UE_Name,{"gNB_DU_UE_F1AP_ID":response_data["gNB_DU_UE_F1AP_ID"]})
-    # Update_gNB_UEs_Configuration(UE_Name,{"gNB_CU_UE_F1AP_ID":response_data["gNB_CU_UE_F1AP_ID"]})
+    response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
+    Update_gNB_UEs_Configuration(UE_Name,{"gNB_DU_UE_F1AP_ID":response_data["gNB_DU_UE_F1AP_ID"]})
+    Update_gNB_UEs_Configuration(UE_Name,{"gNB_CU_UE_F1AP_ID":response_data["gNB_CU_UE_F1AP_ID"]})
 
-    # return jsonify(RRCSetup())
-    return jsonify({"RRC":"RRCSetUp"})
+    return jsonify(RRCSetup())
 
 
 if __name__ == '__main__':

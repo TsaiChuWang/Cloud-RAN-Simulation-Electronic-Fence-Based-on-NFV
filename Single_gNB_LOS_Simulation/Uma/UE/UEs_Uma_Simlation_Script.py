@@ -117,17 +117,61 @@ def RRCSetupRequest(UE_Name):
     
     headers = { 'Content-Type': 'application/json' }
     response = requests.request("POST", url, headers=headers, data=payload)
-    print(response.text)
     if(response.status_code==200):
         response_data=json.loads(response.text)
         if(response_data['RRC']=="RRCSetUp"):
-            Reception_RRCSetup_UE()
-    #     else:
-    #         Reception_RRCReject_UE()
-    #         Update_UE_Configuration({"RRC":"RRC_IDLE"})
-    # else:
-    #     print("HTTP STATUS: "+str(response.status_code))
-    #     logging.warn("HTTP STATUS: "+str(response.status_code))
+            Reception_RRCSetup_UE(UE_Name)
+        else:
+            Reception_RRCReject_UE(UE_Name)
+            Update_Specified_UE_Config(UE_Name,{"RRC":"RRC_IDLE"})
+    else:
+        print("HTTP STATUS: "+str(response.status_code))
+        logging.warn("HTTP STATUS: "+str(response.status_code))
+
+# Reception of the RRCSetup by the UE for RRCSetupRequest
+def Reception_RRCSetup_UE(UE_Name):
+    logging.info(UE_Name+" recieve RRCSetup.")
+    Update_Specified_UE_Config(UE_Name,{"UE_Inactive_AS_Context":{}})
+    Update_Specified_UE_Config(UE_Name,{"SuspendConfig":{}})
+    Update_Specified_UE_Config(UE_Name,{"AS_Security_Context":{}})
+    Perform_Cell_Group_Configuration()
+    Perform_Radio_Bearer_Configuration()
+    Update_Specified_UE_Config(UE_Name,{"RRC":"RRC_CONNECTED"})
+    Update_Specified_UE_Config(UE_Name,{"Connected_Primary_Cell_Name":"gNB_A"})
+    Set_Content_RRCSetupComplete_Message()
+
+#Perform the cell group configuration procedure in accordance with the received masterCellGroup
+def Perform_Cell_Group_Configuration():
+    logging.info("Cell_Group_Configuration waiting update")
+    return -1
+
+#Perform the radio bearer configuration procedure in accordance with the received radioBearerConfig
+def Perform_Radio_Bearer_Configuration():
+    logging.info("Cell_Group_Configuration waiting update")
+    return -1
+
+#Set the content of RRCSetupComplete message
+def Set_Content_RRCSetupComplete_Message():
+    logging.info("Set_Content_RRCSetupComplete_Message waiting update")
+    return -1
+
+#Reception of the RRCReject by the UE
+def Reception_RRCReject_UE(UE_Name):
+    logging.info(UE_Name+" recieve RRCReject.")
+    MAC_Cell_Group_Configuration={
+        "bsr_Config":{
+            "periodicBSR_Timer":"sf10",
+            "retxBSR_Timer":"sf80"
+        },
+        "phr_Config":{
+            "phr_PeriodicTimer":"sf10",
+            "phr_ProhibitTimer ":"sf10",
+            "phr_Tx_PowerFactorChange":"dB1"
+        }
+    }
+    Update_Specified_UE_Config(UE_Name,{"MAC_Cell_Group_Configuration":MAC_Cell_Group_Configuration})
+
+
 CLEAN_UP()
 UEs_List=Obtain_Specified_UE_Config("UEs_List")
 for UE_Name in UEs_List:
@@ -135,7 +179,7 @@ for UE_Name in UEs_List:
         if(Obtain_Specified_UE_Config(UE_Name)["RRC"]=="RRC_IDLE"):
             RRCInitialization(UE_Name)
             RRCSetupRequest(UE_Name)
-            break
-        if(Obtain_Specified_UE_Config(UE_Name)=="RRC_CONNECTED"):
+            continue
+        if(Obtain_Specified_UE_Config(UE_Name)["RRC"]=="RRC_CONNECTED"):
             break
         print("UE_Name: "+UE_Name)

@@ -7,3 +7,12 @@
 09:21:52,131 root INFO Cell_Group_Configuration waiting update
 09:21:52,131 root INFO Cell_Group_Configuration waiting update
 09:21:52,136 root INFO Set_Content_RRCSetupComplete_Message waiting update
+10:41:13,599 root INFO UE_A perform RRCInitialization to RRCSetupRequest.
+10:41:13,599 root INFO PCell has existed.
+10:41:13,603 root INFO UE_A send RRCSetupRequest to 10.0.2.100
+10:41:13,606 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+10:41:13,618 urllib3.connectionpool DEBUG http://10.0.2.100:1440 "POST /RRCSetupRequest HTTP/1.1" 200 2587
+10:41:13,620 root INFO UE_A recieve RRCSetup.
+10:41:13,622 root INFO Cell_Group_Configuration waiting update
+10:41:13,622 root INFO Cell_Group_Configuration waiting update
+10:41:13,626 root INFO Set_Content_RRCSetupComplete_Message waiting update
