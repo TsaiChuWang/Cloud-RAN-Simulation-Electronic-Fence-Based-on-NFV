@@ -20,15 +20,15 @@ We can imagine more applications of it, such as boarding schools, or workplaces.
 
 Why is 5G-based electronic fence suitable for development? We explain why 5G is suitable for the development of electronic fences based on several characteristics
 
-1. **Deployment of small base stations to increase handover frequency** 1
+1. **Deployment of small base stations to increase handover frequency** 
    The density of base stations increases, which means that in a limited area (here, it can be regarded as a base station that can receive signals within the  fence range), the frequency of handover becomes higher. Positioning accuracy.
     See the picture below, the following is the signal distribution of Chunghwa Telecom 5G base station.
     See: Mobile broadband system 5G NR+4G LTE covered Website <https://coverage.cht.com.tw/coverage/tw.html>
 
     ![signal distribution of Chunghwa Telecom 5G base station](img/Signal_Distribution.png)
-2. **Beam pointing problem caused by mmWave (26 GHz) communication, which requires user's location information** 2
+2. **Beam pointing problem caused by mmWave (26 GHz) communication, which requires user's location information** 
    Positioning and 5G are mutually complementary links. Signal positioning technology will be valued in the future, and the classic "electronic fence" used in its application will also be technically improved.
-3. **The low-latency requirement of IoV communication also introduces the requirement of mutual positioning between workshops** 3
+3. **The low-latency requirement of IoV communication also introduces the requirement of mutual positioning between workshops** 
    If a larger area is selected, such as a city, then people may move with vehicles, and the signal positioning will become very complicated. In terms of the Doppler effect alone, the uncertainty of the calculation will become higher, and the calculation The vehicle may be moved to another location within the required time.
     For this we need the low latency of 5G, and edge computing technology to avoid this.
 4. **The rise of MEC technology**
@@ -51,11 +51,11 @@ In the event of an epidemic, people can compromise for the safety of others, but
 
 ## What could be improved?
 
-1. **Improving precision** 1
+1. **Improving precision**
    We can try to reduce the error as much as possible by using MEC to calculate the range, if we can get the error of 1 in the same way as GPS.
-2. **Irregularities in scope** 2
+2. **Irregularities in scope**
    Determine the extent of bounded, irregular shapes through algorithms
-3. **Positioning in three dimensions** 3
+3. **Positioning in three dimensions**
    For Apartment we can know whether specified user left his leyer.
-4. **Encryption algorithms for personal data security** 4
+4. **Encryption algorithms for personal data security**
     Ensure the flow of personal data, its use and the lack of easy access to third parties
