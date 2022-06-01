@@ -104,8 +104,6 @@ Functions of APIs to UE Access
 @app.route("/INITIAL_UL_RRC_MESSAGE_TRANSFER", methods=['POST'])
 def INITIAL_UL_RRC_MESSAGE_TRANSFER():
     request_data=request.get_json()
-    
-    print(request_data)
     return jsonify(DL_RRC_MESSAGE_TRANSFER(request_data))
 
 

@@ -87,3 +87,23 @@
 2022/05/31,22:50:45,WARNING, * Debugger is active!
 2022/05/31,22:50:45,INFO, * Debugger PIN: 138-845-205
 2022/05/31,22:50:52,INFO,10.0.2.100 - - [31/May/2022 22:50:52] "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 -
+2022/06/01,09:16:56,WARNING,Start Server
+2022/06/01,09:16:56,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/06/01,09:16:56,INFO, * Running on http://10.0.2.99:1440/ (Press CTRL+C to quit)
+2022/06/01,09:16:56,INFO, * Restarting with stat
+2022/06/01,09:16:56,WARNING,Start Server
+2022/06/01,09:16:56,WARNING, * Debugger is active!
+2022/06/01,09:16:56,INFO, * Debugger PIN: 138-845-205
+2022/06/01,09:17:06,INFO,10.0.2.100 - - [01/Jun/2022 09:17:06] "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 -
+2022/06/01,09:21:52,INFO,10.0.2.100 - - [01/Jun/2022 09:21:52] "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 -
+2022/06/01,09:25:07,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/CU_Uma_LOS_Simulation.py', reloading
+2022/06/01,09:25:07,INFO, * Restarting with stat
+2022/06/01,09:25:07,WARNING,Start Server
+2022/06/01,09:25:07,WARNING, * Debugger is active!
+2022/06/01,09:25:07,INFO, * Debugger PIN: 138-845-205
+2022/06/01,09:25:20,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/CU/CU_Uma_LOS_Simulation.py', reloading
+2022/06/01,09:25:20,INFO, * Restarting with stat
+2022/06/01,09:25:20,WARNING,Start Server
+2022/06/01,09:25:20,WARNING, * Debugger is active!
+2022/06/01,09:25:20,INFO, * Debugger PIN: 138-845-205

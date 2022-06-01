@@ -27,6 +27,7 @@ Functions Related to Parameters:
 """
 gNB_IP=""
 CU_IP="10.0.2.99"
+
 #Initialize Parameter
 def Initialize():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -104,6 +105,15 @@ def Allocate_Transaction_ID(UE_Name):
     Transaction_ID="{0:b}".format(ID)
     Update_gNB_UEs_Configuration(UE_Name,{"Transaction_ID":Transaction_ID})
     return Transaction_ID
+
+#Obtain radioBearerConfig
+def Obtain_radioBearerConfig():
+    radioBearerConfig={}
+    with open('./configuration/radioBearerConfig.json') as radioBearerConfig_file:
+        radioBearerConfig = json.load(radioBearerConfig_file)
+        radioBearerConfig_file.close()
+    return radioBearerConfig
+
 """
 Functions to request gNB_DU
 1.INITIAL UL RRC MESSAGE TRANSFER
@@ -111,6 +121,7 @@ Functions to request gNB_DU
 
 #The purpose of the Initial UL RRC Message Transfer procedure is to transfer the initial RRC message to the gNB-CU.
 def INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data):
+    logging.info(gNB_IP+": perform INITIAL_UL_RRC_MESSAGE_TRANSFER to "+CU_IP)
     url = "http://"+CU_IP+":1440/INITIAL_UL_RRC_MESSAGE_TRANSFER"
     UE_Name=request_data["UE_Name"]
     payload={
@@ -132,8 +143,20 @@ def INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data):
     
     headers = { 'Content-Type': 'application/json' }
     response = requests.request("POST", url, headers=headers, data=payload)
-    print(response.text)
     return json.loads(response.text)
+
+"""
+Functions Response Data to UE
+1.RRCSetup
+"""
+
+#Step(4) Response RRCSetup message to UE
+def RRCSetup():
+    logging.info("Response RRCSetUp to UE.")
+    radioBearerConfig=Obtain_radioBearerConfig()
+    CellGroupConfig=Obtain_CellGroupConfiguration()
+    data={"RRC":"RRCSetUp","radioBearerConfig":radioBearerConfig,"masterCellGroup":CellGroupConfig}
+    return data
 
 """
 Functions of APIs to UE Access
@@ -145,13 +168,14 @@ Functions of APIs to UE Access
 def RRCSetupRequest():
     logging.info("Enable: gNB["+gNB_IP+"] Function:RRCSetupRequest")
     request_data=request.get_json()
-    
+
     print(request_data)
     UE_Name=request_data['UE_Name']
-    response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
-    Update_gNB_UEs_Configuration(UE_Name,{"gNB_DU_UE_F1AP_ID":response_data["gNB_DU_UE_F1AP_ID"]})
-    Update_gNB_UEs_Configuration(UE_Name,{"gNB_CU_UE_F1AP_ID":response_data["gNB_CU_UE_F1AP_ID"]})
-    
+    # response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
+    # Update_gNB_UEs_Configuration(UE_Name,{"gNB_DU_UE_F1AP_ID":response_data["gNB_DU_UE_F1AP_ID"]})
+    # Update_gNB_UEs_Configuration(UE_Name,{"gNB_CU_UE_F1AP_ID":response_data["gNB_CU_UE_F1AP_ID"]})
+
+    # return jsonify(RRCSetup())
     return jsonify({"RRC":"RRCSetUp"})
 
 

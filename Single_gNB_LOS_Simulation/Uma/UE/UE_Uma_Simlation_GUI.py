@@ -18,11 +18,7 @@ import random
 
 #Setting Log 
 logname='./log/UE_Uma_Simlation_GUI.log'
-logging.basicConfig(filename=logname,
-                    filemode='a',
-                    format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
-                    datefmt='%H:%M:%S',
-                    level=logging.DEBUG)
+logging.basicConfig(filename=logname,filemode='a',format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',datefmt='%H:%M:%S',level=logging.DEBUG)
 
 """
 Functions Related to Parameters:
@@ -93,6 +89,7 @@ def Obtain_UE_Identity(G_S_TMSI):
 
 # Reception of the RRCSetup by the UE for RRCSetupRequest
 def Reception_RRCSetup_UE():
+    logging.info(Obtain_UE_Configuration()["UE_Name"]+" recieve RRCSetup.")
     Update_UE_Configuration({"UE_Inactive_AS_Context":{}})
     Update_UE_Configuration({"SuspendConfig":{}})
     Update_UE_Configuration({"AS_Security_Context":{}})
@@ -127,6 +124,7 @@ def Set_Content_RRCSetupComplete_Message():
 
 #Reception of the RRCReject by the UE
 def Reception_RRCReject_UE():
+    logging.info(Obtain_UE_Configuration()["UE_Name"]+" recieve RRCReject.")
     Update_Timer_Configuration({"T300":"STOP"})
     Update_Timer_Configuration({"T319":"STOP"})
     Update_Timer_Configuration({"T302":"STOP"})
@@ -152,6 +150,7 @@ Functions of UE Access to Core Network
 
 #Check before RRCSetupRequest
 def RRCInitialization():
+    logging.info(Obtain_UE_Configuration()["UE_Name"]+" perform RRCInitialization to RRCSetupRequest.")
     PCell_IP=Obtain_UE_Configuration()["Connected_Primary_Cell_IP"]
     if(PCell_IP==""):
         logging.warning('PCell Not Settng')
@@ -202,6 +201,7 @@ def RRCInitialization():
 
 #Step(1) When RRC_IDLE send request to primary gNB
 def RRCSetupRequest():
+    logging.info(Obtain_UE_Configuration()["UE_Name"]+" send RRCSetupRequest to "+Obtain_UE_Configuration()["Connected_Primary_Cell_IP"])
     url = "http://"+Obtain_UE_Configuration()["Connected_Primary_Cell_IP"]+":1440/RRCSetupRequest"
     G_S_TMSI=Obtain_UE_Configuration()["5G-S-TMSI"]
     payload={
@@ -225,14 +225,14 @@ def RRCSetupRequest():
     else:
         print("HTTP STATUS: "+str(response.status_code))
         logging.warn("HTTP STATUS: "+str(response.status_code))
-    print(response.text)
 
 #For TESTING
 def CLEAN_UP():
     Update_UE_Configuration({"RRC":"RRC_IDLE"})
 
+#Main
 CLEAN_UP()
-while(True):#[0.599s]
+while(True):#[0.684s]
     if(Obtain_UE_Configuration()["RRC"]=="RRC_IDLE"):
         if(RRCInitialization()==0):
             RRCSetupRequest()
