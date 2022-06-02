@@ -16,3 +16,11 @@
 2022/06/02,10:31:16,INFO,10.0.2.100 - - [02/Jun/2022 10:31:16] "POST /RecievegNB_Information HTTP/1.1" 200 -
 2022/06/02,10:36:09,INFO,10.0.2.100 - - [02/Jun/2022 10:36:09] "POST /RecievegNB_Information HTTP/1.1" 200 -
 2022/06/02,10:36:20,INFO,10.0.2.100 - - [02/Jun/2022 10:36:20] "POST /RecievegNB_Information HTTP/1.1" 200 -
+2022/06/02,11:20:44,WARNING,Start Server
+2022/06/02,11:20:44,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/06/02,11:20:44,INFO, * Running on http://10.0.2.99:1441/ (Press CTRL+C to quit)
+2022/06/02,11:20:44,INFO, * Restarting with stat
+2022/06/02,11:20:44,WARNING,Start Server
+2022/06/02,11:20:44,WARNING, * Debugger is active!
+2022/06/02,11:20:44,INFO, * Debugger PIN: 138-845-205

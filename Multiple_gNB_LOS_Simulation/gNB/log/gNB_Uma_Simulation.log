@@ -227,3 +227,11 @@
 2022/06/02,10:36:20,DEBUG,Starting new HTTP connection (1): 10.0.2.99
 2022/06/02,10:36:20,DEBUG,http://10.0.2.99:1441 "POST /RecievegNB_Information HTTP/1.1" 200 15
 2022/06/02,10:36:20,INFO,10.0.2.121 - - [02/Jun/2022 10:36:20] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/02,11:21:35,WARNING,Start Server
+2022/06/02,11:21:35,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/06/02,11:21:35,INFO, * Running on http://10.0.2.100:1441/ (Press CTRL+C to quit)
+2022/06/02,11:21:35,INFO, * Restarting with stat
+2022/06/02,11:21:36,WARNING,Start Server
+2022/06/02,11:21:36,WARNING, * Debugger is active!
+2022/06/02,11:21:36,INFO, * Debugger PIN: 233-068-134
