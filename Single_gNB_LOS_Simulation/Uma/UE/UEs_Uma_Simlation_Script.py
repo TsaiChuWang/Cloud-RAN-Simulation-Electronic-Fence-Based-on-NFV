@@ -63,7 +63,7 @@ def Obtain_System_Field_Configuration(key):
             print("json.decoder.JSONDecodeError")
             print("json.decoder.JSONDecodeError")
             print("json.decoder.JSONDecodeError")
-            time.sleep(30)
+            time.sleep(10)
             System_Field_Configuration = json.load(System_Field_Configuration_file)
         System_Field_Configuration_file.close()
     if(key==""):

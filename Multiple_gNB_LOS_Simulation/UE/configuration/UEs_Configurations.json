@@ -1,0 +1,27 @@
+{
+    "UEs_List":["UE_A","UE_B","UE_C","UE_D","UE_E","UE_F","UE_G","UE_H","UE_I","UE_J","UE_K"],
+    "UE_A":{
+        "UE_Name": "UE_A",
+        "UE_IP": "10.0.2.121",
+        "UE_MAC": "080027BCD7A3",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Secondary_Cell_Name": "",
+        "Connected_Secondary_Cell_IP": "",
+        "UE_Color": "#FF5733",
+        "Motion_Speed": 5,
+        "UE_Position_X": -77.0,
+        "UE_Position_Y": -441.0,
+        "User_Terminal_Height": 1.7,
+        "Distance_Break_Point": 3038.5020760604075,
+        "Distance_2D": 438.7311249501225,
+        "Distance_3D": 439.34939399070527,
+        "PathLoss": 96.80606057195635,
+        "PathLoss_Model": 1,
+        "RSRP": -73.86486074495636,
+        "Connected_Primary_Cell_Name_Position_X":0,
+        "Connected_Primary_Cell_Name_Position_Y":0,
+        "Connected_Secondary_Cell_Name_Position_X":0,
+        "Connected_Secondary_Cell_Name_Position_Y":0
+    },"UE_B":{},"UE_C":{},"UE_D":{},"UE_E":{},"UE_F":{},"UE_G":{},"UE_H":{},"UE_I":{},"UE_J":{},"UE_K":{}
+}

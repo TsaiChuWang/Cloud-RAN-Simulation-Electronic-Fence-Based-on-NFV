@@ -42,7 +42,7 @@ def Obtain_CU_gNB_UEs_Configuration(gNB_Name,UE_Name):
             print("json.decoder.JSONDecodeError")
             print("json.decoder.JSONDecodeError")
             print("json.decoder.JSONDecodeError")
-            time.sleep(30)
+            time.sleep(5)
             CU_gNB_UEs_Configuration = json.load(CU_gNB_UEs_Configuration_file)
         CU_gNB_UEs_Configuration_file.close()
     return CU_gNB_UEs_Configuration[gNB_Name][UE_Name]

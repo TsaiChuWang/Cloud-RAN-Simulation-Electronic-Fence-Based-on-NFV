@@ -156,6 +156,7 @@ def RSRPRequest(UE_Name):
     }
     payload=json.dumps(payload)
     headers = { 'Content-Type': 'application/json' }
+    print(payload)
     response = requests.request("POST", url, headers=headers, data=payload)
 
 """
