@@ -88,3 +88,85 @@ bearer signaling:SRB0
 logical channel:CCCH
 
 See Actions related to transmission of RRCSetupRequest message [5.3.3.3] page 55
+
+## ***INITIAL UL RRC MESSAGE TRANSFER(F1AP)***
+
+>[See ETSI TS 138 331 V16.3.1 (2021-01) 5G NR Radio Resource Control (RRC) Protocol specification (3GPP TS 38.331 version 16.3.1 Release 16)(8.4.1)](https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/16.03.01_60/ts_138331v160301p.pdf)
+
+See Initial UL RRC Message Transfer  [8.4.1] page 58
+
+### General
+
+The purpose of the Initial UL RRC Message Transfer procedure is to transfer the initial RRC message to the gNB-CU.
+The procedure uses non-UE-associated signaling.
+
+### Successful operation 
+
+The establishment of the UE-associated logical F1-connection shall be initiated as part of the procedure.
+
+![Successful operation](img/INITIALULRRCMESSAGETRANSFERSUCCESSOPERATION.png)
+
+If the DU to CU RRC Container IE is not included in the INITIAL UL RRC MESSAGE TRANSFER, the gNB-CU should reject the UE under the assumption that the gNB-DU is not able to serve such UE.
+
+ If the gNB-DU is able to serve the UE, the gNB-DU shall include the DU to CU RRC Container IE and the gNB-CU shall configure the UE as specified in TS 38.331 [8].
+
+ The gNB-DU shall not include the ReconfigurationWithSync field in the CellGroupConfig IE as defined in TS 38.331 [8] of the DU to CU RRC Container IE.
+
+If the SUL Access Indication IE is included in the INITIAL UL RRC MESSAGE TRANSFER, the gNB-CU shall consider that the UE has performed access on SUL carrier.
+(Not implemented in the system)
+
+If the RRC-Container-RRCSetupComplete IE is included in the INITIAL UL RRC MESSAGE TRANSFER, the gNBCU shall take it into account as specified in TS 38.401 [4].
+
+Send the first RRC message to the gNB-CU
+This process will establish a UE-level F1 connection
+
+**Parameter**
+
+| Name | Value | Characteristic |
+| :--: | :--:  | :--: |
+| UE_Name | UE_Name | Dynamic form request |
+| UE_IP | UE_IP | Dynamic form request |
+| gNB_DU_UE_F1AP_ID | | Allocate/Request |
+| NR CGI | | in Config |
+| >PLMN | 46692 | in Config |
+| >>MCC | 466 | in Config |
+| >>MNC | 92 | in Config |
+| >NR cell Identity | | in Config |
+| >>gNB Identity | 1010010111000101010010 | in Config |
+| >>Cell Identity | 1111001000000 | in Config |
+| C-RNTI | | Allocate |
+| RRC-Container| RRCSetupRequest | Static |
+| DU to CU RRC Container | include CellGroupConfig | in Config |
+| SUL Access Indication | True | Static |
+| Transaction ID | | Allocate |
+
+#### gNB-DU UE F1AP ID
+
+The gNB-DU UE F1AP ID uniquely identifies the UE association over the F1 interface within the gNB-DU.
+INTEGER(0,232-1)
+
+#### C-RNTI 
+
+Cell RNTI(Radio Network Temporary Identity)
+INTEGER(0..65535, ...)
+
+It is related to the cause and status of the UE access request. It is the most used RNTI. C-RNTI is not available at the beginning, but is allocated by the base station to the users who have successfully joined the network after the user accesses the network. If the UE is in the RRC_CONNECTED mode, it means that the C-RNTI has been allocated and needs to be reported when accessing; if the UE is in the IDLE mode, it means that there is no C-RNTI yet. Allocate a C-RNTI; when the user is handed over, the user can bring the C-RNTI allocated by this cell to the next cell, and there is no need to re-allocate the C-RNTI.
+
+#### Transaction ID
+
+The Transaction ID IE uniquely identifies a procedure among all ongoing parallel procedures of the same type initiated by the same protocol peer. Messages belonging to the same procedure use the same Transaction ID. 
+INTEGER (0..255, ...)
+The Transaction ID is determined by the initiating peer of a procedure.
+
+![Flow Chart of INITIAL_UL_RRC_MESSAGE_TRANSFER](img/INITIAL_UL_RRC_MESSAGE_TRANSFER.png)
+
+#### NR CGI
+
+[Picture from 5G NR Cell Global Identity (NCGI) Planning and Calculations](https://www.techplayon.com/5g-nr-cell-global-identity-planning/)
+
+![Picture from <https://www.techplayon.com/5g-nr-cell-global-identity-planning/>](img/NR_CGI.png)
+
+These parameters will be set in UE Configuration, which are adjustable configuration parameters. Let’s talk about PLMN first, which is composed of mobile device country code (MCC) and mobile device network code (MNC). We set it to 466 92 according to the actual mobile phone settings. , but in addition to the mobile phone instructions, we can go through this website [Mobile country code](https://en.wikipedia.org/wiki/%E7%A7%BB%E5%8A%A8%E8%AE%BE%E5%A4%87%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%A0%81) 
+To check the corresponding code, Chunghwa Telecom is 466 92, Far EasTone is 466 03/01.
+
+In addition, the UE Configuration is set with bitlength gNB ID and bitlength Cell ID. Currently, it is set to 22/14. When registering the gNB, it will dynamically assign a unique identification code to the designated area, and specify the bit length format through the bitlength gNB ID and bitlength Cell ID.

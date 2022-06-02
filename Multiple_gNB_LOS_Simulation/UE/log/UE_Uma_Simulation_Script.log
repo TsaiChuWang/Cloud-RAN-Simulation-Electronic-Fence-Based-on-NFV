@@ -30,3 +30,163 @@
 10:36:09,554 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "GET /gNB_Information_Request HTTP/1.1" 200 2497
 10:36:20,23 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
 10:36:20,34 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "GET /gNB_Information_Request HTTP/1.1" 200 2497
+15:17:47,119 root INFO UE_A send RRCSetupRequest to 10.0.2.100
+15:17:47,124 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:17:47,128 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:19,408 root INFO UE_A send RRCSetupRequest to 10.0.2.100
+15:18:19,412 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:18:19,415 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:43,598 root INFO UE_A send RRCSetupRequest to 10.0.2.100
+15:18:43,602 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:18:43,605 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:43,605 root INFO UE_A recieve RRCSetup.
+15:18:43,610 root INFO Cell_Group_Configuration waiting update
+15:18:43,610 root INFO Cell_Group_Configuration waiting update
+15:18:43,612 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:18:43,613 root INFO UE_B send RRCSetupRequest to 10.0.2.100
+15:18:43,616 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:18:43,619 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:43,619 root INFO UE_B recieve RRCSetup.
+15:18:43,624 root INFO Cell_Group_Configuration waiting update
+15:18:43,624 root INFO Cell_Group_Configuration waiting update
+15:18:43,626 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:18:43,627 root INFO UE_C send RRCSetupRequest to 10.0.2.100
+15:18:43,630 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:18:43,633 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:43,633 root INFO UE_C recieve RRCSetup.
+15:18:43,637 root INFO Cell_Group_Configuration waiting update
+15:18:43,638 root INFO Cell_Group_Configuration waiting update
+15:18:43,640 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:18:43,641 root INFO UE_D send RRCSetupRequest to 10.0.2.100
+15:18:43,644 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:18:43,647 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:43,647 root INFO UE_D recieve RRCSetup.
+15:18:43,651 root INFO Cell_Group_Configuration waiting update
+15:18:43,651 root INFO Cell_Group_Configuration waiting update
+15:18:43,653 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:18:43,655 root INFO UE_E send RRCSetupRequest to 10.0.2.100
+15:18:43,658 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:18:43,660 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:43,661 root INFO UE_E recieve RRCSetup.
+15:18:43,665 root INFO Cell_Group_Configuration waiting update
+15:18:43,665 root INFO Cell_Group_Configuration waiting update
+15:18:43,667 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:18:43,668 root INFO UE_F send RRCSetupRequest to 10.0.2.100
+15:18:43,671 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:18:43,674 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:43,674 root INFO UE_F recieve RRCSetup.
+15:18:43,679 root INFO Cell_Group_Configuration waiting update
+15:18:43,679 root INFO Cell_Group_Configuration waiting update
+15:18:43,683 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:18:43,685 root INFO UE_G send RRCSetupRequest to 10.0.2.100
+15:18:43,689 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:18:43,691 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:43,692 root INFO UE_G recieve RRCSetup.
+15:18:43,696 root INFO Cell_Group_Configuration waiting update
+15:18:43,696 root INFO Cell_Group_Configuration waiting update
+15:18:43,699 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:18:43,700 root INFO UE_H send RRCSetupRequest to 10.0.2.100
+15:18:43,703 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:18:43,705 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:43,706 root INFO UE_H recieve RRCSetup.
+15:18:43,710 root INFO Cell_Group_Configuration waiting update
+15:18:43,710 root INFO Cell_Group_Configuration waiting update
+15:18:43,713 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:18:43,714 root INFO UE_I send RRCSetupRequest to 10.0.2.100
+15:18:43,717 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:18:43,720 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:43,720 root INFO UE_I recieve RRCSetup.
+15:18:43,724 root INFO Cell_Group_Configuration waiting update
+15:18:43,725 root INFO Cell_Group_Configuration waiting update
+15:18:43,727 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:18:43,728 root INFO UE_J send RRCSetupRequest to 10.0.2.100
+15:18:43,731 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:18:43,734 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:43,734 root INFO UE_J recieve RRCSetup.
+15:18:43,738 root INFO Cell_Group_Configuration waiting update
+15:18:43,738 root INFO Cell_Group_Configuration waiting update
+15:18:43,741 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:18:43,742 root INFO UE_K send RRCSetupRequest to 10.0.2.100
+15:18:43,745 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:18:43,748 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:18:43,748 root INFO UE_K recieve RRCSetup.
+15:18:43,752 root INFO Cell_Group_Configuration waiting update
+15:18:43,752 root INFO Cell_Group_Configuration waiting update
+15:18:43,755 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:20:24,945 root INFO UE_A send RRCSetupRequest to 10.0.2.100
+15:20:24,949 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:20:24,952 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:20:24,953 root INFO UE_A recieve RRCSetup.
+15:20:24,957 root INFO Cell_Group_Configuration waiting update
+15:20:24,957 root INFO Cell_Group_Configuration waiting update
+15:20:24,960 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:20:24,961 root INFO UE_B send RRCSetupRequest to 10.0.2.100
+15:20:24,965 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:20:24,967 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:20:24,968 root INFO UE_B recieve RRCSetup.
+15:20:24,972 root INFO Cell_Group_Configuration waiting update
+15:20:24,972 root INFO Cell_Group_Configuration waiting update
+15:20:24,975 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:20:24,976 root INFO UE_C send RRCSetupRequest to 10.0.2.100
+15:20:24,979 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:20:24,983 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:20:24,983 root INFO UE_C recieve RRCSetup.
+15:20:24,989 root INFO Cell_Group_Configuration waiting update
+15:20:24,989 root INFO Cell_Group_Configuration waiting update
+15:20:24,991 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:20:24,992 root INFO UE_D send RRCSetupRequest to 10.0.2.100
+15:20:24,995 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:20:24,999 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:20:25,0 root INFO UE_D recieve RRCSetup.
+15:20:25,4 root INFO Cell_Group_Configuration waiting update
+15:20:25,4 root INFO Cell_Group_Configuration waiting update
+15:20:25,7 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:20:25,8 root INFO UE_E send RRCSetupRequest to 10.0.2.100
+15:20:25,12 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:20:25,15 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:20:25,16 root INFO UE_E recieve RRCSetup.
+15:20:25,20 root INFO Cell_Group_Configuration waiting update
+15:20:25,21 root INFO Cell_Group_Configuration waiting update
+15:20:25,23 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:20:25,24 root INFO UE_F send RRCSetupRequest to 10.0.2.100
+15:20:25,27 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:20:25,30 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:20:25,31 root INFO UE_F recieve RRCSetup.
+15:20:25,35 root INFO Cell_Group_Configuration waiting update
+15:20:25,35 root INFO Cell_Group_Configuration waiting update
+15:20:25,38 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:20:25,39 root INFO UE_G send RRCSetupRequest to 10.0.2.100
+15:20:25,42 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:20:25,47 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:20:25,48 root INFO UE_G recieve RRCSetup.
+15:20:25,52 root INFO Cell_Group_Configuration waiting update
+15:20:25,52 root INFO Cell_Group_Configuration waiting update
+15:20:25,55 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:20:25,56 root INFO UE_H send RRCSetupRequest to 10.0.2.100
+15:20:25,59 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:20:25,61 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:20:25,62 root INFO UE_H recieve RRCSetup.
+15:20:25,66 root INFO Cell_Group_Configuration waiting update
+15:20:25,66 root INFO Cell_Group_Configuration waiting update
+15:20:25,69 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:20:25,70 root INFO UE_I send RRCSetupRequest to 10.0.2.100
+15:20:25,73 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:20:25,76 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:20:25,76 root INFO UE_I recieve RRCSetup.
+15:20:25,81 root INFO Cell_Group_Configuration waiting update
+15:20:25,81 root INFO Cell_Group_Configuration waiting update
+15:20:25,83 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:20:25,85 root INFO UE_J send RRCSetupRequest to 10.0.2.100
+15:20:25,88 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:20:25,90 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:20:25,91 root INFO UE_J recieve RRCSetup.
+15:20:25,95 root INFO Cell_Group_Configuration waiting update
+15:20:25,95 root INFO Cell_Group_Configuration waiting update
+15:20:25,97 root INFO Set_Content_RRCSetupComplete_Message waiting update
+15:20:25,99 root INFO UE_K send RRCSetupRequest to 10.0.2.100
+15:20:25,102 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 10.0.2.100
+15:20:25,104 urllib3.connectionpool DEBUG http://10.0.2.100:1441 "POST /RRCSetupRequest HTTP/1.1" 200 24
+15:20:25,105 root INFO UE_K recieve RRCSetup.
+15:20:25,109 root INFO Cell_Group_Configuration waiting update
+15:20:25,109 root INFO Cell_Group_Configuration waiting update
+15:20:25,111 root INFO Set_Content_RRCSetupComplete_Message waiting update

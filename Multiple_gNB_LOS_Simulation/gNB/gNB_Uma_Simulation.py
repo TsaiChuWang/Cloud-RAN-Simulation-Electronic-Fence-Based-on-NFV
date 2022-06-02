@@ -16,52 +16,20 @@ logging.warning('Start Server')
 print('Start Server Port:', PORT)
 
 """
-Functions Related to Parameters:
-1.gNB_IP
-2.gNB_DU_UE_F1AP_ID(Obtain/Allocate)
-3.gNB_UEs_Configuration
-4.gNB_Configuration
-5.C_RNTI
-6.CellGroupConfiguration
-7.Transaction_ID
+Functions about Parameters in Configuraiotn:
+1.Cell_Group_Configuration (Obtain/Obtain[gNB]/Update[gNB])
 """
+
 gNB_IP=""
 CU_IP="10.0.2.99"
-
-# Obtain Cell Group Configuration
-def Obtain_Cell_Group_Configuration(CellGroup_Name):
-    Cell_Group_Configuration={}
-    with open('./configuration/Cell_Group_Configuration.json') as Cell_Group_Configuration_file:
-        Cell_Group_Configuration = json.load(Cell_Group_Configuration_file)
-        Cell_Group_Configuration_file.close()
-    if(CellGroup_Name==""):
-        return Cell_Group_Configuration
-    return Cell_Group_Configuration[CellGroup_Name]
-
-#Obtain gNB_Informations
-def Obtain_Cell_Group_Configuration_gNB(CellGroup_Name,gNB_Name):
-    Cell_Group_Configuration_CellGroup=Obtain_Cell_Group_Configuration(CellGroup_Name)
-    Cell_Group_Configuration_CellGroup_gNB=Cell_Group_Configuration_CellGroup[gNB_Name]
-    return Cell_Group_Configuration_CellGroup_gNB
-
-#Update gNB_Information
-def Update_Cell_Group_Configuration_gNB(CellGroup_Name,gNB_Name,data):
-    Cell_Group_Configuration=Obtain_Cell_Group_Configuration("")
-    Cell_Group_Configuration_CellGroup=Cell_Group_Configuration[CellGroup_Name]
-    Cell_Group_Configuration_CellGroup_gNB=Cell_Group_Configuration_CellGroup[gNB_Name]
-    Cell_Group_Configuration_CellGroup_gNB.update(data)
-    Cell_Group_Configuration_CellGroup.update({gNB_Name:Cell_Group_Configuration_CellGroup_gNB})
-    Cell_Group_Configuration.update({CellGroup_Name:Cell_Group_Configuration_CellGroup})
-    with open('./configuration/Cell_Group_Configuration.json', 'w') as Cell_Group_Configuration_file:
-        json.dump(Cell_Group_Configuration, Cell_Group_Configuration_file, ensure_ascii=False)
-        Cell_Group_Configuration_file.close()
 
 #Initialize Parameter
 def Initialize():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     s.connect(("8.8.8.8", 80))
     gNB_IP=s.getsockname()[0]
-"""
+
+def RANDOMVREATEGNBS():
     CellGroup_List=Obtain_Cell_Group_Configuration("CellGroup_List")
     for CellGroup_Name in CellGroup_List:
         gNB_List=Obtain_Cell_Group_Configuration_gNB(CellGroup_Name,"gNBs_List")
@@ -126,8 +94,34 @@ def Initialize():
             print(gNB_Name)
         print(CellGroup_Name)
 
-"""
-Initialize()
+# Obtain Cell Group Configuration
+def Obtain_Cell_Group_Configuration(CellGroup_Name):
+    Cell_Group_Configuration={}
+    with open('./configuration/Cell_Group_Configuration.json') as Cell_Group_Configuration_file:
+        Cell_Group_Configuration = json.load(Cell_Group_Configuration_file)
+        Cell_Group_Configuration_file.close()
+    if(CellGroup_Name==""):
+        return Cell_Group_Configuration
+    return Cell_Group_Configuration[CellGroup_Name]
+
+#Obtain gNB_Informations
+def Obtain_Cell_Group_Configuration_gNB(CellGroup_Name,gNB_Name):
+    Cell_Group_Configuration_CellGroup=Obtain_Cell_Group_Configuration(CellGroup_Name)
+    Cell_Group_Configuration_CellGroup_gNB=Cell_Group_Configuration_CellGroup[gNB_Name]
+    return Cell_Group_Configuration_CellGroup_gNB
+
+#Update gNB_Information
+def Update_Cell_Group_Configuration_gNB(CellGroup_Name,gNB_Name,data):
+    Cell_Group_Configuration=Obtain_Cell_Group_Configuration("")
+    Cell_Group_Configuration_CellGroup=Cell_Group_Configuration[CellGroup_Name]
+    Cell_Group_Configuration_CellGroup_gNB=Cell_Group_Configuration_CellGroup[gNB_Name]
+    Cell_Group_Configuration_CellGroup_gNB.update(data)
+    Cell_Group_Configuration_CellGroup.update({gNB_Name:Cell_Group_Configuration_CellGroup_gNB})
+    Cell_Group_Configuration.update({CellGroup_Name:Cell_Group_Configuration_CellGroup})
+    with open('./configuration/Cell_Group_Configuration.json', 'w') as Cell_Group_Configuration_file:
+        json.dump(Cell_Group_Configuration, Cell_Group_Configuration_file, ensure_ascii=False)
+        Cell_Group_Configuration_file.close()
+
 
 def Response_gNB_Information(payload):
     url = "http://"+CU_IP+":1441/RecievegNB_Information"
@@ -165,6 +159,23 @@ def gNB_Information_Request():
     Response_gNB_Information(data_response)
     print(data_response)
     return jsonify(data_response)
+
+"""
+Functions of APIs to UE Access
+1.RRCSetupRequest
+"""
+#Setp(1) Get RRCSetupRequest from UE and 1.to CU 2.Response to UE
+@app.route("/RRCSetupRequest", methods=['POST'])
+def RRCSetupRequest():
+    logging.info("Enable: gNB["+gNB_IP+"] Function:RRCSetupRequest")
+    request_data=request.get_json()
+
+    UE_Name=request_data['UE_Name']
+    # response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
+    # Update_gNB_UEs_Configuration(UE_Name,{"gNB_DU_UE_F1AP_ID":response_data["gNB_DU_UE_F1AP_ID"]})
+    # Update_gNB_UEs_Configuration(UE_Name,{"gNB_CU_UE_F1AP_ID":response_data["gNB_CU_UE_F1AP_ID"]})
+
+    return jsonify({"RRC":"RRCSetUp"})
 
 
 if __name__ == '__main__':
