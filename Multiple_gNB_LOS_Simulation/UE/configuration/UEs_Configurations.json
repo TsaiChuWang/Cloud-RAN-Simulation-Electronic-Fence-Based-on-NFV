@@ -1,6 +1,6 @@
 {
-    "UEs_List":["UE_A","UE_B","UE_C","UE_D","UE_E","UE_F","UE_G","UE_H","UE_I","UE_J","UE_K"],
-    "UE_A":{
+    "UEs_List": ["UE_A", "UE_B", "UE_C", "UE_D", "UE_E", "UE_F", "UE_G", "UE_H", "UE_I", "UE_J", "UE_K"],
+    "UE_A": {
         "UE_Name": "UE_A",
         "UE_IP": "10.0.2.121",
         "UE_MAC": "080027BCD7A3",
@@ -8,20 +8,498 @@
         "Connected_Primary_Cell_IP": "10.0.2.100",
         "Connected_Secondary_Cell_Name": "",
         "Connected_Secondary_Cell_IP": "",
-        "UE_Color": "#FF5733",
-        "Motion_Speed": 5,
-        "UE_Position_X": -77.0,
-        "UE_Position_Y": -441.0,
+        "UE_Color": "#C8C961",
+        "Motion_Speed": 20,
+        "UE_Position_X": -343,
+        "UE_Position_Y": -352,
         "User_Terminal_Height": 1.7,
-        "Distance_Break_Point": 3038.5020760604075,
-        "Distance_2D": 438.7311249501225,
-        "Distance_3D": 439.34939399070527,
-        "PathLoss": 96.80606057195635,
+        "Distance_Break_Point": 0,
+        "Distance_2D": 0,
+        "Distance_3D": 0,
+        "PathLoss": 0,
         "PathLoss_Model": 1,
-        "RSRP": -73.86486074495636,
-        "Connected_Primary_Cell_Name_Position_X":0,
-        "Connected_Primary_Cell_Name_Position_Y":0,
-        "Connected_Secondary_Cell_Name_Position_X":0,
-        "Connected_Secondary_Cell_Name_Position_Y":0
-    },"UE_B":{},"UE_C":{},"UE_D":{},"UE_E":{},"UE_F":{},"UE_G":{},"UE_H":{},"UE_I":{},"UE_J":{},"UE_K":{}
+        "RSRP": 0,
+        "Connected_Primary_Cell_Name_Position_X": 0,
+        "Connected_Primary_Cell_Name_Position_Y": 0,
+        "Connected_Secondary_Cell_Name_Position_X": 0,
+        "Connected_Secondary_Cell_Name_Position_Y": 0,
+        "Connected_Primary_Cell_Position_X": 0,
+        "Connected_Primary_Cell_Position_Y": 0,
+        "Connected_Primary_Cell_gNB_Antenna_Power": 0,
+        "Connected_Primary_Cell_gNB_Center_Frequency": 0,
+        "Connected_Secondary_Cell_Position_X": 0,
+        "Connected_Secondary_Cell_Position_Y": 0,
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        }
+    },
+    "UE_B": {
+        "UE_Name": "UE_B",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Primary_Cell_Position_X": 0,
+        "Connected_Primary_Cell_Position_Y": 0,
+        "Connected_Primary_Cell_gNB_Antenna_Power": 0,
+        "Connected_Primary_Cell_gNB_Center_Frequency": 0,
+        "UE_Color": "#35C877",
+        "Motion_Speed": 16,
+        "UE_Position_X": 15,
+        "UE_Position_Y": 343,
+        "User_Terminal_Height": 1.7,
+        "Distance_Break_Point": 0,
+        "Distance_2D": 0,
+        "Distance_3D": 0,
+        "PathLoss": 0,
+        "PathLoss_Model": 1,
+        "RSRP": 0,
+        "Connected_Secondary_Cell_Position_X": 0,
+        "Connected_Secondary_Cell_Position_Y": 0,
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        }
+    },
+    "UE_C": {
+        "UE_Name": "UE_C",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Primary_Cell_Position_X": 0,
+        "Connected_Primary_Cell_Position_Y": 0,
+        "Connected_Primary_Cell_gNB_Antenna_Power": 0,
+        "Connected_Primary_Cell_gNB_Center_Frequency": 0,
+        "UE_Color": "#BE1FFE",
+        "Motion_Speed": 14,
+        "UE_Position_X": -301,
+        "UE_Position_Y": 132,
+        "User_Terminal_Height": 1.7,
+        "Distance_Break_Point": 0,
+        "Distance_2D": 0,
+        "Distance_3D": 0,
+        "PathLoss": 0,
+        "PathLoss_Model": 1,
+        "RSRP": 0,
+        "Connected_Secondary_Cell_Position_X": 0,
+        "Connected_Secondary_Cell_Position_Y": 0,
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        }
+    },
+    "UE_D": {
+        "UE_Name": "UE_D",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Primary_Cell_Position_X": 0,
+        "Connected_Primary_Cell_Position_Y": 0,
+        "Connected_Primary_Cell_gNB_Antenna_Power": 0,
+        "Connected_Primary_Cell_gNB_Center_Frequency": 0,
+        "UE_Color": "#F7E99B",
+        "Motion_Speed": 16,
+        "UE_Position_X": 242,
+        "UE_Position_Y": -376,
+        "User_Terminal_Height": 1.7,
+        "Distance_Break_Point": 0,
+        "Distance_2D": 0,
+        "Distance_3D": 0,
+        "PathLoss": 0,
+        "PathLoss_Model": 1,
+        "RSRP": 0,
+        "Connected_Secondary_Cell_Position_X": 0,
+        "Connected_Secondary_Cell_Position_Y": 0,
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        }
+    },
+    "UE_E": {
+        "UE_Name": "UE_E",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Primary_Cell_Position_X": 0,
+        "Connected_Primary_Cell_Position_Y": 0,
+        "Connected_Primary_Cell_gNB_Antenna_Power": 0,
+        "Connected_Primary_Cell_gNB_Center_Frequency": 0,
+        "UE_Color": "#3404FA",
+        "Motion_Speed": 19,
+        "UE_Position_X": 236,
+        "UE_Position_Y": -216,
+        "User_Terminal_Height": 1.7,
+        "Distance_Break_Point": 0,
+        "Distance_2D": 0,
+        "Distance_3D": 0,
+        "PathLoss": 0,
+        "PathLoss_Model": 1,
+        "RSRP": 0,
+        "Connected_Secondary_Cell_Position_X": 0,
+        "Connected_Secondary_Cell_Position_Y": 0,
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        }
+    },
+    "UE_F": {
+        "UE_Name": "UE_F",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Primary_Cell_Position_X": 0,
+        "Connected_Primary_Cell_Position_Y": 0,
+        "Connected_Primary_Cell_gNB_Antenna_Power": 0,
+        "Connected_Primary_Cell_gNB_Center_Frequency": 0,
+        "UE_Color": "#DCACFF",
+        "Motion_Speed": 16,
+        "UE_Position_X": 394,
+        "UE_Position_Y": 323,
+        "User_Terminal_Height": 1.7,
+        "Distance_Break_Point": 0,
+        "Distance_2D": 0,
+        "Distance_3D": 0,
+        "PathLoss": 0,
+        "PathLoss_Model": 1,
+        "RSRP": 0,
+        "Connected_Secondary_Cell_Position_X": 0,
+        "Connected_Secondary_Cell_Position_Y": 0,
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        }
+    },
+    "UE_G": {
+        "UE_Name": "UE_G",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Primary_Cell_Position_X": 0,
+        "Connected_Primary_Cell_Position_Y": 0,
+        "Connected_Primary_Cell_gNB_Antenna_Power": 0,
+        "Connected_Primary_Cell_gNB_Center_Frequency": 0,
+        "UE_Color": "#6200A9",
+        "Motion_Speed": 21,
+        "UE_Position_X": 278,
+        "UE_Position_Y": -103,
+        "User_Terminal_Height": 1.7,
+        "Distance_Break_Point": 0,
+        "Distance_2D": 0,
+        "Distance_3D": 0,
+        "PathLoss": 0,
+        "PathLoss_Model": 1,
+        "RSRP": 0,
+        "Connected_Secondary_Cell_Position_X": 0,
+        "Connected_Secondary_Cell_Position_Y": 0,
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        }
+    },
+    "UE_H": {
+        "UE_Name": "UE_H",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Primary_Cell_Position_X": 0,
+        "Connected_Primary_Cell_Position_Y": 0,
+        "Connected_Primary_Cell_gNB_Antenna_Power": 0,
+        "Connected_Primary_Cell_gNB_Center_Frequency": 0,
+        "UE_Color": "#19810A",
+        "Motion_Speed": 18,
+        "UE_Position_X": 33,
+        "UE_Position_Y": 76,
+        "User_Terminal_Height": 1.7,
+        "Distance_Break_Point": 0,
+        "Distance_2D": 0,
+        "Distance_3D": 0,
+        "PathLoss": 0,
+        "PathLoss_Model": 1,
+        "RSRP": 0,
+        "Connected_Secondary_Cell_Position_X": 0,
+        "Connected_Secondary_Cell_Position_Y": 0,
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        }
+    },
+    "UE_I": {
+        "UE_Name": "UE_I",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Primary_Cell_Position_X": 0,
+        "Connected_Primary_Cell_Position_Y": 0,
+        "Connected_Primary_Cell_gNB_Antenna_Power": 0,
+        "Connected_Primary_Cell_gNB_Center_Frequency": 0,
+        "UE_Color": "#51842E",
+        "Motion_Speed": 17,
+        "UE_Position_X": -194,
+        "UE_Position_Y": -253,
+        "User_Terminal_Height": 1.7,
+        "Distance_Break_Point": 0,
+        "Distance_2D": 0,
+        "Distance_3D": 0,
+        "PathLoss": 0,
+        "PathLoss_Model": 1,
+        "RSRP": 0,
+        "Connected_Secondary_Cell_Position_X": 0,
+        "Connected_Secondary_Cell_Position_Y": 0,
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        }
+    },
+    "UE_J": {
+        "UE_Name": "UE_J",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Primary_Cell_Position_X": 0,
+        "Connected_Primary_Cell_Position_Y": 0,
+        "Connected_Primary_Cell_gNB_Antenna_Power": 0,
+        "Connected_Primary_Cell_gNB_Center_Frequency": 0,
+        "UE_Color": "#A09960",
+        "Motion_Speed": 17,
+        "UE_Position_X": -168,
+        "UE_Position_Y": 101,
+        "User_Terminal_Height": 1.7,
+        "Distance_Break_Point": 0,
+        "Distance_2D": 0,
+        "Distance_3D": 0,
+        "PathLoss": 0,
+        "PathLoss_Model": 1,
+        "RSRP": 0,
+        "Connected_Secondary_Cell_Position_X": 0,
+        "Connected_Secondary_Cell_Position_Y": 0,
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        }
+    },
+    "UE_K": {
+        "UE_Name": "UE_K",
+        "UE_IP": "10.0.2.121",
+        "Connected_Primary_Cell_Name": "gNB_A",
+        "Connected_Primary_Cell_IP": "10.0.2.100",
+        "Connected_Primary_Cell_Position_X": 0,
+        "Connected_Primary_Cell_Position_Y": 0,
+        "Connected_Primary_Cell_gNB_Antenna_Power": 0,
+        "Connected_Primary_Cell_gNB_Center_Frequency": 0,
+        "UE_Color": "#5AF280",
+        "Motion_Speed": 19,
+        "UE_Position_X": 68,
+        "UE_Position_Y": -268,
+        "User_Terminal_Height": 1.7,
+        "Distance_Break_Point": 0,
+        "Distance_2D": 0,
+        "Distance_3D": 0,
+        "PathLoss": 0,
+        "PathLoss_Model": 1,
+        "RSRP": 0,
+        "Connected_Secondary_Cell_Position_X": 0,
+        "Connected_Secondary_Cell_Position_Y": 0,
+        "MAC_Cell_Group_Configuration": {
+            "bsr_Config": {
+                "periodicBSR_Timer": "sf10",
+                "retxBSR_Timer": "sf80"
+            },
+            "phr_Config": {
+                "phr_PeriodicTimer": "sf10",
+                "phr_ProhibitTimer ": "sf10",
+                "phr_Tx_PowerFactorChange": "dB1"
+            }
+        },
+        "CCCH_Configuration": {
+            "SDAP_Configuration": "NOT_USED",
+            "PDCP_Configuration": "NOT_USED",
+            "RLC_Configuration": "TM",
+            "Logical_Channel_Configuration": {
+                "Priority": 1,
+                "PrioritisedBitRate": "INFINITY",
+                "BucketSizeDuration_ms": 1000,
+                "LogicalChannelGroup": 0
+            }
+        }
+    }
 }

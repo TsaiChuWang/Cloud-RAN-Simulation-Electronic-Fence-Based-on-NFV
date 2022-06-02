@@ -19,7 +19,11 @@ logname='./log/UE_Uma_Simulation_Script.log'
 logging.basicConfig(filename=logname,filemode='a',format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',datefmt='%H:%M:%S',level=logging.DEBUG)
 Connected_Primary_Cell_IP="10.0.2.100"
 
-# Obtain Cell Group Configuration
+"""
+Functions of parameters in Configurations
+1.UEs_Configurations(Obtain/Update/INITIALIZE)
+2.
+"""
 def Obtain_UEs_Configurations(UE_Name):
     UEs_Configurations={}
     with open('./configuration/UEs_Configurations.json') as UEs_Configurations_file:
@@ -33,10 +37,68 @@ def Update_UEs_Configurations(UE_Name,data):
     UEs_Configurations=Obtain_UEs_Configurations("")
     UEs_Configurations_UE=UEs_Configurations[UE_Name]
     UEs_Configurations_UE.update(data)
-    UEs_Configurations.update(UEs_Configurations_UE)
+    UEs_Configurations.update({UE_Name:UEs_Configurations_UE})
     with open('./configuration/UEs_Configurations.json', 'w') as UEs_Configurations_file:
         json.dump(UEs_Configurations, UEs_Configurations_file, ensure_ascii=False)
         UEs_Configurations_file.close()
+
+#Initialization of Configuration
+def INITIALIZE_CONFIGURATION():
+    UEs_List=Obtain_UEs_Configurations("UEs_List")
+    for UE_Name in UEs_List:
+        UE_Position_X=random.randint(-400,400)
+        UE_Position_Y=random.randint(-400,400)
+        # gNB=Find_Primary_Cell(UE_Position_X,UE_Position_Y)
+        data={
+            "UE_Name": UE_Name,
+            "UE_IP": "10.0.2.121",
+            "Connected_Primary_Cell_Name":"gNB_A",
+            "Connected_Primary_Cell_IP":"10.0.2.100",
+            "Connected_Primary_Cell_Position_X":0,
+            "Connected_Primary_Cell_Position_Y":0,
+            "Connected_Primary_Cell_gNB_Antenna_Power":0,
+            "Connected_Primary_Cell_gNB_Center_Frequency":0,
+            "UE_Color": str("#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])),
+            "Motion_Speed": random.randint(8,22),
+            "UE_Position_X": UE_Position_X,
+            "UE_Position_Y": UE_Position_Y,
+            "User_Terminal_Height": 1.7,
+            "Distance_Break_Point": 0,
+            "Distance_2D": 0,
+            "Distance_3D": 0,
+            "PathLoss": 0,
+            "PathLoss_Model": 1,
+            "RSRP": 0,
+            "Connected_Primary_Cell_Position_X":0,
+            "Connected_Primary_Cell_Position_Y":0,
+            "Connected_Secondary_Cell_Position_X":0,
+            "Connected_Secondary_Cell_Position_Y":0,
+            "MAC_Cell_Group_Configuration":{
+                "bsr_Config":{
+                    "periodicBSR_Timer":"sf10",
+                    "retxBSR_Timer":"sf80"
+                },
+                "phr_Config":{
+                    "phr_PeriodicTimer":"sf10",
+                    "phr_ProhibitTimer ":"sf10",
+                    "phr_Tx_PowerFactorChange":"dB1"
+                }
+            },
+            "CCCH_Configuration":{
+                "SDAP_Configuration":"NOT_USED",
+                "PDCP_Configuration":"NOT_USED",
+                "RLC_Configuration":"TM",
+                "Logical_Channel_Configuration":{
+                    "Priority":1,#Highest priority
+                    "PrioritisedBitRate":"INFINITY",
+                    "BucketSizeDuration_ms":1000,
+                    "LogicalChannelGroup":0
+                }
+            }
+
+        }
+        Update_UEs_Configurations(UE_Name,data)
+
 
 def Update_Information_gNBs(response_data):
     with open('./configuration/gNBs_Configuration.json', 'w') as gNBs_Configuration_file:
@@ -94,37 +156,9 @@ def Require_Information_gNBs():
 
 # Update_System_Field_Configuration({response_data["gNB_Name"]:response_data})
 
-#Initialization of Configuration
-def INITIALIZE_CONFIGURATION():
-    UEs_List=Obtain_UEs_Configurations("UEs_List")
-    for UE_Name in UEs_List:
-        UE_Position_X=random.randint(-400,400)
-        UE_Position_Y=random.randint(-400,400)
-        gNB=Find_Primary_Cell(UE_Position_X,UE_Position_Y)
-        data={
-            "UE_Name": UE_Name,
-            "UE_IP": "10.0.2.121",
-            "Connected_Primary_Cell_Name":gNB['Connected_Primary_Cell_Name'],
-            "Connected_Primary_Cell_IP":gNB['Connected_Primary_Cell_IP'],
-            "Connected_Primary_Cell_Position_X":0,
-            "Connected_Primary_Cell_Position_Y":0,
-            "Connected_Primary_Cell_gNB_Antenna_Power":0,
-            "Connected_Primary_Cell_gNB_Center_Frequency":0,
-            "UE_Color": "#FF5733",
-            "Motion_Speed": random.randint(8,22),
-            "UE_Position_X": UE_Position_X,
-            "UE_Position_Y": UE_Position_Y,
-            "User_Terminal_Height": 1.7,
-            "Distance_Break_Point": 3038.5020760604075,
-            "Distance_2D": 438.7311249501225,
-            "Distance_3D": 439.34939399070527,
-            "PathLoss": 96.80606057195635,
-            "PathLoss_Model": 1,
-            "RSRP": -73.86486074495636,
-            "Connected_Primary_Cell_Name_Position_X":0,
-            "Connected_Primary_Cell_Name_Position_Y":0,
-            "Connected_Secondary_Cell_Name_Position_X":0,
-            "Connected_Secondary_Cell_Name_Position_Y":0
-        }
-    
-Require_Information_gNBs()
+
+
+
+# Require_Information_gNBs()
+
+INITIALIZE_CONFIGURATION()

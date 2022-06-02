@@ -34,3 +34,4 @@
 
 - [ ] SRB
 - [ ] RRC
+- [ ] MAC Cell Group configuration

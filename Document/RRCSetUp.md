@@ -67,4 +67,24 @@ However, in the Multiple gNBs System, its meaning is different. For cells that a
 
 ## ***RRCSetupRequest (RRC Protocal)***
 
->[See ETSI TS 138 331 V16.3.1 (2021-01) 5G NR Radio Resource Control (RRC) Protocol specification (3GPP TS 38.331 version 16.3.1 Release 16)](https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/16.03.01_60/ts_138331v160301p.pdf)
+>[See ETSI TS 138 331 V16.3.1 (2021-01) 5G NR Radio Resource Control (RRC) Protocol specification (3GPP TS 38.331 version 16.3.1 Release 16)(5.3.3)](https://www.etsi.org/deliver/etsi_ts/138300_138399/138331/16.03.01_60/ts_138331v160301p.pdf)
+
+Purpose: Request to establish an RRC connection. 
+Carrying message: UE identity, RRC connection establishment reason
+Here, if the upper layer carries 5G-S-TMSI, UE_Identity shall return ng-5G-S-TMSI-Part1, otherwise, a 32-bit identifier shall be randomly generated (unique in this Cell).
+
+![UE Identity Flow Chart](img/5G_S_TMSI.png)
+
+As shown in the table below, the parameter table will be represented by three values: Name is the IE name, Value is the default value (usually the main UE configured in the Single gNB LOS Uma), and Characteristic represents the generation method of the configuration in the system.
+**Parameter**
+| Name | Value | Characteristic |
+| :--: | :--:  | :--: |
+| UE_Identity | | Dynamic/Allocated |
+| establishmentCause | mo-Signalling | Static  |
+| UE_Name | UE_A | in UE Configuration |
+| UE_IP | 10.0.2.100 | in UE Configuration |
+
+bearer signaling:SRB0
+logical channel:CCCH
+
+See Actions related to transmission of RRCSetupRequest message [5.3.3.3] page 55
