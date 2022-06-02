@@ -25,6 +25,12 @@ def RecievegNB_Information():
     print(request_data)
     return "RECIEVE SUCCESS"
 
+#Recive RSRP from UE
+@app.route("/INITIAL_UL_RRC_MESSAGE_TRANSFER", methods=['POST'])
+def INITIAL_UL_RRC_MESSAGE_TRANSFER():
+    request_data=request.get_json()
+    print(request_data)
+    return jsonify({"RRC":"RRCSetUp"})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True,port=PORT)

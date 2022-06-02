@@ -185,7 +185,9 @@ def RRCSetupRequest(UE_Name):
         "UE_IP":Obtain_UEs_Configurations(UE_Name)["UE_IP"],
         "5G-S-TMSI":G_S_TMSI,
         "UE_Identity":Obtain_UE_Identity(UE_Name,G_S_TMSI),
-        "establishmentCause":"mo-Signalling"
+        "establishmentCause":"mo-Signalling",
+        "UE_Position_X":Obtain_UEs_Configurations(UE_Name)["UE_Position_X"],
+        "UE_Position_Y":Obtain_UEs_Configurations(UE_Name)["UE_Position_Y"]
     }
     payload=json.dumps(payload)
     

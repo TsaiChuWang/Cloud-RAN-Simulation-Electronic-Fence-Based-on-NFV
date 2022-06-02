@@ -6,6 +6,7 @@ import json
 import socket
 import random
 import requests
+import math
 
 app = Flask(__name__)
 PORT = 1441
@@ -20,7 +21,7 @@ Functions about Parameters in Configuraiotn:
 1.Cell_Group_Configuration (Obtain/Obtain[gNB]/Update[gNB])
 """
 
-gNB_IP=""
+gNB_IP="10.0.2.100"
 CU_IP="10.0.2.99"
 
 #Initialize Parameter
@@ -28,6 +29,7 @@ def Initialize():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     s.connect(("8.8.8.8", 80))
     gNB_IP=s.getsockname()[0]
+Initialize()
 
 def RANDOMVREATEGNBS():
     CellGroup_List=Obtain_Cell_Group_Configuration("CellGroup_List")
@@ -122,6 +124,111 @@ def Update_Cell_Group_Configuration_gNB(CellGroup_Name,gNB_Name,data):
         json.dump(Cell_Group_Configuration, Cell_Group_Configuration_file, ensure_ascii=False)
         Cell_Group_Configuration_file.close()
 
+"""
+Functions of sub process of Ue Access
+1.Calculate MCG
+2.Calculate SCG
+3.gNB_DU_UE_F1AP_ID
+"""
+
+#Calculate MCG
+def Calculate_MCG(request_data):
+    UE_Name=request_data["UE_Name"]
+    distance=5000
+    MCG=""
+    MC=""
+    CellGroup_List=Obtain_Cell_Group_Configuration("CellGroup_List")
+    for CellGroup_Name in CellGroup_List:
+        for gNB_Name in Obtain_Cell_Group_Configuration_gNB(CellGroup_Name,"gNBs_List"):
+            gNB=Obtain_Cell_Group_Configuration_gNB(CellGroup_Name,gNB_Name)
+            gNB_Position_X=gNB["gNB_Position_X"]
+            gNB_Position_Y=gNB["gNB_Position_Y"]
+            UE_Position_X=request_data["UE_Position_X"]
+            UE_Position_Y=request_data["UE_Position_Y"]
+            Delta_X=gNB_Position_X-UE_Position_X
+            Delta_Y=gNB_Position_Y-UE_Position_Y
+            Distance=(Delta_X*Delta_X)+(Delta_Y*Delta_Y)
+            Distance=math.sqrt(Distance)
+            # print("Distance between "+UE_Name+" to "+gNB_Name+" is "+str(Distance))
+            if(Distance<distance):
+                MCG=gNB["CellGroup_Name"]
+                MC=gNB_Name
+                distance=Distance
+    # print("MCG="+MCG+" MC="+MC+" Distance="+str(Distance))
+    return MCG,MC
+
+#Calculate SCG
+def Calculate_SCG(request_data,MC):
+    UE_Name=request_data["UE_Name"]
+    distance=5000
+    SCG=""
+    SC=""
+    CellGroup_List=Obtain_Cell_Group_Configuration("CellGroup_List")
+    for CellGroup_Name in CellGroup_List:
+        for gNB_Name in Obtain_Cell_Group_Configuration_gNB(CellGroup_Name,"gNBs_List"):
+            if(gNB_Name==MC):
+                continue
+            else:
+                gNB=Obtain_Cell_Group_Configuration_gNB(CellGroup_Name,gNB_Name)
+                gNB_Position_X=gNB["gNB_Position_X"]
+                gNB_Position_Y=gNB["gNB_Position_Y"]
+                UE_Position_X=request_data["UE_Position_X"]
+                UE_Position_Y=request_data["UE_Position_Y"]
+                Delta_X=gNB_Position_X-UE_Position_X
+                Delta_Y=gNB_Position_Y-UE_Position_Y
+                Distance=(Delta_X*Delta_X)+(Delta_Y*Delta_Y)
+                Distance=math.sqrt(Distance)
+                print("Distance between "+UE_Name+" to "+gNB_Name+" is "+str(Distance))
+                if(Distance<distance):
+                    SCG=gNB["CellGroup_Name"]
+                    SC=gNB_Name
+                    distance=Distance
+    print("MC="+MC+" SCG="+SCG+" SC="+SC+" Distance="+str(distance))
+    return SCG,SC
+
+#Allocate gNB-DU UE F1AP ID if it is empty
+def Allocate_gNB_DU_UE_F1AP_ID():
+    ID=random.randint(0,2**32)
+    return "{0:b}".format(ID)
+
+
+"""
+Functions to request gNB_CU
+1.INITIAL UL RRC MESSAGE TRANSFER
+
+6.RSRPRequest
+"""
+
+#The purpose of the Initial UL RRC Message Transfer procedure is to transfer the initial RRC message to the gNB-CU.
+def INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data):
+    logging.info(gNB_IP+": perform INITIAL_UL_RRC_MESSAGE_TRANSFER to "+CU_IP)
+    url = "http://"+CU_IP+":1441/INITIAL_UL_RRC_MESSAGE_TRANSFER"
+    UE_Name=request_data["UE_Name"]
+    MCG,MC=Calculate_MCG(request_data)
+    SCG,SC=Calculate_SCG(request_data,MC)
+    payload={
+        "UE_Name":UE_Name,
+        "UE_IP":request_data["UE_IP"],
+        "gNB_Name":MC,
+        "MCG":MCG,
+        "gNB_IP":gNB_IP,
+        "SCG":SCG,
+        "SC":SC,
+        "gNB_DU_UE_F1AP_ID":Allocate_gNB_DU_UE_F1AP_ID(),
+        "NR_CGI":Obtain_Cell_Group_Configuration_gNB(MCG,MC)["NR_CGI"],
+        # "C_RNTI":Allocate_C_RNTI(UE_Name),
+        # "RRC_Container":"RRCSetupRequest",
+        # "DU_CU_RRC_Container":{
+        #     "CellGroupConfig":Obtain_CellGroupConfiguration()
+        # },
+        # "SUL_Access_Indication":True,
+        # "Transaction_ID":Allocate_Transaction_ID(UE_Name)
+    }
+    payload=json.dumps(payload)
+    headers = { 'Content-Type': 'application/json' }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    return json.loads(response.text)
+
 
 def Response_gNB_Information(payload):
     url = "http://"+CU_IP+":1441/RecievegNB_Information"
@@ -129,6 +236,8 @@ def Response_gNB_Information(payload):
     headers = { 'Content-Type': 'application/json' }
     response = requests.request("POST", url, headers=headers, data=payload)
     print(response.text)
+
+
 
 @app.route("/gNB_Information_Request", methods=['GET'])
 def gNB_Information_Request():
@@ -171,11 +280,10 @@ def RRCSetupRequest():
     request_data=request.get_json()
 
     UE_Name=request_data['UE_Name']
-    # response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
+    response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
     # Update_gNB_UEs_Configuration(UE_Name,{"gNB_DU_UE_F1AP_ID":response_data["gNB_DU_UE_F1AP_ID"]})
     # Update_gNB_UEs_Configuration(UE_Name,{"gNB_CU_UE_F1AP_ID":response_data["gNB_CU_UE_F1AP_ID"]})
-
-    return jsonify({"RRC":"RRCSetUp"})
+    return jsonify(response_data)
 
 
 if __name__ == '__main__':
