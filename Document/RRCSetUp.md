@@ -12,9 +12,7 @@ When the UE is in RRC_IDLE and has acquired the necessary system information, th
 
 In the system, we set a parameter called "RRC". It indicates the RRC status of the UE, like it is real in our life. For some Samsung mobile phones, you can enter `*#0011#`  in the mobile phone to get some signal information. We use *Samsung Glaxy A53* mobile phone with 5G solution to check the RRC status as follows
 
-| ![RRC_IDLE](img/RRCIDLE.jpg) | ![RRC_CONNECTED](img/RRCCONNECTED.jpg) | ![RRC_CONNECTED](img/RRCCONNECTED.jpg) |
-| :--: | :--: | :--: |
-| RRC_IDLE | RRC_CONNECTED | RRC_INACTIVE |
+![RRC STATUS](img/RRCSTATUS.png)
 
 It should be noted that LTE did not originally have the RRC_INACTIVE state. It was introduced after the R13 specification of 5G in order to reduce signaling and power consumption, because 5G technology will generate a lot of power consumption, and RRC is hobby in the case of high speed. The key to electricity, a large number of devices transmitting a small amount of data will generate excessive signaling consumption.
 
