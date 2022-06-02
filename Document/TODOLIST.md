@@ -7,9 +7,12 @@
 
 # Progress this week
 
+![UE Access to Core Network](img/UE_Access.png)
+
 - [x] 22 steps to complete UE access to core network
 - [x] Complete the graphical interface and script of the Single_LOS_Uma model
 - [x] Complete the Multiple_LOS_Uma model (under revision)
+- [x] Strength the RRC and F1AP Protocal
 
 # progress next week
 
