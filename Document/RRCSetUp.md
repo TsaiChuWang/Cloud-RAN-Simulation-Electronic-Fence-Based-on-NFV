@@ -120,6 +120,10 @@ If the RRC-Container-RRCSetupComplete IE is included in the INITIAL UL RRC MESSA
 Send the first RRC message to the gNB-CU
 This process will establish a UE-level F1 connection
 
+In the Multiple gNB System system, we will simulate the process of random access here. This part is not as rigorous as the access part. In fact, when the number of gNBs increases dramatically, it takes a very large amount to delineate within the range. In the follow-up, we also need to consider the situation of changing hands, in order to avoid dragging down the efficiency (note: the work we use to simulate the hardware will definitely be slower than the hardware, we will try our best to face this situation We will randomly access a Cell like random access, and then connect to a better signal through the algorithm. The following figure shows the calculation process in the Multiple gNB System system.
+
+In this step, we will initially configure the MCG, Connected Primary Cell and SCG, Connected Secondary Cell according to the distance in this way. After passing it to the CU to update the configuration, we will send the updated UE_Information back to the gNB, and finally return to the UE to overwrite it. configuration.
+
 **Parameter**
 
 | Name | Value | Characteristic |
@@ -170,3 +174,70 @@ These parameters will be set in UE Configuration, which are adjustable configura
 To check the corresponding code, Chunghwa Telecom is 466 92, Far EasTone is 466 03/01.
 
 In addition, the UE Configuration is set with bitlength gNB ID and bitlength Cell ID. Currently, it is set to 22/14. When registering the gNB, it will dynamically assign a unique identification code to the designated area, and specify the bit length format through the bitlength gNB ID and bitlength Cell ID.
+
+## ***DL RRC MESSAGE TRANSFER***
+
+Purpose: to forward the RRC message RRCSetup to the gNB-DU.
+
+### General 
+
+The purpose of the DL RRC Message Transfer procedure is to transfer an RRC message The procedure uses UE associated signalling.
+
+### Successful operation
+
+The purpose of the DL RRC Message Transfer procedure is to transfer an RRC message The procedure uses UE associated signalling.
+
+![DL RRC MESSAGE TRANSFER](img/DL_RRC_MESSAGE%20_TRANSFER_Success_.png)
+
+If there is a logical F1 connection related to the UE, the DL RRC MESSAGE TRANSFER message shall contain the gNBDU UE F1AP ID IE, which shall be used by the gNB-DU to look up the stored UE context. If no UE-related logical F1 connection exists, a UE-related logical F1 connection shall be established upon receipt of the DL RRC MESSAGE TRANSFER message. In the system, we default to include the relevant logical F1 link.
+
+If the RAT Index/Frequency Selection Priority IE is included in the DL RRC MESSAGE TRANSFER, the gNB-DU may use it for RRM purposes. If the Additional RRM Policy Index IE is included in the DL RRC MESSAGE TRANSFER, the gNB-DU may use it for RRM purposes. We have not implemented this part of the system, but we still leave this IE blank.
+
+If available, the DL RRC MESSAGE TRANSFER message shall include the old gNB-DU UE F1AP ID IE so that the gNB-DU can retrieve the existing UE context during RRC connection re-establishment, as defined in TS 38.401. In fact, in the system we will use OLD to mark the old F1AP UE and save it in the CU file, however, in the Single gNB System we will write the obtained F1AP_ID (including DU and CU) into the CU and UE files, only CU There are old and new F1APs, the gNB only refreshes the gNB-DU UE F1AP ID, and the UE gets the new gNB-DU UE F1AP ID and overwrites it in the configuration. In the Multiple gNB System, because a large number of scripts exist, we The UE configuration will be refreshed through the CU configuration delivery message, but the old gNB-DU UE F1AP ID will not be retained. This is to maximize the benefits between benefits and design flexibility.
+
+If SRB duplication is activated, the DL RRC MESSAGE TRANSFER message shall include the Execute Duplication IE so that the gNB-DU can perform CA-based duplication for the SRB. This system is currently not implemented, as we need more time to understand this piece, but we need to set up a function for future updates.
+
+If the gNB-DU identifies the logical F1 connection associated with the UE through the gNB-DU UE F1AP ID IE and the old gNB-DU UE F1AP ID in the DL RRC MESSAGE TRANSFER message, the same goes for the above, so in this design, we use the old gNB -DU UE F1AP ID is used here, which is more obvious in Single gNB System.
+
+Contains IE, which releases the old gNB-DU UE F1AP ID and related configuration associated with the old gNB-DU UE F1AP ID.
+
+If the UE Context not retrievable IE set to "true" is included in the DL RRC MESSAGE TRANSFER, then the DL RRC MESSAGE TRANSFER may contain the PLMN assistance information for the network sharing IE (if available at the gNB-CU) and can be used as specified in the In TS 38.401.
+
+If the DL RRC MESSAGE TRANSFER message contains the New gNB-CU UE F1AP ID IE, if supported, the gNB-DU shall replace the value received in the gNB-CU UE F1AP ID IE with the value of the New gNB-CU UE F1AP ID and assign it for further signaling.
+
+![DL RRC MESSAGE TRANSFER Flow Chart](img/DL_RRC_MESSAGE_TRANSFER.png)
+
+Interaction with UE context release request process
+If the UE Context not retrievable IE set to "true" is included in the DL RRC MESSAGE TRANSFER, the gNB-DU may trigger the UE Context Release Request procedure as described in TS 38.401. This system is not implemented, but there are also virtual functions written for future use.
+
+### ***Parameter***
+
+| Name | Value | Characteristic |
+| :--: | :--:  | :--: |
+| --- |
+| gNB_DU_UE_F1AP_ID | | Allocate |
+| gNB_CU_UE_F1AP_ID | | Allocate |
+| SRB_ID | 1 | Static |
+| RRC-Container | RRCSetup | Static |
+| Execute Duplication True | Static |
+| RAT-Frequency Priority Information | True | Static |
+| >EN-DC | | |
+| >>Subscriber Profile ID for RAT/Frequency priority  | 111111 | Static/Changeable |
+| >NG-RAN  | | |
+| >> Index to RAT/Frequency Selection Priority | 1010111 | Static/Changeable |
+| RRC Delivery Status Request | True | Static/Changeable |
+
+#### gNB-DU UE F1AP ID
+
+The gNB-DU UE F1AP ID uniquely identifies the UE association over 
+
+#### RAT-Frequency Priority Information
+
+See Initial UL RRC Message Transfer  [9.3.1.34 ] page 184
+
+![RAT-Frequency Priority Information](img/RAT-Frequency_Priority_Information.png)
+
+The RAT-Frequency Priority Information contains either the Subscriber Profile ID for RAT/Frequency priority IE or the Index to RAT/Frequency Selection Priority IE. These parameters are used to define local configuration for RRM strategies. 
+
+### Abnormal Conditions 
+Not applicable.

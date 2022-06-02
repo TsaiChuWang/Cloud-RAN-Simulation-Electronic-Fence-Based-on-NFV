@@ -129,6 +129,9 @@ Functions of sub process of Ue Access
 1.Calculate MCG
 2.Calculate SCG
 3.gNB_DU_UE_F1AP_ID
+4.C_RNTI
+5.Cell Group Configuration
+6.Transaction ID
 """
 
 #Calculate MCG
@@ -178,18 +181,40 @@ def Calculate_SCG(request_data,MC):
                 Delta_Y=gNB_Position_Y-UE_Position_Y
                 Distance=(Delta_X*Delta_X)+(Delta_Y*Delta_Y)
                 Distance=math.sqrt(Distance)
-                print("Distance between "+UE_Name+" to "+gNB_Name+" is "+str(Distance))
+                # print("Distance between "+UE_Name+" to "+gNB_Name+" is "+str(Distance))
                 if(Distance<distance):
                     SCG=gNB["CellGroup_Name"]
                     SC=gNB_Name
                     distance=Distance
-    print("MC="+MC+" SCG="+SCG+" SC="+SC+" Distance="+str(distance))
+    # print("MC="+MC+" SCG="+SCG+" SC="+SC+" Distance="+str(distance))
     return SCG,SC
 
 #Allocate gNB-DU UE F1AP ID if it is empty
 def Allocate_gNB_DU_UE_F1AP_ID():
     ID=random.randint(0,2**32)
     return "{0:b}".format(ID)
+
+#Allocate C_RNTI for UE
+def Allocate_C_RNTI():
+    ID=random.randint(0,65535)
+    C_RNTI="{0:b}".format(ID)
+    return C_RNTI
+
+#Obtain Cell Group Configuration
+#not recommend
+def Obtain_CellGroupConfiguration(MCG):
+    CellGroupConfiguration={}
+    with open('./configuration/CellGroupConfiguration.json') as CellGroupConfiguration_file:
+        CellGroupConfiguration = json.load(CellGroupConfiguration_file)
+        CellGroupConfiguration_file.close()
+    CellGroupConfiguration.update({"CellGroupId":MCG})
+    return CellGroupConfiguration
+
+#Allocate Transaction ID
+def Allocate_Transaction_ID():
+    ID=random.randint(0,255)
+    Transaction_ID="{0:b}".format(ID)
+    return Transaction_ID
 
 
 """
@@ -211,33 +236,33 @@ def INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data):
         "UE_IP":request_data["UE_IP"],
         "gNB_Name":MC,
         "MCG":MCG,
+        "MC":MC,
         "gNB_IP":gNB_IP,
         "SCG":SCG,
         "SC":SC,
         "gNB_DU_UE_F1AP_ID":Allocate_gNB_DU_UE_F1AP_ID(),
         "NR_CGI":Obtain_Cell_Group_Configuration_gNB(MCG,MC)["NR_CGI"],
-        # "C_RNTI":Allocate_C_RNTI(UE_Name),
-        # "RRC_Container":"RRCSetupRequest",
-        # "DU_CU_RRC_Container":{
-        #     "CellGroupConfig":Obtain_CellGroupConfiguration()
-        # },
-        # "SUL_Access_Indication":True,
-        # "Transaction_ID":Allocate_Transaction_ID(UE_Name)
+        "C_RNTI":Allocate_C_RNTI(),
+        "RRC_Container":"RRCSetupRequest",
+        "DU_CU_RRC_Container":{
+            "CellGroupConfig":Obtain_CellGroupConfiguration(MCG)
+        },
+        "SUL_Access_Indication":True,
+        "Transaction_ID":Allocate_Transaction_ID(),
+        "UE_Information":request_data["UE_Information"]
     }
     payload=json.dumps(payload)
     headers = { 'Content-Type': 'application/json' }
     response = requests.request("POST", url, headers=headers, data=payload)
     return json.loads(response.text)
-
+    # return 0
 
 def Response_gNB_Information(payload):
     url = "http://"+CU_IP+":1441/RecievegNB_Information"
     payload=json.dumps(payload)
     headers = { 'Content-Type': 'application/json' }
     response = requests.request("POST", url, headers=headers, data=payload)
-    print(response.text)
-
-
+    # print(response.text)
 
 @app.route("/gNB_Information_Request", methods=['GET'])
 def gNB_Information_Request():
@@ -266,7 +291,7 @@ def gNB_Information_Request():
             data_response.update({gNB_Name:gNB_data})
         data_response.update({"gNBs_List":gNBs_List})
     Response_gNB_Information(data_response)
-    print(data_response)
+    # print(data_response)
     return jsonify(data_response)
 
 """
@@ -278,12 +303,10 @@ Functions of APIs to UE Access
 def RRCSetupRequest():
     logging.info("Enable: gNB["+gNB_IP+"] Function:RRCSetupRequest")
     request_data=request.get_json()
-
-    UE_Name=request_data['UE_Name']
     response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
-    # Update_gNB_UEs_Configuration(UE_Name,{"gNB_DU_UE_F1AP_ID":response_data["gNB_DU_UE_F1AP_ID"]})
-    # Update_gNB_UEs_Configuration(UE_Name,{"gNB_CU_UE_F1AP_ID":response_data["gNB_CU_UE_F1AP_ID"]})
+    print(response_data)
     return jsonify(response_data)
+    # return jsonify({"RRC":"RRCSetUp"})
 
 
 if __name__ == '__main__':

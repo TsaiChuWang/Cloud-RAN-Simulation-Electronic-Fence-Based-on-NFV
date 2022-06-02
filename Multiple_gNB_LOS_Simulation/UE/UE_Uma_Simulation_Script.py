@@ -187,7 +187,8 @@ def RRCSetupRequest(UE_Name):
         "UE_Identity":Obtain_UE_Identity(UE_Name,G_S_TMSI),
         "establishmentCause":"mo-Signalling",
         "UE_Position_X":Obtain_UEs_Configurations(UE_Name)["UE_Position_X"],
-        "UE_Position_Y":Obtain_UEs_Configurations(UE_Name)["UE_Position_Y"]
+        "UE_Position_Y":Obtain_UEs_Configurations(UE_Name)["UE_Position_Y"],
+        "UE_Information":Obtain_UEs_Configurations(UE_Name)
     }
     payload=json.dumps(payload)
     
@@ -218,36 +219,6 @@ def Obtain_gNB_Information(gNB_Name):
     if(gNB_Name==""):
         return gNBs_Configuration
     return gNBs_Configuration[gNB_Name]
-
-def Find_Primary_Cell(UE_Position_X,UE_Position_Y):
-    gNBs_List=Obtain_gNB_Information("gNBs_List")
-    data={
-        "Distance":4000,
-        "Connected_Primary_Cell_Name":"",
-        "Connected_Primary_Cell_IP": "",
-        "Connected_Primary_Cell_Position_X":0,
-        "Connected_Primary_Cell_Position_Y":0,
-        "Connected_Primary_Cell_gNB_Antenna_Power":0,
-        "Connected_Primary_Cell_gNB_Center_Frequency":0,
-    }
-    
-    for gNB_Name in gNBs_List:
-        gNB=Obtain_gNB_Information(gNB_Name)
-        gNB_Position_X=gNB["gNB_Position_X"]
-        gNB_Position_Y=gNB["gNB_Position_Y"]
-        Delta_X=gNB_Position_X-UE_Position_X
-        Delta_Y=gNB_Position_Y-UE_Position_Y
-        Distance=(Delta_X*Delta_X)+(Delta_Y*Delta_Y)
-        Distance=math.sqrt(Distance)
-        if(Distance<data['Distance']):
-            data['Distance']=Distance
-            data['Connected_Primary_Cell_Name']=gNB['Connected_Primary_Cell_Name']
-            data['Connected_Primary_Cell_IP']=gNB['Connected_Primary_Cell_IP']
-            data['Connected_Primary_Cell_Position_X']=gNB_Position_X
-            data['Connected_Primary_Cell_Position_Y']=gNB_Position_Y
-            data['Connected_Primary_Cell_gNB_Antenna_Power']=gNB['Connected_Primary_Cell_gNB_Antenna_Power']
-            data['Connected_Primary_Cell_gNB_Center_Frequency']=gNB['Connected_Primary_Cell_gNB_Center_Frequency']
-    return data
 
 #Require the Information of gNBs
 def Require_Information_gNBs():
