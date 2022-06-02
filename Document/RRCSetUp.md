@@ -1,4 +1,4 @@
-# RRCSetUp for MUltiple gNBs System
+# RRCSetUp for Multiple gNBs System
 
 ![RRCSetUp Flow Chart](img/RRCSetUp.png)
 
@@ -122,6 +122,8 @@ This process will establish a UE-level F1 connection
 
 In the Multiple gNB System system, we will simulate the process of random access here. This part is not as rigorous as the access part. In fact, when the number of gNBs increases dramatically, it takes a very large amount to delineate within the range. In the follow-up, we also need to consider the situation of changing hands, in order to avoid dragging down the efficiency (note: the work we use to simulate the hardware will definitely be slower than the hardware, we will try our best to face this situation We will randomly access a Cell like random access, and then connect to a better signal through the algorithm. The following figure shows the calculation process in the Multiple gNB System system.
 
+![Multiple gNB System system RRCSetUpFlow Chart](img/Multiple_gNB_FlowChartRRCSetUp.png)
+
 In this step, we will initially configure the MCG, Connected Primary Cell and SCG, Connected Secondary Cell according to the distance in this way. After passing it to the CU to update the configuration, we will send the updated UE_Information back to the gNB, and finally return to the UE to overwrite it. configuration.
 
 **Parameter**
@@ -214,7 +216,6 @@ If the UE Context not retrievable IE set to "true" is included in the DL RRC MES
 
 | Name | Value | Characteristic |
 | :--: | :--:  | :--: |
-| --- |
 | gNB_DU_UE_F1AP_ID | | Allocate |
 | gNB_CU_UE_F1AP_ID | | Allocate |
 | SRB_ID | 1 | Static |
@@ -241,3 +242,88 @@ The RAT-Frequency Priority Information contains either the Subscriber Profile ID
 
 ### Abnormal Conditions 
 Not applicable.
+
+## RRCSetup
+
+See RRCSetup  page 284
+The RRCSetup message is used to establish SRB1.
+Signalling radio bearer: SRB0
+RLC-SAP: TM
+Logical channel: CCCH
+Direction: Network to UE
+
+Return CellGroupConfiguration and radioBearerConfig
+
+These two configurations are important configurations for establishing SRB1, but it is too complicated and presents a tree-like structure. For example, CellGroupConfiguration needs to configure at least three kinds of mac-CellGroupConfig, spCellConfig and physicalCellGroupConfig, and not including others. We will configure two Make it into a separate file, dynamically read and change the configuration we need in a small amount to optimize performance. Of course, you can also rewrite the configuration to meet your needs, but we have searched for a long time (note that the 3GPP standard will tell You, you should carry this IE here, and it will tell you what configuration to carry, but it takes a long time to find the detailed information. It is recommended to check the RLC protocol, which is less content than the RRC and F1AP protocols, but it is also more inclined to the physical level), get the details The configuration has about 300 lines and is related to each other. It is better not to change it.
+
+## Reception of the RRCSetup by the UE 
+
+See Reception of the RRCSetup by the UE  [5.3.3.4] page 55
+
+![Flow Chart of Reception of the RRCSetup by the UE](img/ReceptionRRCSetup.png)
+
+### List waited update:
+
+1. Perform the cell group configuration procedure in accordance with the received masterCellGroup  (5.3.5.5)
+2. Perform the radio bearer configuration procedure in accordance with the received radioBearerConfig(5.3.5.6)
+3. Perform the actions T302, T390 expiry or stop (Barring alleviation) (5.3.14.4)
+4. Perform the actions T331 expiry or stop (5.7.8.3)
+
+### Cell Group configuration
+
+See Cell Group configuration 5.3.5.5 Page 69
+
+#### General 
+
+The network configures the UE with Master Cell Group (MCG), and zero or one Secondary Cell Group (SCG). In (NG)EN-DC, the MCG is configured as specified in TS 36.331 [10], and for NE-DC, the SCG is configured as specified in TS 36.331 [10]. The network provides the configuration parameters for a cell group in the CellGroupConfig IE. 
+
+The configuration process is shown in the figure
+
+![The configuration process is shown in the figure](img/Perform_Cell_Group_Configuration.png)
+
+Among them, the most important thing to pay attention to is the synchronization of Reconfiguration with sync. We have done this part. Although we think there is still room for improvement, other parts are virtualized. According to Cell Group configuration 5.3.5.5.2 page 70, Make the following configuration
+
+#### Reconfiguration with sync 
+
+This is used as the RNTI to assign the C-RNTI to the UE.38.331(v15.1)-5.3.5.5.2 state, "Apply the value of the new UE-Identity as the C-RNTI for this cell group"
+
+![Reconfiguration with sync](img/Reconfiguration_with_sync.png)
+
+No matter which system it is in, we will synchronously update the reconfigured UE-Identity on the UE and CU side (through gNB, but will not be saved on the gNB to speed up the calculation). By the way, the Timer related configuration is in the Single gNB. In the system, the main control UE has a special way to control the running state of each timer.
+
+#### RLC bearer release 
+
+See Cell Group configuration 5.3.5.5.3  Page 72
+The UE shall:
+1> for each logicalChannelIdentity value included in the rlc-BearerToReleaseList that is part of the current UE
+configuration within the same cell group (LCH release); or
+1> for each logicalChannelIdentity value that is to be released as the result of an SCG release according to 5.3.5.4:
+2> release the RLC entity or entities as specified in TS 38.322 [4], clause 5.1.3;
+2> release the corresponding logical channel. 
+
+This system has not been implemented, but the reason is very simple. It takes a lot of time to study the Cell Group. Unfortunately, RLC really needs time to digest, but we highly recommend to look at the RLC protocol. NFV technology needs to be defined in software, but The interface facing the shadow still needs to abide by its regulations.
+
+## Reception of the RRCReject by the UE
+
+See Reception of the RRCSetup by the UE  [5.3.3.5] page 55
+
+The UE shall:
+perform the actions as specified in 5.3.15;
+
+### Initiation
+
+The UE initiates the procedure upon the reception of RRCReject when the UE tries to establish or resume an RRC connection.
+
+Reception of the RRCReject by the UE 
+
+1. stop timer T300, if running;
+2. stop timer T319, if running;
+3. stop timer T302, if running;
+4. reset MAC and release the default MAC Cell Group configuration
+5. If waitTime is configured in the RRCReject:then start timer T302, with the timer value set to the waitTime;
+6. if RRCReject is received in response to a request from upper layers:then inform the upper layer that access barring is applicable for all access categories 7. except categories '0' and '2';
+8. If timer T331 is running, the UE continues to perform idle/inactive measurements according to (5.7.8)
+
+The flow chart is as follows
+
+![Flow chart](img/RRCReject.png)

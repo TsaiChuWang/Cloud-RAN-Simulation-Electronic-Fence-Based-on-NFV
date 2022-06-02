@@ -1,5 +1,5 @@
 {
-    "CellGroupId":"",
+    "CellGroupId":"1111001000000",
     "rlc_BearerToAddModList":[],
     "rlc_BearerToReleaseList":["00000","11100"],
     "MAC_CellGroupConfig":{},

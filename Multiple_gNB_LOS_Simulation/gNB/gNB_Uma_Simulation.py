@@ -132,6 +132,7 @@ Functions of sub process of Ue Access
 4.C_RNTI
 5.Cell Group Configuration
 6.Transaction ID
+7.radioBearerConfig
 """
 
 #Calculate MCG
@@ -210,11 +211,29 @@ def Obtain_CellGroupConfiguration(MCG):
     CellGroupConfiguration.update({"CellGroupId":MCG})
     return CellGroupConfiguration
 
+#Obtain Cell Group Configuration
+#not recommend
+def Obtain_CellGroupConfiguration_ALL():
+    CellGroupConfiguration={}
+    with open('./configuration/CellGroupConfiguration.json') as CellGroupConfiguration_file:
+        CellGroupConfiguration = json.load(CellGroupConfiguration_file)
+        CellGroupConfiguration_file.close()
+    return CellGroupConfiguration
+
+
 #Allocate Transaction ID
 def Allocate_Transaction_ID():
     ID=random.randint(0,255)
     Transaction_ID="{0:b}".format(ID)
     return Transaction_ID
+
+#Obtain radioBearerConfig
+def Obtain_radioBearerConfig():
+    radioBearerConfig={}
+    with open('./configuration/radioBearerConfig.json') as radioBearerConfig_file:
+        radioBearerConfig = json.load(radioBearerConfig_file)
+        radioBearerConfig_file.close()
+    return radioBearerConfig
 
 
 """
@@ -255,14 +274,27 @@ def INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data):
     headers = { 'Content-Type': 'application/json' }
     response = requests.request("POST", url, headers=headers, data=payload)
     return json.loads(response.text)
-    # return 0
 
 def Response_gNB_Information(payload):
     url = "http://"+CU_IP+":1441/RecievegNB_Information"
     payload=json.dumps(payload)
     headers = { 'Content-Type': 'application/json' }
     response = requests.request("POST", url, headers=headers, data=payload)
-    # print(response.text)
+
+
+"""
+Functions Response Data to UE
+1.RRCSetup
+"""
+
+#Step(4) Response RRCSetup message to UE
+def RRCSetup(request_data):
+    logging.info("Response RRCSetUp to UE.")
+    radioBearerConfig=Obtain_radioBearerConfig()
+    CellGroupConfig=Obtain_CellGroupConfiguration_ALL()
+    request_data.update({"radioBearerConfig":radioBearerConfig})
+    request_data.update({"masterCellGroup":CellGroupConfig})
+    return request_data
 
 @app.route("/gNB_Information_Request", methods=['GET'])
 def gNB_Information_Request():
@@ -304,9 +336,8 @@ def RRCSetupRequest():
     logging.info("Enable: gNB["+gNB_IP+"] Function:RRCSetupRequest")
     request_data=request.get_json()
     response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
-    print(response_data)
+    response_data=RRCSetup(response_data)
     return jsonify(response_data)
-    # return jsonify({"RRC":"RRCSetUp"})
 
 
 if __name__ == '__main__':

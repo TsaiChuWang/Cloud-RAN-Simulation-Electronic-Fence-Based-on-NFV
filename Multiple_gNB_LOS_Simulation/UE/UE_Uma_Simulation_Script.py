@@ -42,6 +42,13 @@ def Update_UEs_Configurations(UE_Name,data):
         json.dump(UEs_Configurations, UEs_Configurations_file, ensure_ascii=False)
         UEs_Configurations_file.close()
 
+def Update_UEs_Configurations_WHOLE(UE_Name,data):
+    UEs_Configurations=Obtain_UEs_Configurations("")
+    UEs_Configurations.update({UE_Name:data})
+    with open('./configuration/UEs_Configurations.json', 'w') as UEs_Configurations_file:
+        json.dump(UEs_Configurations, UEs_Configurations_file, ensure_ascii=False)
+        UEs_Configurations_file.close()
+
 #Initialization of Configuration
 def INITIALIZE_CONFIGURATION():
     UEs_List=Obtain_UEs_Configurations("UEs_List")
@@ -197,6 +204,7 @@ def RRCSetupRequest(UE_Name):
     if(response.status_code==200):
         response_data=json.loads(response.text)
         if(response_data['RRC']=="RRCSetUp"):
+            Update_UEs_Configurations_WHOLE(UE_Name,response_data["UE_Information"])
             Reception_RRCSetup_UE(UE_Name)
         else:
             Reception_RRCReject_UE(UE_Name)
