@@ -21,15 +21,10 @@ logging.basicConfig(filename=logname,filemode='a',format='%(asctime)s,%(msecs)d 
 
 """
 Functions Related to Parameters:
-1.Current Time
-2.UE_Configuration
-3.Timer_Configuration
-4.System_Field_Configuration
+1.UE_Configuration (Obtain/Update)
+2.Timer_Configuration (Obtain/Update)
+3.System_Field_Configuration (Obtain/Update)
 """
-
-#Return Now Time in String Format [0.631s]
-def getCurrentTime():
-    return str(datetime.datetime.now())
 
 #Return UE_Cofiguration [0.562s] for key [0.595s]
 def Obtain_UE_Configuration():
@@ -160,6 +155,7 @@ def Reception_RRCReject_UE():
     }
     Update_UE_Configuration({"MAC_Cell_Group_Configuration":MAC_Cell_Group_Configuration})
 
+
 """
 Functions of UE Access to Core Network
 0.RRCInitialization
@@ -202,6 +198,7 @@ def RRCInitialization():
     Update_Timer_Configuration({"sf10":"OCCUPIED"})
     Update_Timer_Configuration({"sf80":"OCCUPIED"})
 
+    #CCCH Configuration
     CCCH_Configuration={
     "SDAP_Configuration":"NOT_USED",
     "PDCP_Configuration":"NOT_USED",
@@ -243,6 +240,7 @@ def RRCSetupRequest():
     else:
         print("HTTP STATUS: "+str(response.status_code))
         logging.warn("HTTP STATUS: "+str(response.status_code))
+
 
 """
 Functions of RSRP Request and Response
