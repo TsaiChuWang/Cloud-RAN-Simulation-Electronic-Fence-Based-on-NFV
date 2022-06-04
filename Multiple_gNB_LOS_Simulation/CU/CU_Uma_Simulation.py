@@ -24,6 +24,7 @@ FUNCTIONS OF PARAMETER ABOUT CONFIG
 1.UEs_Configurations
 2.gNB_CU_UE_F1AP_ID
 3.gNB_DU_UE_F1AP_ID
+4.gNB_Information
 """
 def Obtain_UEs_Configurations(UE_Name):
     UEs_Configurations={}
@@ -62,6 +63,19 @@ def Allocate_gNB_DU_UE_F1AP_ID():
     gNB_DU_UE_F1AP_ID="{0:b}".format(ID)
     return gNB_DU_UE_F1AP_ID
 
+def Update_Information_gNBs(response_data):
+    with open('./configuration/gNBs_Configuration.json', 'w') as gNBs_Configuration_file:
+        json.dump(response_data, gNBs_Configuration_file, ensure_ascii=False)
+        gNBs_Configuration_file.close()
+
+def Obtain_gNB_Information(gNB_Name):
+    gNBs_Configuration={}
+    with open('./configuration/gNBs_Configuration.json') as gNBs_Configuration_file:
+        gNBs_Configuration = json.load(gNBs_Configuration_file)
+        gNBs_Configuration_file.close()
+    if(gNB_Name==""):
+        return gNBs_Configuration
+    return gNBs_Configuration[gNB_Name]
 
 """
 Functions response to DU
@@ -116,9 +130,8 @@ def DL_RRC_MESSAGE_TRANSFER(request_data):
 @app.route("/RecievegNB_Information", methods=['POST'])
 def RecievegNB_Information():
     request_data=request.get_json()
-    # print(request_data)
-    UE_Name=request_data['UE_Name']
-    
+    print(request_data)
+    Update_Information_gNBs(request_data)
     return "RECIEVE SUCCESS"
 
 #Recive RSRP from UE

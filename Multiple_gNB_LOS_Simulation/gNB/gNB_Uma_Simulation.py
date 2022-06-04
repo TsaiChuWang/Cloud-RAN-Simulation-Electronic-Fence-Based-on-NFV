@@ -296,6 +296,22 @@ def RRCSetup(request_data):
     request_data.update({"masterCellGroup":CellGroupConfig})
     return request_data
 
+"""
+Functions of APIs to UE Access
+1.RRCSetupRequest
+"""
+#Setp(1) Get RRCSetupRequest from UE and 1.to CU 2.Response to UE
+@app.route("/RRCSetupRequest", methods=['POST'])
+def RRCSetupRequest():
+    logging.info("Enable: gNB["+gNB_IP+"] Function:RRCSetupRequest")
+    request_data=request.get_json()
+    response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
+    response_data=RRCSetup(response_data)
+    return jsonify(response_data)
+
+"""
+Functions of RSRP Detection
+"""
 @app.route("/gNB_Information_Request", methods=['GET'])
 def gNB_Information_Request():
     logging.info("gNB Information request")
@@ -323,21 +339,7 @@ def gNB_Information_Request():
             data_response.update({gNB_Name:gNB_data})
         data_response.update({"gNBs_List":gNBs_List})
     Response_gNB_Information(data_response)
-    # print(data_response)
     return jsonify(data_response)
-
-"""
-Functions of APIs to UE Access
-1.RRCSetupRequest
-"""
-#Setp(1) Get RRCSetupRequest from UE and 1.to CU 2.Response to UE
-@app.route("/RRCSetupRequest", methods=['POST'])
-def RRCSetupRequest():
-    logging.info("Enable: gNB["+gNB_IP+"] Function:RRCSetupRequest")
-    request_data=request.get_json()
-    response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
-    response_data=RRCSetup(response_data)
-    return jsonify(response_data)
 
 
 if __name__ == '__main__':

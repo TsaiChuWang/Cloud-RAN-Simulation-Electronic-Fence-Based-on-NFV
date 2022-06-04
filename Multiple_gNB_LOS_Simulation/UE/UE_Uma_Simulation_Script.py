@@ -22,8 +22,9 @@ Connected_Primary_Cell_IP="10.0.2.100"
 """
 Functions of parameters in Configurations
 1.UEs_Configurations(Obtain/Update/INITIALIZE)
-2.
+2.gNB_Information
 """
+
 def Obtain_UEs_Configurations(UE_Name):
     UEs_Configurations={}
     with open('./configuration/UEs_Configurations.json') as UEs_Configurations_file:
@@ -112,6 +113,21 @@ def INITIALIZE_CONFIGURATION():
 
         }
         Update_UEs_Configurations(UE_Name,data)
+
+def Update_Information_gNBs(response_data):
+    with open('./configuration/gNBs_Configuration.json', 'w') as gNBs_Configuration_file:
+        json.dump(response_data, gNBs_Configuration_file, ensure_ascii=False)
+        gNBs_Configuration_file.close()
+
+def Obtain_gNB_Information(gNB_Name):
+    gNBs_Configuration={}
+    with open('./configuration/gNBs_Configuration.json') as gNBs_Configuration_file:
+        gNBs_Configuration = json.load(gNBs_Configuration_file)
+        gNBs_Configuration_file.close()
+    if(gNB_Name==""):
+        return gNBs_Configuration
+    return gNBs_Configuration[gNB_Name]
+
 
 """
 Functions of Sub Process for UE Accessing to Core Network
@@ -214,19 +230,17 @@ def RRCSetupRequest(UE_Name):
         logging.warn("HTTP STATUS: "+str(response.status_code))
 
 
-def Update_Information_gNBs(response_data):
-    with open('./configuration/gNBs_Configuration.json', 'w') as gNBs_Configuration_file:
-        json.dump(response_data, gNBs_Configuration_file, ensure_ascii=False)
-        gNBs_Configuration_file.close()
+#CLEAN UP IN CONFIGURATION
+def CLEAN_UP():
+    UEs_List=Obtain_UEs_Configurations("UEs_List")
+    for UE_Name in UEs_List:
+        Update_UEs_Configurations(UE_Name,{"RRC": "RRC_IDLE"})
 
-def Obtain_gNB_Information(gNB_Name):
-    gNBs_Configuration={}
-    with open('./configuration/gNBs_Configuration.json') as gNBs_Configuration_file:
-        gNBs_Configuration = json.load(gNBs_Configuration_file)
-        gNBs_Configuration_file.close()
-    if(gNB_Name==""):
-        return gNBs_Configuration
-    return gNBs_Configuration[gNB_Name]
+
+"""
+Functions of RSRP Detection
+1.Require gNB Informations
+"""
 
 #Require the Information of gNBs
 def Require_Information_gNBs():
@@ -235,17 +249,12 @@ def Require_Information_gNBs():
     headers = {}
     response = requests.request("GET", url, headers=headers, data=payload)
     response_data=json.loads(response.text)
-    print(response_data)
     Update_Information_gNBs(response_data)
 
-#CLEAN UP IN CONFIGURATION
-def CLEAN_UP():
-    UEs_List=Obtain_UEs_Configurations("UEs_List")
-    for UE_Name in UEs_List:
-        Update_UEs_Configurations(UE_Name,{"RRC": "RRC_IDLE"})
 
+
+INITIALIZE_CONFIGURATION()
 CLEAN_UP()
-# INITIALIZE_CONFIGURATION()
 UEs_List=Obtain_UEs_Configurations("UEs_List")
 for UE_Name in UEs_List:
     while(True):
@@ -254,3 +263,5 @@ for UE_Name in UEs_List:
             continue
         elif(Obtain_UEs_Configurations(UE_Name)["RRC"]=="RRC_CONNECTED"):
             break;
+
+Require_Information_gNBs()

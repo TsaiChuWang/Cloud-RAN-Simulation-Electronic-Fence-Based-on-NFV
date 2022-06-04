@@ -1,5 +1,12 @@
 # **TO DO LIST**
 
+## Document Part
+
+- [ ] Multiple Show
+- [ ] Single RRCSetupComplete
+- [ ] Map Draw
+- [ ] Part two First draft
+
 ## Wait for fixed
 
 - [ ] Fix JSONDecoderError for System_Field_Configuration.py(CU):Obtain_CU_gNB_UEs_Configuration
@@ -26,7 +33,7 @@
 ## 6/2/2022 Diary
 
 - [x] Document First draft First Statement:Background
-- [ ] Multiprogress Distributed MCG and SCG in RRC:RRC Set UP for Multiple gNB System
+- [x] Multiprogress Distributed MCG and SCG in RRC:RRC Set UP for Multiple gNB System
 - [ ] Collation Single_LOS_Uma System:UE_Program
 - [ ] Draw NIU MAP:With Line
 
