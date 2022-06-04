@@ -373,7 +373,6 @@ def RecieveRSRP():
     RSRPTRANSFER(request_data)
     MCG,MC=Calculate_MCG(request_data)
     SCG,SC=Calculate_SCG(request_data,MC)
-    print(request_data)
     response_UE_data={
         "MCG":MCG,
         "SCG":SCG,

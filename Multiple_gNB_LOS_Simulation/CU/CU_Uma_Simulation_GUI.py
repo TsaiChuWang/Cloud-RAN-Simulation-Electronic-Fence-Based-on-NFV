@@ -133,11 +133,17 @@ def animate(i):
         PCell=Obtain_gNB_Information(UE["Connected_Primary_Cell_Name"])
         PCell_X=PCell["gNB_Position_X"]
         PCell_Y=PCell["gNB_Position_Y"]
-        # print(UE_Name+": "+str(UE["RSRP"])+ "dBm")
-        plt.text(Obtain_System_Field_Configuration("X_RANGE")-300, 0-Obtain_System_Field_Configuration("Y_RANGE")+300-(index*30), UE_Name+": "+"{:.7f}".format(UE["RSRP"])+ "dBm", fontsize=10, color=UE_Color)
-        plt.plot([UE_Position_X,PCell_X], [UE_Position_Y, PCell_Y],color=UE_Color)
-    # plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+50, "PathLoss: "+format(Obtain_System_Field_Configuration('PathLoss'), '.12f'), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
-    # plt.text(Obtain_System_Field_Configuration("X_RANGE")-600, 0-Obtain_System_Field_Configuration("Y_RANGE")+10, "RSRP: "+str(Obtain_System_Field_Configuration('RSRP')), fontsize=10, color=Obtain_System_Field_Configuration('UE_Color'))
+        print(UE_Name+": "+str(UE["RSRP"])+ "dBm")
+        SCell=Obtain_gNB_Information(UE["Connected_Secondary_Cell_Name"])
+        SCell_X=SCell["gNB_Position_X"]
+        SCell_Y=SCell["gNB_Position_Y"]
+        plt.plot([UE_Position_X,PCell_X], [UE_Position_Y, PCell_Y],color=UE_Color,linewidth=0.8)
+        plt.plot([UE_Position_X,SCell_X], [UE_Position_Y, SCell_Y],color=UE_Color,linewidth=0.8,linestyle=':')
+        if(UE["UE_OUT_OF_RANGE"]):
+            UE_Color="#ff0000"
+        plt.text(Obtain_System_Field_Configuration("X_RANGE")-400, 0-Obtain_System_Field_Configuration("Y_RANGE")+300-(index*30), UE_Name+": "+"{:.7f}".format(UE["RSRP"])+ "dBm", fontsize=10, color=UE_Color)
+        
 
-anim = animation.FuncAnimation(figure, animate, interval=3000) 
+
+anim = animation.FuncAnimation(figure, animate, interval=5000) 
 plt.show()

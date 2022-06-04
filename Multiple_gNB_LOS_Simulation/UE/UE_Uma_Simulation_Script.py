@@ -161,7 +161,7 @@ def Reception_RRCSetup_UE(UE_Name):
     Perform_Cell_Group_Configuration()
     Perform_Radio_Bearer_Configuration()
     Update_UEs_Configurations(UE_Name,{"RRC":"RRC_CONNECTED"})
-    Update_UEs_Configurations(UE_Name,{"Connected_Primary_Cell_Name":"gNB_A"})
+    # Update_UEs_Configurations(UE_Name,{"Connected_Primary_Cell_Name":"gNB_A"})
     Set_Content_RRCSetupComplete_Message()
 
 #Perform the cell group configuration procedure in accordance with the received masterCellGroup
@@ -243,6 +243,7 @@ Functions of RSRP Detection
 1.Require gNB Informations
 2.Update gNB-UEs Pairs
 3.RSRPTRANSFERgNB
+4.Movement
 """
 
 #Require the Information of gNBs
@@ -310,6 +311,8 @@ def RSRPTRANSFERgNB(UE_Name):
     if(not(response_data["Connected_Secondary_Cell_Name"]==Connected_Secondary_Cell_Name)):
         Update_UEs_Configurations(UE_Name,{"Connected_Secondary_Cell_Name":response_data["Connected_Secondary_Cell_Name"]})
 
+
+        
 """
 Functions of Calculation
 1.Distance 2D
@@ -379,10 +382,25 @@ for UE_Name in UEs_List:
 
 Require_Information_gNBs()
 
-for UE_Name in UEs_List:
-    Update_gNB_UEs_Pairs(UE_Name)
-    Calculate_Distance_2D(UE_Name)
-    Calculate_Distance_3D(UE_Name)
-    PathLoss_1(UE_Name)
-    Calculate_RSRP(UE_Name)
-    RSRPTRANSFERgNB(UE_Name)
+index=0
+while(index<180):
+    for UE_Name in UEs_List:
+        UE=Obtain_UEs_Configurations(UE_Name)
+        if(UE["Script_Line"][index]!=0):
+            UE_Position_X=UE["UE_Position_X"]
+            UE_Position_Y=UE["UE_Position_Y"]
+            if(UE["Script_Direct"][index]==0):
+                UE_Position_X=UE_Position_X+(UE["Script_Line"][index]*UE["Motion_Speed"])
+                Update_UEs_Configurations(UE_Name,{"UE_Position_X":UE_Position_X})
+            else:
+                UE_Position_Y=UE_Position_Y+(UE["Script_Line"][index]*UE["Motion_Speed"])
+                Update_UEs_Configurations(UE_Name,{"UE_Position_Y":UE_Position_Y})
+
+            Update_gNB_UEs_Pairs(UE_Name)
+            Calculate_Distance_2D(UE_Name)
+            Calculate_Distance_3D(UE_Name)
+            PathLoss_1(UE_Name)
+            Calculate_RSRP(UE_Name)
+            RSRPTRANSFERgNB(UE_Name)
+    index=index+1
+    time.sleep(2)

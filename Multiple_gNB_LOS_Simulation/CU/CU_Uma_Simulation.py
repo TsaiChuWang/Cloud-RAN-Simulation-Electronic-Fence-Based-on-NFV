@@ -26,6 +26,7 @@ FUNCTIONS OF PARAMETER ABOUT CONFIG
 2.gNB_CU_UE_F1AP_ID
 3.gNB_DU_UE_F1AP_ID
 4.gNB_Information
+5.System_Field_Configuration
 """
 def Obtain_UEs_Configurations(UE_Name):
     UEs_Configurations={}
@@ -78,15 +79,37 @@ def Obtain_gNB_Information(gNB_Name):
         return gNBs_Configuration
     return gNBs_Configuration[gNB_Name]
 
+def Obtain_System_Field_Configuration(key):
+    System_Field_Configuration={}
+    with open('./configuration/System_Field_Configuration.json', 'r') as System_Field_Configuration_file:
+        System_Field_Configuration = json.load(System_Field_Configuration_file)
+        System_Field_Configuration_file.close()
+    if(key==""):
+        return System_Field_Configuration
+    return System_Field_Configuration[key]
+
+
 """
 Functions of RSRP Detection
 1.Calculate_RSRPs_Threephase_Stator
+2.UE_OUT_OF_RANGE(UE_Name)
 """
 def Calculate_RSRPs_Threephase_Stator(request_data):
     UE_Position_X=request_data["UE_Position_X"]
     UE_Position_Y=request_data["UE_Position_Y"]
     return UE_Position_X,UE_Position_Y
 
+def UE_OUT_OF_RANGE(UE_Name,UE_Position_X,UE_Position_Y):
+    Range_Type=Obtain_System_Field_Configuration("Range_Type")
+    X_OUT=False
+    Y_OUT=False
+    if(Range_Type=="Rectangle"):
+        if(UE_Position_X<=Obtain_System_Field_Configuration("Rectangle_Start_X") or UE_Position_X>=Obtain_System_Field_Configuration("Rectangle_Start_X")+Obtain_System_Field_Configuration("Rectangle_Width")):
+            X_OUT=True
+        if(UE_Position_Y<=Obtain_System_Field_Configuration("Rectangle_Start_Y") or UE_Position_Y>=Obtain_System_Field_Configuration("Rectangle_Start_Y")+Obtain_System_Field_Configuration("Rectangle_Length")):
+            Y_OUT=True
+        Update_UEs_Configurations(UE_Name,{"UE_OUT_OF_RANGE":(X_OUT or Y_OUT)})
+    
 """
 Functions response to DU
 1.DL_RRC_MESSAGE_TRANSFER
@@ -155,7 +178,6 @@ def INITIAL_UL_RRC_MESSAGE_TRANSFER():
 @app.route("/Recieve_RSRP", methods=['POST'])
 def Recieve_RSRP():
     request_data=request.get_json()
-    print(request_data)
     UE_Position_X,UE_Position_Y=Calculate_RSRPs_Threephase_Stator(request_data)
     UE_Name=request_data["UE_Name"]
     Update_UEs_Configurations(UE_Name,{"UE_Position_X":UE_Position_X})
@@ -177,6 +199,7 @@ def Recieve_RSRP():
 
     Update_UEs_Configurations(UE_Name,{"Connected_Secondary_gNB_Position_X":Connected_Secondary_gNB_Position_X})
     Update_UEs_Configurations(UE_Name,{"Connected_Secondary_gNB_Position_Y":Connected_Secondary_gNB_Position_Y})
+    UE_OUT_OF_RANGE(UE_Name,UE_Position_X,UE_Position_Y)
     return jsonify({"msg":"ok"})
 
 if __name__ == '__main__':
