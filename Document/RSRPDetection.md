@@ -92,3 +92,94 @@ Range_Type has corresponding parameters, in most cases, they are recorded in Sys
 See the figure below:
 
 ![Rectangle](img/Rectangle.png)
+
+The Multiple gNBs System starts from the gNB. It will send a brief gNB message first, and send it to the CU and UE to back it up, that is, the data of the gNB at the beginning. and will continue to be used in this system.
+
+After that, we will allocate a new CellGroup setting through the RRC request, and determine the PCell and SCell of each UE here. This is an important basis for our next calculation. This setting will be updated and calculated.
+
+![Code_UE_Multiple_gNBs_RSRP.png](img/Code_UE_Multiple_gNBs_RSRP.png)
+
+After setting the gNB information, the RSRP calculation will be performed next, and the model to be applied will be determined according to the distance between the interruption point and the plane. At this stage, we will perform the calculation according to the locally saved information updated by RRCSetUp.
+
+Two Cells can be seen above: one is primary and the other is secondary. When RSRP is calculated, three RSRPs are calculated and returned:
+
+| Cell | Calculate |
+| :--: | :--: |
+| Connected_Primary_Cell | RRCSetUp assignment |
+| Connected_Secondary_Cell | RRCSetUp assignment |
+| Special_Cell | Except for the third special Cell set by Connected_Primary_Cell and Connected_Secondary_Cell |
+
+But considering the actual situation, we set the distribution of gNB as a graph, and calculate the location of the third Special_Cell according to the adjacent algorithm. This is for three-phase positioning. In fact, our mobile phone will only connect to two base stations at a time. However, there is also the existence of Special Cell, but it is not used in this place. It is usually called SpCell together with PCell. For details, see the previous CellGroupConfiguration.
+
+![Three-phase positioning](img/Three-phase%20positioning.png)
+
+The process of calculating Special gNB is as follows:
+
+1. Search for other Cells of the CellGroup of Primary_Cell
+2. If there are no other Cells other than Primary_Cell or Secondary_Cell
+3. Search for other Cells of the CellGroup of Secondary_Cell
+4. If not, search for the next closest CellGroup
+5. Search for the closest Cell to Primary_Cell in the closest CellGroup
+
+The specific flow chart is as follows
+
+![specific flow chart](img/Calculation_RSRP_FlowChart_Multiple_gNBs.png)
+
+After calculating the RSRP, the UE will feed it back to the gNB, and then the gNB will calculate the new MCG and SCG and send the new configuration back to the UE. The gNB will transmit the RSRP and UE information to the CU before the calculation. It will be faster, or this is the essence of mobile edge computing: dividing most of the operations to the CU.
+
+The parameters transmitted by the UE to the gNB are as follows:
+
+| Name | Content |
+| :--: | :--: |
+| UE_Name | UE name |
+| Connected_Primary_Cell_Name | Primary connected gNB |
+| Connected_Secondary_Cell_Name | |Secondary connected gNB |
+| Connected_Special_Cell_Name | gNBs other than the above two |
+| RSRP_Primary_Cell | RSRP backhauled by the gNB to which the primary connection is made |
+| RSRP_Secondary_Cell | RSRP backhauled by the secondary connected gNB |
+| RSRP_Special_Cell | RSRP returned by Special_Cell gNB |
+
+In fact, more parameters will be used, but the less data, the faster the propagation speed. In addition, gNB already has other gNB configurations, so we only need to pass the minimum parameters, and then let gNB judge the next one by itself Accessed gNB.
+
+The UE will make a judgment after receiving the returned data. If the parameter remains unchanged, it will not change it. This is an important part of ensuring our read and write security and acceleration, because in terms of probability, we can determine , the probability of not changing hands is smaller than the probability of changing hands, and making judgments can reduce our expectation of wasting time.
+
+The CU will perform operations according to the data received by the order. It will first calculate the corresponding distance from each gNB to the UE, and then generate a circle equation. We first judge Primary_Cell and Secondary_Cell, and then judge by Secondary_Cell and Special_Cell.
+
+At this time, three situations will occur:
+
+1. intersect
+2. separated
+3. Cut-off point
+
+Mathematically, that's true, but, in reality, we're locating a point, so we're going to get rid of the dissociation, because that can't happen from our situation, there's only intersection and tangent left. The situation, however, is only one possibility and two possibilities for us.
+
+The code reference [Python代碼求解兩圓交點坐標](https://blog.csdn.net/qq_30336905/article/details/102972915), he calculates according to the auxiliary line, as shown below:
+
+![Auxiliary line for calculation](img/Auxiliary%20line%20for%20calculation.png)
+
+This article has brought us a lot of help, because geometric drawing requires a lot of calculations to be digitized. In short, three circles are used for three positioning, but the result still has a decimal point error, because the output The value of is a floating point number, but we set it to only move in integers, though, that doesn't really matter.
+
+After obtaining the point, we will first draw the position of the point on the canvas. No operation is performed on this matter, because this is a very time-consuming operation method. We will perform the operation on other programs. In fact, the canvas and the operation are two programs that interact with each other through configuration files.
+
+Then use a solid line to draw the connection between PCell and UE. This is a very important part. You can see the simplified version of the handover here. To be honest, it should not be used in the official handover calculation. method, but the interaction between the UE and these gNBs can be seen over time.
+
+Finally, draw the SCell with a dotted line. In fact, this step can be omitted, because the dotted line becomes a little invisible, but for some reasons, we still decide to go up, but the flexible design makes it very convenient for us to cancel.
+
+![Line PCell](img/LINEOFPCELL.png)
+
+![Line SCell](img/LINEOFSCELL.png)
+
+Of course, we will also mark the color and name of the UE in the lower right corner.
+
+We try to avoid using a lot of read and write operations and operations in GUI programs, because Mataplotlib itself is a program that consumes a lot of computing resources, so we will add the OUT_OF_RANGE parameter to the configuration file. For this, we will mark it in the operation part Whether it is out of range is determined by specifying the range with the RANGE_Type parameter.
+
+The determination of geometric shapes is similar, so we take the rectangular behavior as an example:
+At this point we already know the approximate coordinates of the UE, so we will use this coordinate to determine whether it is within or outside the range we specified.
+
+If you copy out the range, it will indicate that it has left the range, the program will alert the GUI, and the font will turn red, in fact, if this will be applied elsewhere, you can write a different alert here: LineBot is a good Methods.
+
+Alert Status:
+
+![Alert](img/Figure_OUT_OF_RANGE.png)
+
+In short, the results watch the video.
