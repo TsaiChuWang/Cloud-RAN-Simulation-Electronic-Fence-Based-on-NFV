@@ -57,6 +57,7 @@ def INITIALIZE_CONFIGURATION():
         UE_Position_X=random.randint(-400,400)
         UE_Position_Y=random.randint(-400,400)
         # gNB=Find_Primary_Cell(UE_Position_X,UE_Position_Y)
+        Script_Line_Origin_Array=[0,0,0,0,1,-1]
         data={
             "UE_Name": UE_Name,
             "UE_IP": "10.0.2.121",
@@ -109,8 +110,9 @@ def INITIALIZE_CONFIGURATION():
                     "BucketSizeDuration_ms":1000,
                     "LogicalChannelGroup":0
                 }
-            }
-
+            },
+            "Script_Line":[random.choice(Script_Line_Origin_Array) for i in range(180)],
+            "Script_Direct":[random.choice([0,1]) for i in range(180)]
         }
         Update_UEs_Configurations(UE_Name,data)
 
@@ -236,10 +238,11 @@ def CLEAN_UP():
     for UE_Name in UEs_List:
         Update_UEs_Configurations(UE_Name,{"RRC": "RRC_IDLE"})
 
-
 """
 Functions of RSRP Detection
 1.Require gNB Informations
+2.Update gNB-UEs Pairs
+3.RSRPTRANSFERgNB
 """
 
 #Require the Information of gNBs
@@ -251,9 +254,119 @@ def Require_Information_gNBs():
     response_data=json.loads(response.text)
     Update_Information_gNBs(response_data)
 
+#Update gNB-UEs Pairs
+def Update_gNB_UEs_Pairs(UE_Name):
+    UE=Obtain_UEs_Configurations(UE_Name)
+
+    Connected_Primary_Cell_Name=UE["Connected_Primary_Cell_Name"]
+    Primary_Cell=Obtain_gNB_Information(Connected_Primary_Cell_Name)
+    Connected_Primary_Cell_Position_X=Primary_Cell["gNB_Position_X"]
+    Connected_Primary_Cell_Position_Y=Primary_Cell["gNB_Position_Y"]
+    Connected_Primary_Cell_gNB_Antenna_Power=Primary_Cell["gNB_Antenna_Power"]
+    Connected_Primary_Cell_gNB_Center_Frequency=Primary_Cell["gNB_Center_Frequency"]
+    Connected_Secondary_Cell_Name=UE["Connected_Secondary_Cell_Name"]
+    Secondary_Cell=Obtain_gNB_Information(Connected_Secondary_Cell_Name)
+    Connected_Secondary_Cell_Position_X=Secondary_Cell["gNB_Position_X"]
+    Connected_Secondary_Cell_Position_Y=Secondary_Cell["gNB_Position_Y"]
+    
+    Update_UEs_Configurations(UE_Name,{"Connected_Primary_Cell_Position_X":Connected_Primary_Cell_Position_X})
+    Update_UEs_Configurations(UE_Name,{"Connected_Primary_Cell_Position_Y":Connected_Primary_Cell_Position_Y})
+    Update_UEs_Configurations(UE_Name,{"Connected_Primary_Cell_gNB_Antenna_Power":Connected_Primary_Cell_gNB_Antenna_Power})
+    Update_UEs_Configurations(UE_Name,{"Connected_Primary_Cell_gNB_Center_Frequency":Connected_Primary_Cell_gNB_Center_Frequency})
+    Update_UEs_Configurations(UE_Name,{"Connected_Secondary_Cell_Position_X":Connected_Secondary_Cell_Position_X})
+    Update_UEs_Configurations(UE_Name,{"Connected_Secondary_Cell_Position_Y":Connected_Secondary_Cell_Position_Y})
+    Update_UEs_Configurations(UE_Name,{"Connected_Primary_Cell_gNB_BS_Height":Primary_Cell["gNB_BS_Height"]})
+
+def RSRPTRANSFERgNB(UE_Name):
+    UE=Obtain_UEs_Configurations(UE_Name)
+    url = "http://"+UE["Connected_Primary_Cell_IP"]+":1441/RecieveRSRP"
+    MCG=UE["MCG"]
+    SCG=UE["SCG"]
+    Connected_Primary_Cell_Name= UE["Connected_Primary_Cell_Name"]
+    Connected_Secondary_Cell_Name=UE["Connected_Secondary_Cell_Name"]
+    payload={
+        "UE_Name": UE_Name,
+        "RSRP": UE["RSRP"],
+        "MCG": MCG,
+        "SCG": SCG,
+        "Connected_Primary_Cell_Name": Connected_Primary_Cell_Name,
+        "Connected_Secondary_Cell_Name": Connected_Secondary_Cell_Name,
+        "UE_Position_X":UE["UE_Position_X"],
+        "UE_Position_Y":UE["UE_Position_Y"]
+    }
+    payload=json.dumps(payload)
+    headers = { 'Content-Type': 'application/json' }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    response_data=json.loads(response.text)
+    if(not(response_data["MCG"]==MCG)):
+        Update_UEs_Configurations(UE_Name,{"MCG":response_data["MCG"]})
+    
+    if(not(response_data["SCG"]==MCG)):
+        Update_UEs_Configurations(UE_Name,{"SCG":response_data["SCG"]})
+    
+    if(not(response_data["Connected_Primary_Cell_Name"]==Connected_Primary_Cell_Name)):
+        Update_UEs_Configurations(UE_Name,{"Connected_Primary_Cell_Name":response_data["Connected_Primary_Cell_Name"]})
+    
+    if(not(response_data["Connected_Secondary_Cell_Name"]==Connected_Secondary_Cell_Name)):
+        Update_UEs_Configurations(UE_Name,{"Connected_Secondary_Cell_Name":response_data["Connected_Secondary_Cell_Name"]})
+
+"""
+Functions of Calculation
+1.Distance 2D
+2.Break_Point
+3.Distance 3D
+4.PathLoss
+4.1.PathLoss1
+4.2.PathLoss2
+5.RSRP
+"""
+def Calculate_Distance_2D(UE_Name):
+    UE=Obtain_UEs_Configurations(UE_Name)
+    Delta_X=UE["Connected_Primary_Cell_Position_X"]-UE["UE_Position_X"]
+    Delta_Y=UE["Connected_Primary_Cell_Position_Y"]-UE["UE_Position_Y"]
+    Distance_2D=math.sqrt((Delta_X*Delta_X)+(Delta_Y*Delta_Y))
+    Update_UEs_Configurations(UE_Name,{"Distance_2D":Distance_2D})
+
+def Calculate_Distance_Break_Point(UE_Name):
+    UE=Obtain_UEs_Configurations(UE_Name)
+    Distance_Break_Point=UE["Connected_Primary_Cell_gNB_BS_Height"]*UE["User_Terminal_Height"]
+    Distance_Break_Point=Distance_Break_Point*2*math.pi*UE["gNB_Center_Frequency"]*1000000
+    Distance_Break_Point=Distance_Break_Point/(3*100000000)
+    Update_UEs_Configurations(UE_Name,{"Distance_Break_Point":Distance_Break_Point})
+
+def Calculate_Distance_3D(UE_Name):
+    UE=Obtain_UEs_Configurations(UE_Name)
+    Distance_2D=UE["Distance_2D"]
+    Delta_H=UE["Connected_Primary_Cell_gNB_BS_Height"]-UE["User_Terminal_Height"]
+    Distance_3D=math.sqrt((Distance_2D*Distance_2D)+(Delta_H*Delta_H))
+    Update_UEs_Configurations(UE_Name,{"Distance_3D":Distance_3D})
+
+def PathLoss_1(UE_Name):
+    UE=Obtain_UEs_Configurations(UE_Name)
+    PathLoss=28.0
+    PathLoss=PathLoss+22.0*np.log10(UE["Distance_3D"])
+    PathLoss=PathLoss+20.0*np.log10(UE["Connected_Primary_Cell_gNB_Center_Frequency"]/1000)
+    Update_UEs_Configurations(UE_Name,{"PathLoss":PathLoss})
+    
+
+def PathLoss_2(UE_Name):
+    UE=Obtain_UEs_Configurations(UE_Name)
+    PathLoss=28.0
+    PathLoss=PathLoss+22.0*np.log10(UE["Distance_3D"])
+    PathLoss=PathLoss+20.0*np.log10(UE["Connected_Primary_Cell_gNB_Center_Frequency"]/1000)
+    Delta_H=UE["Connected_Primary_Cell_gNB_BS_Height"]-UE["User_Terminal_Height"]
+    PathLoss=PathLoss-9*np.log10((Delta_H*Delta_H)+(UE["Distance_Break_Point"]*UE["Distance_Break_Point"]))
+    Update_UEs_Configurations(UE_Name,{"PathLoss":PathLoss})
+
+def Calculate_RSRP(UE_Name):
+    UE=Obtain_UEs_Configurations(UE_Name)
+    gNB_Antenna_Power=UE['Connected_Primary_Cell_gNB_Antenna_Power']
+    PathLoss=UE['PathLoss']
+    RSRP=gNB_Antenna_Power-PathLoss
+    Update_UEs_Configurations(UE_Name,{"RSRP":RSRP})
 
 
-INITIALIZE_CONFIGURATION()
+# INITIALIZE_CONFIGURATION()
 CLEAN_UP()
 UEs_List=Obtain_UEs_Configurations("UEs_List")
 for UE_Name in UEs_List:
@@ -265,3 +378,11 @@ for UE_Name in UEs_List:
             break;
 
 Require_Information_gNBs()
+
+for UE_Name in UEs_List:
+    Update_gNB_UEs_Pairs(UE_Name)
+    Calculate_Distance_2D(UE_Name)
+    Calculate_Distance_3D(UE_Name)
+    PathLoss_1(UE_Name)
+    Calculate_RSRP(UE_Name)
+    RSRPTRANSFERgNB(UE_Name)

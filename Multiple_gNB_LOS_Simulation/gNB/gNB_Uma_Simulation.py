@@ -296,6 +296,29 @@ def RRCSetup(request_data):
     request_data.update({"masterCellGroup":CellGroupConfig})
     return request_data
 
+
+"""
+Functions of sub process RSRP
+"""
+
+def RSRPTRANSFER(request_data):
+    url = "http://"+"10.0.2.99"+":1441/Recieve_RSRP"
+    payload={
+        "UE_Name": request_data["UE_Name"],
+        "RSRP": request_data["RSRP"],
+        "Connected_Primary_Cell_Name": request_data["Connected_Primary_Cell_Name"],
+        "Connected_Secondary_Cell_Name": request_data["Connected_Secondary_Cell_Name"],
+        "UE_Position_X":request_data["UE_Position_X"],
+        "UE_Position_Y":request_data["UE_Position_Y"],
+        # "Connected_Primary_gNB_Position_X":Obtain_Cell_Group_Configuration_gNB(request_data["MCG"],request_data["Connected_Primary_Cell_Name"])["gNB_Position_X"],
+        # "Connected_Primary_gNB_Position_Y":Obtain_Cell_Group_Configuration_gNB(request_data["MCG"],request_data["Connected_Primary_Cell_Name"])["gNB_Position_Y"],
+        # "Connected_Secondary_gNB_Position_X":Obtain_Cell_Group_Configuration_gNB(request_data["SCG"],request_data["Connected_Secondary_Cell_Name"])["gNB_Position_X"],
+        # "Connected_Secondary_gNB_Position_Y":Obtain_Cell_Group_Configuration_gNB(request_data["SCG"],request_data["Connected_Secondary_Cell_Name"])["gNB_Position_Y"],
+    }
+    payload=json.dumps(payload)
+    headers = { 'Content-Type': 'application/json' }
+    response = requests.request("POST", url, headers=headers, data=payload)
+
 """
 Functions of APIs to UE Access
 1.RRCSetupRequest
@@ -311,6 +334,8 @@ def RRCSetupRequest():
 
 """
 Functions of RSRP Detection
+1.gNB_Information_Request
+2.RecieveRSRP
 """
 @app.route("/gNB_Information_Request", methods=['GET'])
 def gNB_Information_Request():
@@ -333,7 +358,8 @@ def gNB_Information_Request():
                 "gNB_Position_X": data["gNB_Position_X"],
                 "gNB_Position_Y": data["gNB_Position_Y"],
                 "gNB_BS_Height": data["gNB_BS_Height"],
-                "gNB_BS_Height": data["gNB_BS_Height"]
+                "gNB_BS_Height": data["gNB_BS_Height"],
+                "gNB_Center_Color": data["gNB_Center_Color"]
             }
             # cellGroup_data.update({gNB_Name:gNB_data})
             data_response.update({gNB_Name:gNB_data})
@@ -341,6 +367,20 @@ def gNB_Information_Request():
     Response_gNB_Information(data_response)
     return jsonify(data_response)
 
+@app.route("/RecieveRSRP", methods=['POST'])
+def RecieveRSRP():
+    request_data=request.get_json()
+    RSRPTRANSFER(request_data)
+    MCG,MC=Calculate_MCG(request_data)
+    SCG,SC=Calculate_SCG(request_data,MC)
+    print(request_data)
+    response_UE_data={
+        "MCG":MCG,
+        "SCG":SCG,
+        "Connected_Primary_Cell_Name":MC,
+        "Connected_Secondary_Cell_Name":SC
+    }
+    return jsonify(response_UE_data)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True,port=PORT)

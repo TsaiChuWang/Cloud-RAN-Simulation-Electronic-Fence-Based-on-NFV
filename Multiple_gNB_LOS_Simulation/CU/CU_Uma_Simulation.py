@@ -8,6 +8,7 @@ import random
 import requests
 
 
+
 app = Flask(__name__)
 PORT = 1441
 FORMAT = '%(asctime)s,%(levelname)s,%(message)s'
@@ -78,6 +79,15 @@ def Obtain_gNB_Information(gNB_Name):
     return gNBs_Configuration[gNB_Name]
 
 """
+Functions of RSRP Detection
+1.Calculate_RSRPs_Threephase_Stator
+"""
+def Calculate_RSRPs_Threephase_Stator(request_data):
+    UE_Position_X=request_data["UE_Position_X"]
+    UE_Position_Y=request_data["UE_Position_Y"]
+    return UE_Position_X,UE_Position_Y
+
+"""
 Functions response to DU
 1.DL_RRC_MESSAGE_TRANSFER
 """
@@ -130,7 +140,6 @@ def DL_RRC_MESSAGE_TRANSFER(request_data):
 @app.route("/RecievegNB_Information", methods=['POST'])
 def RecievegNB_Information():
     request_data=request.get_json()
-    print(request_data)
     Update_Information_gNBs(request_data)
     return "RECIEVE SUCCESS"
 
@@ -141,6 +150,34 @@ def INITIAL_UL_RRC_MESSAGE_TRANSFER():
     response_data=DL_RRC_MESSAGE_TRANSFER(request_data)
     response_data.update({"RRC":"RRCSetUp"})
     return jsonify(response_data)
+
+#Recive RSRP from UE
+@app.route("/Recieve_RSRP", methods=['POST'])
+def Recieve_RSRP():
+    request_data=request.get_json()
+    print(request_data)
+    UE_Position_X,UE_Position_Y=Calculate_RSRPs_Threephase_Stator(request_data)
+    UE_Name=request_data["UE_Name"]
+    Update_UEs_Configurations(UE_Name,{"UE_Position_X":UE_Position_X})
+    Update_UEs_Configurations(UE_Name,{"UE_Position_Y":UE_Position_Y})
+    Update_UEs_Configurations(UE_Name,{"RSRP":request_data["RSRP"]})
+    Update_UEs_Configurations(UE_Name,{"Connected_Primary_Cell_Name":request_data["Connected_Primary_Cell_Name"]})
+    Update_UEs_Configurations(UE_Name,{"Connected_Secondary_Cell_Name":request_data["Connected_Secondary_Cell_Name"]})
+
+    Primary_Cell=Obtain_gNB_Information(request_data["Connected_Primary_Cell_Name"])
+    Connected_Primary_gNB_Position_X=Primary_Cell["gNB_Position_X"]
+    Connected_Primary_gNB_Position_Y=Primary_Cell["gNB_Position_Y"]
+
+    Update_UEs_Configurations(UE_Name,{"Connected_Primary_gNB_Position_X":Connected_Primary_gNB_Position_X})
+    Update_UEs_Configurations(UE_Name,{"Connected_Primary_gNB_Position_Y":Connected_Primary_gNB_Position_Y})
+
+    Secondary_Cell=Obtain_gNB_Information(request_data["Connected_Secondary_Cell_Name"])
+    Connected_Secondary_gNB_Position_X=Secondary_Cell["gNB_Position_X"]
+    Connected_Secondary_gNB_Position_Y=Secondary_Cell["gNB_Position_Y"]
+
+    Update_UEs_Configurations(UE_Name,{"Connected_Secondary_gNB_Position_X":Connected_Secondary_gNB_Position_X})
+    Update_UEs_Configurations(UE_Name,{"Connected_Secondary_gNB_Position_Y":Connected_Secondary_gNB_Position_Y})
+    return jsonify({"msg":"ok"})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True,port=PORT)
