@@ -114,10 +114,11 @@ def Obtain_radioBearerConfig():
         radioBearerConfig_file.close()
     return radioBearerConfig
 
+
 """
 Functions to request gNB_CU
 1.INITIAL UL RRC MESSAGE TRANSFER
-
+2.UL_RRC_MESSAGE_TRANSFER
 6.RSRPRequest
 """
 
@@ -140,6 +141,26 @@ def INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data):
         },
         "SUL_Access_Indication":True,
         "Transaction_ID":Allocate_Transaction_ID(UE_Name)
+    }
+    payload=json.dumps(payload)
+    headers = { 'Content-Type': 'application/json' }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    return json.loads(response.text)
+
+#Step(7) This message is sent by the gNB-DU to transfer the layer 3 message to the gNB-CU over the F1 interface
+def UL_RRC_MESSAGE_TRANSFER(request_data):
+    url = "http://"+CU_IP+":1440/UL_RRC_MESSAGE_TRANSFER"
+    UE_Name=request_data["UE_Name"]
+    payload={
+        "UE_Name":UE_Name,
+        "gNB_Name":Obtain_gNB_Configuration()["gNB_Name"],
+        "gNB_DU_UE_F1AP_ID":Obtain_gNB_DU_UE_F1AP_ID(UE_Name),
+        "gNB_CU_UE_F1AP_ID":Obtain_gNB_UEs_Configuration()[UE_Name]["gNB_CU_UE_F1AP_ID"],
+        "SRB_ID":1,
+        "RRC_Container":"RRC_CONNECTION_SETUP_COMPLETE",
+        "Selected_PLMN_ID":request_data["selectedPLMN_Identity_Index"],
+        "New_gNB_DU_UE_F1AP_ID":Allocate_gNB_DU_UE_F1AP_ID(UE_Name),
+        "NR_CGI":Obtain_gNB_Configuration()["NR_CGI"]
     }
     payload=json.dumps(payload)
     headers = { 'Content-Type': 'application/json' }
@@ -175,6 +196,7 @@ def RRCSetup():
 """
 Functions of APIs to UE Access
 1.RRCSetupRequest
+2.RRC_CONNECTION_SETUP_COMPLETE
 """
 
 #Setp(1) Get RRCSetupRequest from UE and 1.to CU 2.Response to UE
@@ -190,10 +212,18 @@ def RRCSetupRequest():
 
     return jsonify(RRCSetup())
 
+#Step(5) RRC_CONNECTION_SETUP_COMPLETE
+@app.route("/RRC_CONNECTION_SETUP_COMPLETE", methods=['POST'])
+def RRC_CONNECTION_SETUP_COMPLETE():
+    request_data=request.get_json()
+    print(request_data)
+    UL_RRC_MESSAGE_TRANSFER(request_data)
+    return jsonify({})
 
 """
 Functions od RSRP Detections
 1.gNB_Information_Request
+2.RecieveRSRPResponse
 """
 
 #Get informations of gNB for UE
@@ -213,12 +243,6 @@ def gNB_Information_Request():
         "gNB_Range_Color": Obtain_gNB_Configuration()["gNB_Range_Color"]
     }
     return jsonify(gNB_data)
-
-
-"""
-Functions About RSRP Detection
-1.RecieveRSRPResponse
-"""
 
 #Recive RSRP from UE
 @app.route("/RecieveRSRPResponse", methods=['POST'])

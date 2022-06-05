@@ -2,10 +2,12 @@
 
 ## Document Part
 
-- [ ] Multiple Show
+- [x] Multiple Show
 - [ ] Single RRCSetupComplete
 - [ ] Map Draw
 - [ ] Part two First draft
+- [ ] NIU Model
+- [ ] 
 
 ## Wait for fixed
 
@@ -43,3 +45,4 @@
 - [ ] RRC
 - [ ] MAC Cell Group configuration
 - [ ] RAT-Frequency Priority 
+- [ ] NSSAI

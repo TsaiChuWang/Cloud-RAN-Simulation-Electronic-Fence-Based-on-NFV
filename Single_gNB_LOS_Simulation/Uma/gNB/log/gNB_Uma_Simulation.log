@@ -24159,3 +24159,596 @@
 2022/06/02,11:06:02,DEBUG,Starting new HTTP connection (1): 10.0.2.99
 2022/06/02,11:06:02,DEBUG,http://10.0.2.99:1440 "POST /RecieveRSRPResponse HTTP/1.1" 200 15
 2022/06/02,11:06:02,INFO,10.0.2.121 - - [02/Jun/2022 11:06:02] "POST /RecieveRSRPResponse HTTP/1.1" 200 -
+2022/06/05,08:21:20,WARNING,Start Server
+2022/06/05,08:21:20,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/06/05,08:21:20,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/06/05,08:21:20,INFO, * Restarting with stat
+2022/06/05,08:21:20,WARNING,Start Server
+2022/06/05,08:21:20,WARNING, * Debugger is active!
+2022/06/05,08:21:20,INFO, * Debugger PIN: 275-905-018
+2022/06/05,08:21:57,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,08:21:57,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,08:21:57,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,08:21:57,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 544
+2022/06/05,08:21:57,INFO,Response RRCSetUp to UE.
+2022/06/05,08:21:57,INFO,10.0.2.121 - - [05/Jun/2022 08:21:57] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,08:21:57,INFO,gNB Information request
+2022/06/05,08:21:57,INFO,10.0.2.121 - - [05/Jun/2022 08:21:57] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,08:26:35,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,08:26:35,INFO, * Restarting with stat
+2022/06/05,08:26:35,WARNING,Start Server
+2022/06/05,08:26:35,WARNING, * Debugger is active!
+2022/06/05,08:26:35,INFO, * Debugger PIN: 275-905-018
+2022/06/05,08:26:42,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,08:26:42,INFO, * Restarting with stat
+2022/06/05,08:26:42,WARNING,Start Server
+2022/06/05,08:26:42,WARNING, * Debugger is active!
+2022/06/05,08:26:42,INFO, * Debugger PIN: 275-905-018
+2022/06/05,14:14:04,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,14:14:04,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,14:14:04,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,14:14:04,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 544
+2022/06/05,14:14:04,INFO,Response RRCSetUp to UE.
+2022/06/05,14:14:04,INFO,10.0.2.121 - - [05/Jun/2022 14:14:04] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,14:14:04,INFO,gNB Information request
+2022/06/05,14:14:04,INFO,10.0.2.121 - - [05/Jun/2022 14:14:04] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,14:15:54,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,14:15:54,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,14:15:54,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,14:15:54,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 545
+2022/06/05,14:15:54,INFO,Response RRCSetUp to UE.
+2022/06/05,14:15:54,INFO,10.0.2.121 - - [05/Jun/2022 14:15:54] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,14:16:35,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,14:16:35,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,14:16:35,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,14:16:35,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 544
+2022/06/05,14:16:35,INFO,Response RRCSetUp to UE.
+2022/06/05,14:16:35,INFO,10.0.2.121 - - [05/Jun/2022 14:16:35] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,14:16:35,INFO,10.0.2.121 - - [05/Jun/2022 14:16:35] "POST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1" 200 -
+2022/06/05,14:16:35,INFO,gNB Information request
+2022/06/05,14:16:35,INFO,10.0.2.121 - - [05/Jun/2022 14:16:35] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,14:27:52,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,14:27:52,INFO, * Restarting with stat
+2022/06/05,14:43:31,WARNING,Start Server
+2022/06/05,14:43:31,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/06/05,14:43:31,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/06/05,14:43:31,INFO, * Restarting with stat
+2022/06/05,14:43:31,WARNING,Start Server
+2022/06/05,14:43:31,WARNING, * Debugger is active!
+2022/06/05,14:43:31,INFO, * Debugger PIN: 275-905-018
+2022/06/05,14:43:34,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,14:43:34,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,14:43:34,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,14:43:34,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 540
+2022/06/05,14:43:34,INFO,Response RRCSetUp to UE.
+2022/06/05,14:43:34,INFO,10.0.2.121 - - [05/Jun/2022 14:43:34] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,14:43:34,INFO,10.0.2.121 - - [05/Jun/2022 14:43:34] "POST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1" 200 -
+2022/06/05,14:43:34,INFO,gNB Information request
+2022/06/05,14:43:34,INFO,10.0.2.121 - - [05/Jun/2022 14:43:34] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,14:43:54,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,14:43:54,INFO, * Restarting with stat
+2022/06/05,14:43:55,WARNING,Start Server
+2022/06/05,14:43:55,WARNING, * Debugger is active!
+2022/06/05,14:43:55,INFO, * Debugger PIN: 275-905-018
+2022/06/05,14:43:56,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,14:43:56,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,14:43:56,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,14:43:56,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 541
+2022/06/05,14:43:56,INFO,Response RRCSetUp to UE.
+2022/06/05,14:43:56,INFO,10.0.2.121 - - [05/Jun/2022 14:43:56] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,14:43:56,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,14:43:56,DEBUG,http://10.0.2.99:1440 "POST /UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 3
+2022/06/05,14:43:56,INFO,10.0.2.121 - - [05/Jun/2022 14:43:56] "POST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1" 200 -
+2022/06/05,14:43:56,INFO,gNB Information request
+2022/06/05,14:43:56,INFO,10.0.2.121 - - [05/Jun/2022 14:43:56] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,14:45:38,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,14:45:38,INFO, * Restarting with stat
+2022/06/05,14:45:38,WARNING,Start Server
+2022/06/05,14:45:38,WARNING, * Debugger is active!
+2022/06/05,14:45:38,INFO, * Debugger PIN: 275-905-018
+2022/06/05,14:46:15,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,14:46:15,INFO, * Restarting with stat
+2022/06/05,14:46:16,WARNING,Start Server
+2022/06/05,14:46:16,WARNING, * Debugger is active!
+2022/06/05,14:46:16,INFO, * Debugger PIN: 275-905-018
+2022/06/05,14:46:48,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,14:46:48,INFO, * Restarting with stat
+2022/06/05,14:46:48,WARNING,Start Server
+2022/06/05,14:46:48,WARNING, * Debugger is active!
+2022/06/05,14:46:48,INFO, * Debugger PIN: 275-905-018
+2022/06/05,14:47:08,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,14:47:08,INFO, * Restarting with stat
+2022/06/05,14:49:07,WARNING,Start Server
+2022/06/05,14:49:07,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/06/05,14:49:07,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/06/05,14:49:07,INFO, * Restarting with stat
+2022/06/05,14:49:07,WARNING,Start Server
+2022/06/05,14:49:07,WARNING, * Debugger is active!
+2022/06/05,14:49:07,INFO, * Debugger PIN: 275-905-018
+2022/06/05,14:49:13,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,14:49:13,INFO, * Restarting with stat
+2022/06/05,14:49:14,WARNING,Start Server
+2022/06/05,14:49:14,WARNING, * Debugger is active!
+2022/06/05,14:49:14,INFO, * Debugger PIN: 275-905-018
+2022/06/05,14:49:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,14:49:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,14:49:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,14:49:22,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 545
+2022/06/05,14:49:22,INFO,Response RRCSetUp to UE.
+2022/06/05,14:49:22,INFO,10.0.2.121 - - [05/Jun/2022 14:49:22] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,14:49:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,14:49:22,DEBUG,http://10.0.2.99:1440 "POST /UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 3
+2022/06/05,14:49:22,INFO,10.0.2.121 - - [05/Jun/2022 14:49:22] "POST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1" 200 -
+2022/06/05,14:49:22,INFO,gNB Information request
+2022/06/05,14:49:22,INFO,10.0.2.121 - - [05/Jun/2022 14:49:22] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,14:49:40,WARNING,Start Server
+2022/06/05,14:49:40,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/06/05,14:49:40,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/06/05,14:49:40,INFO, * Restarting with stat
+2022/06/05,14:49:40,WARNING,Start Server
+2022/06/05,14:49:40,WARNING, * Debugger is active!
+2022/06/05,14:49:40,INFO, * Debugger PIN: 275-905-018
+2022/06/05,14:50:05,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,14:50:06,INFO, * Restarting with stat
+2022/06/05,14:50:06,WARNING,Start Server
+2022/06/05,14:50:06,WARNING, * Debugger is active!
+2022/06/05,14:50:06,INFO, * Debugger PIN: 275-905-018
+2022/06/05,15:39:17,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,15:39:17,INFO, * Restarting with stat
+2022/06/05,15:39:18,WARNING,Start Server
+2022/06/05,15:39:18,WARNING, * Debugger is active!
+2022/06/05,15:39:18,INFO, * Debugger PIN: 275-905-018
+2022/06/05,15:40:46,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,15:40:46,INFO, * Restarting with stat
+2022/06/05,15:40:46,WARNING,Start Server
+2022/06/05,15:40:46,WARNING, * Debugger is active!
+2022/06/05,15:40:46,INFO, * Debugger PIN: 275-905-018
+2022/06/05,15:41:00,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,15:41:00,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,15:41:00,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,15:41:00,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 543
+2022/06/05,15:41:00,INFO,Response RRCSetUp to UE.
+2022/06/05,15:41:00,INFO,10.0.2.121 - - [05/Jun/2022 15:41:00] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,15:41:00,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,15:41:00,DEBUG,http://10.0.2.99:1440 "POST /UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 3
+2022/06/05,15:41:00,INFO,10.0.2.121 - - [05/Jun/2022 15:41:00] "POST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1" 200 -
+2022/06/05,15:41:00,INFO,gNB Information request
+2022/06/05,15:41:00,INFO,10.0.2.121 - - [05/Jun/2022 15:41:00] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,15:42:12,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,15:42:12,INFO, * Restarting with stat
+2022/06/05,15:42:12,WARNING,Start Server
+2022/06/05,15:42:12,WARNING, * Debugger is active!
+2022/06/05,15:42:12,INFO, * Debugger PIN: 275-905-018
+2022/06/05,16:01:57,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,16:01:58,INFO, * Restarting with stat
+2022/06/05,16:01:58,WARNING,Start Server
+2022/06/05,16:01:58,WARNING, * Debugger is active!
+2022/06/05,16:01:58,INFO, * Debugger PIN: 275-905-018
+2022/06/05,16:02:18,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:02:18,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:02:18,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:02:18,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 542
+2022/06/05,16:02:18,INFO,Response RRCSetUp to UE.
+2022/06/05,16:02:18,INFO,10.0.2.121 - - [05/Jun/2022 16:02:18] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,16:02:18,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:02:18,DEBUG,http://10.0.2.99:1440 "POST /UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 3
+2022/06/05,16:02:18,INFO,10.0.2.121 - - [05/Jun/2022 16:02:18] "POST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1" 200 -
+2022/06/05,16:02:18,INFO,gNB Information request
+2022/06/05,16:02:18,INFO,10.0.2.121 - - [05/Jun/2022 16:02:18] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,16:14:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:31,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:31,INFO,10.0.2.121 - - [05/Jun/2022 16:14:31] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:31,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:31,INFO,10.0.2.121 - - [05/Jun/2022 16:14:31] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:31,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:31,INFO,10.0.2.121 - - [05/Jun/2022 16:14:31] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:31,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:31,INFO,10.0.2.121 - - [05/Jun/2022 16:14:31] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:31,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:31,INFO,10.0.2.121 - - [05/Jun/2022 16:14:31] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:31,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:31,INFO,10.0.2.121 - - [05/Jun/2022 16:14:31] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:31,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:31,INFO,10.0.2.121 - - [05/Jun/2022 16:14:31] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:31,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:31,INFO,10.0.2.121 - - [05/Jun/2022 16:14:31] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:31,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:31,INFO,10.0.2.121 - - [05/Jun/2022 16:14:31] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:31,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:31,INFO,10.0.2.121 - - [05/Jun/2022 16:14:31] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:31,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:31,INFO,10.0.2.121 - - [05/Jun/2022 16:14:31] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:31,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:31,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:31,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:32,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:32,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:32,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:32,INFO,10.0.2.121 - - [05/Jun/2022 16:14:32] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:33,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:33,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:33,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:33,INFO,10.0.2.121 - - [05/Jun/2022 16:14:33] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,16:14:40,WARNING,Start Server
+2022/06/05,16:14:40,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/06/05,16:14:40,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/06/05,16:14:40,INFO, * Restarting with stat
+2022/06/05,16:14:40,WARNING,Start Server
+2022/06/05,16:14:40,WARNING, * Debugger is active!
+2022/06/05,16:14:40,INFO, * Debugger PIN: 275-905-018
+2022/06/05,16:14:43,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:14:43,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:14:43,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:43,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 545
+2022/06/05,16:14:43,INFO,Response RRCSetUp to UE.
+2022/06/05,16:14:43,INFO,10.0.2.121 - - [05/Jun/2022 16:14:43] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,16:14:43,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:14:43,DEBUG,http://10.0.2.99:1440 "POST /UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 500 None
+2022/06/05,16:14:43,INFO,10.0.2.121 - - [05/Jun/2022 16:14:43] "[35m[1mPOST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1[0m" 500 -
+2022/06/05,16:14:43,INFO,gNB Information request
+2022/06/05,16:14:43,INFO,10.0.2.121 - - [05/Jun/2022 16:14:43] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,16:15:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:15:29,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:15:29,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:15:29,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 545
+2022/06/05,16:15:29,INFO,Response RRCSetUp to UE.
+2022/06/05,16:15:29,INFO,10.0.2.121 - - [05/Jun/2022 16:15:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,16:15:29,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:15:29,DEBUG,http://10.0.2.99:1440 "POST /UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 500 None
+2022/06/05,16:15:29,INFO,10.0.2.121 - - [05/Jun/2022 16:15:29] "[35m[1mPOST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1[0m" 500 -
+2022/06/05,16:15:29,INFO,gNB Information request
+2022/06/05,16:15:29,INFO,10.0.2.121 - - [05/Jun/2022 16:15:29] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,16:15:45,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:15:45,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:15:45,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:15:45,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 544
+2022/06/05,16:15:45,INFO,Response RRCSetUp to UE.
+2022/06/05,16:15:45,INFO,10.0.2.121 - - [05/Jun/2022 16:15:45] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,16:15:45,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:15:45,DEBUG,http://10.0.2.99:1440 "POST /UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 500 None
+2022/06/05,16:15:45,INFO,10.0.2.121 - - [05/Jun/2022 16:15:45] "[35m[1mPOST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1[0m" 500 -
+2022/06/05,16:15:45,INFO,gNB Information request
+2022/06/05,16:15:45,INFO,10.0.2.121 - - [05/Jun/2022 16:15:45] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,16:15:53,WARNING,Start Server
+2022/06/05,16:15:53,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/06/05,16:15:53,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/06/05,16:15:53,INFO, * Restarting with stat
+2022/06/05,16:15:53,WARNING,Start Server
+2022/06/05,16:15:53,WARNING, * Debugger is active!
+2022/06/05,16:15:53,INFO, * Debugger PIN: 275-905-018
+2022/06/05,16:16:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:16:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:16:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:16:21,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 543
+2022/06/05,16:16:21,INFO,Response RRCSetUp to UE.
+2022/06/05,16:16:21,INFO,10.0.2.121 - - [05/Jun/2022 16:16:21] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,16:16:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:16:21,DEBUG,http://10.0.2.99:1440 "POST /UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 500 None
+2022/06/05,16:16:21,INFO,10.0.2.121 - - [05/Jun/2022 16:16:21] "[35m[1mPOST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1[0m" 500 -
+2022/06/05,16:16:21,INFO,gNB Information request
+2022/06/05,16:16:21,INFO,10.0.2.121 - - [05/Jun/2022 16:16:21] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,16:18:09,WARNING,Start Server
+2022/06/05,16:18:09,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/06/05,16:18:09,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/06/05,16:18:09,INFO, * Restarting with stat
+2022/06/05,16:18:10,WARNING,Start Server
+2022/06/05,16:18:10,WARNING, * Debugger is active!
+2022/06/05,16:18:10,INFO, * Debugger PIN: 275-905-018
+2022/06/05,16:18:12,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:18:12,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:18:12,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:18:12,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 539
+2022/06/05,16:18:12,INFO,Response RRCSetUp to UE.
+2022/06/05,16:18:12,INFO,10.0.2.121 - - [05/Jun/2022 16:18:12] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,16:18:12,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:18:12,DEBUG,http://10.0.2.99:1440 "POST /UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 500 None
+2022/06/05,16:18:12,INFO,10.0.2.121 - - [05/Jun/2022 16:18:12] "[35m[1mPOST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1[0m" 500 -
+2022/06/05,16:18:12,INFO,gNB Information request
+2022/06/05,16:18:12,INFO,10.0.2.121 - - [05/Jun/2022 16:18:12] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,16:18:54,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:18:54,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:18:54,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:18:54,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 543
+2022/06/05,16:18:54,INFO,Response RRCSetUp to UE.
+2022/06/05,16:18:54,INFO,10.0.2.121 - - [05/Jun/2022 16:18:54] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,16:18:54,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:18:54,DEBUG,http://10.0.2.99:1440 "POST /UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 500 None
+2022/06/05,16:18:54,INFO,10.0.2.121 - - [05/Jun/2022 16:18:54] "[35m[1mPOST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1[0m" 500 -
+2022/06/05,16:18:54,INFO,gNB Information request
+2022/06/05,16:18:54,INFO,10.0.2.121 - - [05/Jun/2022 16:18:54] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,16:19:23,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,16:19:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,16:19:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:19:23,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 544
+2022/06/05,16:19:23,INFO,Response RRCSetUp to UE.
+2022/06/05,16:19:23,INFO,10.0.2.121 - - [05/Jun/2022 16:19:23] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,16:19:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,16:19:23,DEBUG,http://10.0.2.99:1440 "POST /UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 3
+2022/06/05,16:19:23,INFO,10.0.2.121 - - [05/Jun/2022 16:19:23] "POST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1" 200 -
+2022/06/05,16:19:23,INFO,gNB Information request
+2022/06/05,16:19:23,INFO,10.0.2.121 - - [05/Jun/2022 16:19:23] "GET /gNB_Information_Request HTTP/1.1" 200 -
+2022/06/05,16:19:34,WARNING,Start Server
+2022/06/05,16:19:34,WARNING, * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022/06/05,16:19:34,INFO, * Running on http://10.0.2.100:1440/ (Press CTRL+C to quit)
+2022/06/05,16:19:34,INFO, * Restarting with stat
+2022/06/05,16:19:34,WARNING,Start Server
+2022/06/05,16:19:34,WARNING, * Debugger is active!
+2022/06/05,16:19:34,INFO, * Debugger PIN: 275-905-018
+2022/06/05,17:07:27,INFO, * Detected change in '/media/sf_Cloud-RAN-Simulation-Electronic-Fence-Based-on-NFV/Single_gNB_LOS_Simulation/Uma/gNB/gNB_Uma_Simulation.py', reloading
+2022/06/05,17:07:27,INFO, * Restarting with stat
+2022/06/05,17:07:27,WARNING,Start Server
+2022/06/05,17:07:27,WARNING, * Debugger is active!
+2022/06/05,17:07:27,INFO, * Debugger PIN: 275-905-018
+2022/06/05,17:25:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:21,INFO,10.0.2.121 - - [05/Jun/2022 17:25:21] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:21,INFO,10.0.2.121 - - [05/Jun/2022 17:25:21] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:21,INFO,10.0.2.121 - - [05/Jun/2022 17:25:21] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:21,INFO,10.0.2.121 - - [05/Jun/2022 17:25:21] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:21,INFO,10.0.2.121 - - [05/Jun/2022 17:25:21] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:21,INFO,10.0.2.121 - - [05/Jun/2022 17:25:21] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:21,INFO,10.0.2.121 - - [05/Jun/2022 17:25:21] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:21,INFO,10.0.2.121 - - [05/Jun/2022 17:25:21] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:21,INFO,10.0.2.121 - - [05/Jun/2022 17:25:21] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:21,INFO,10.0.2.121 - - [05/Jun/2022 17:25:21] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:21,INFO,10.0.2.121 - - [05/Jun/2022 17:25:21] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:21,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:21,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:21,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:21,INFO,10.0.2.121 - - [05/Jun/2022 17:25:21] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:22,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:22,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:22,INFO,10.0.2.121 - - [05/Jun/2022 17:25:22] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:22,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:23,INFO,10.0.2.121 - - [05/Jun/2022 17:25:23] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:23,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:23,INFO,10.0.2.121 - - [05/Jun/2022 17:25:23] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:23,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:23,INFO,10.0.2.121 - - [05/Jun/2022 17:25:23] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:23,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:23,INFO,10.0.2.121 - - [05/Jun/2022 17:25:23] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:23,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:23,INFO,10.0.2.121 - - [05/Jun/2022 17:25:23] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:23,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:23,INFO,10.0.2.121 - - [05/Jun/2022 17:25:23] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:23,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:23,INFO,10.0.2.121 - - [05/Jun/2022 17:25:23] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:23,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:23,INFO,10.0.2.121 - - [05/Jun/2022 17:25:23] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:23,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:23,INFO,10.0.2.121 - - [05/Jun/2022 17:25:23] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:23,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:23,INFO,10.0.2.121 - - [05/Jun/2022 17:25:23] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:23,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:23,INFO,10.0.2.121 - - [05/Jun/2022 17:25:23] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:23,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:23,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:23,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:23,INFO,10.0.2.121 - - [05/Jun/2022 17:25:23] "[35m[1mPOST /RRCSetupRequest HTTP/1.1[0m" 500 -
+2022/06/05,17:25:29,INFO,Enable: gNB[] Function:RRCSetupRequest
+2022/06/05,17:25:29,INFO,: perform INITIAL_UL_RRC_MESSAGE_TRANSFER to 10.0.2.99
+2022/06/05,17:25:29,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:29,DEBUG,http://10.0.2.99:1440 "POST /INITIAL_UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 543
+2022/06/05,17:25:29,INFO,Response RRCSetUp to UE.
+2022/06/05,17:25:29,INFO,10.0.2.121 - - [05/Jun/2022 17:25:29] "POST /RRCSetupRequest HTTP/1.1" 200 -
+2022/06/05,17:25:29,DEBUG,Starting new HTTP connection (1): 10.0.2.99
+2022/06/05,17:25:29,DEBUG,http://10.0.2.99:1440 "POST /UL_RRC_MESSAGE_TRANSFER HTTP/1.1" 200 3
+2022/06/05,17:25:29,INFO,10.0.2.121 - - [05/Jun/2022 17:25:29] "POST /RRC_CONNECTION_SETUP_COMPLETE HTTP/1.1" 200 -
+2022/06/05,17:25:29,INFO,gNB Information request
+2022/06/05,17:25:29,INFO,10.0.2.121 - - [05/Jun/2022 17:25:29] "GET /gNB_Information_Request HTTP/1.1" 200 -

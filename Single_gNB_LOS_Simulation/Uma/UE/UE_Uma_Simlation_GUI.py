@@ -160,6 +160,7 @@ def Reception_RRCReject_UE():
 Functions of UE Access to Core Network
 0.RRCInitialization
 1.RRCSetupRequest
+2.RRC CONNECTION SETUP COMPLETE
 """
 
 #Check before RRCSetupRequest
@@ -241,6 +242,32 @@ def RRCSetupRequest():
         print("HTTP STATUS: "+str(response.status_code))
         logging.warn("HTTP STATUS: "+str(response.status_code))
 
+#Step(5) RRC CONNECTION SETUP COMPLETE
+def RRC_CONNECTION_SETUP_COMPLETE():
+    url = "http://"+Obtain_UE_Configuration()["Connected_Primary_Cell_IP"]+":1440/RRC_CONNECTION_SETUP_COMPLETE"
+    UE=Obtain_UE_Configuration()
+    payload={
+        "UE_Name":UE["UE_Name"],
+        "UE_IP":UE["UE_IP"],
+        "selectedPLMN_Identity_Index":len(list(Obtain_UE_Configuration()['PLMN-IdentityList']))-1,
+        "RegisteredAMF":Obtain_UE_Configuration()["RegisteredAMF"],
+        "Guami_Type":"mapped",
+        "s_NSSAI_List":Obtain_UE_Configuration()["s_NSSAI_List"],
+        "DedicatedNAS_Message":"Service_Request",
+        "ng-5G-S-TMSI-Value":Obtain_UE_Configuration()["ng-5G-S-TMSI-Value"]
+    }
+    payload=json.dumps(payload)
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    print(response.text)
+    # if(json.loads(response.text)['cipheringAlgorithm']==""):
+    #     print("SecurityMode Set UP Failed")
+    #     UEConfig_Update({"SecurityMode_Set_UP":False})
+    # else:
+    #     print("SecurityMode Set UP Success")
+    #     UEConfig_Update({"SecurityMode_Set_UP":True})
 
 """
 Functions of RSRP Request and Response
@@ -372,6 +399,9 @@ while(True):#[0.684s]
             continue
     if(Obtain_UE_Configuration()["RRC"]=="RRC_CONNECTED"):
         break
+
+RRC_CONNECTION_SETUP_COMPLETE()
+
 
 gNB_Information_Request()
 Initial_Calculation()
