@@ -139,8 +139,8 @@ def animate(i):
         SCell_Y=SCell["gNB_Position_Y"]
         plt.plot([UE_Position_X,PCell_X], [UE_Position_Y, PCell_Y],color=UE_Color,linewidth=0.8)
         plt.plot([UE_Position_X,SCell_X], [UE_Position_Y, SCell_Y],color=UE_Color,linewidth=0.8,linestyle=':')
-        if(UE["UE_OUT_OF_RANGE"]):
-            UE_Color="#ff0000"
+        # if(UE["UE_OUT_OF_RANGE"]):
+        #     UE_Color="#ff0000"
         plt.text(Obtain_System_Field_Configuration("X_RANGE")-400, 0-Obtain_System_Field_Configuration("Y_RANGE")+300-(index*30), UE_Name+": "+"{:.7f}".format(UE["RSRP"])+ "dBm", fontsize=10, color=UE_Color)
         
 

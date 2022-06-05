@@ -72,9 +72,12 @@ def Allocate_eNB_UE_S1AP_ID(gNB_Name,UE_Name):
     Update_CU_gNB_UEs_Configuration(gNB_Name,UE_Name,{"eNB_UE_S1AP_ID":eNB_UE_S1AP_ID})
     return eNB_UE_S1AP_ID
 
+
+
 """
 Functions response to DU
 1.DL_RRC_MESSAGE_TRANSFER
+2.UE_CONTEXT_SETUP_REQUEST
 """
 
 #Step(3) forward the RRC message RRCSetup to the gNB-DU.
@@ -104,6 +107,37 @@ def DL_RRC_MESSAGE_TRANSFER(request_data):
     }
     return response_data
 
+def UE_CONTEXT_SETUP_REQUEST(UE_Name,BEARER_CONTEXT_SETUP_RESPONSE_Data):
+    UE_CONTEXT_SETUP_REQUEST_Data={
+        "gNB_CU_UE_F1AP_ID":Obtain_CU_gNB_UEs_Configuration("gNB_A",UE_Name)["gNB_CU_UE_F1AP_ID"],
+        "gNB_DU_UE_F1AP_ID":Obtain_CU_gNB_UEs_Configuration("gNB_A",UE_Name)["gNB_DU_UE_F1AP_ID"],
+        "SpCell_ID":"",
+        "ServCellIndex":random.randint(0,31),
+        "SpCell_UL_Configured":"",
+        "CU_DU_RRC_Information":{},
+        "DRX_Cycle":{
+            "Long_DRX_Cycle_Length":"ms64",
+            "Short_DRX_Cycle_Length":"ms128",
+            "Short_DRX_Cycle_Timer":random.randint(0,16)
+        },
+        "Candidate_SpCell_List":["Candidate_SpCell_Item_IEs"],
+        "SCell_To_Be_Setup_List":[],
+        "SRB_to_Be_Setup_List":[],
+        "DRB_to_Be_Setup_List":[],
+        "Inactivity_Monitoring_Request":False,
+        "RAT_Frequency_Priority_Information":{
+            "CHOICE_System":"NG-RAN",
+            "Index_RAT_Frequency_Selection_Priority":random.randint(0,256)
+        },
+        "RRC_Container":"SecurityModeCommand",
+        "gNB_DU_UE_Aggregate_Maximum_Bit_Rate_Uplink":BEARER_CONTEXT_SETUP_RESPONSE_Data["UE_DL_Aggregate_Maximum_Bit_Rate"],
+        "Serving_PLMN":46692,
+        "RRC_Delivery_Status_Request":True,
+        "Resource_Coordination_Transfer_Information":"",
+        "servingCellMO":{}
+    }
+    return UE_CONTEXT_SETUP_REQUEST_Data
+
 """
 Functions of APIs to UE Access(CU-CP)
 1.RRCSetupRequest
@@ -122,8 +156,10 @@ def UL_RRC_MESSAGE_TRANSFER():
     request_data=request.get_json()
     INITIAL_UE_MESSAGE_Data=INITIAL_UE_MESSAGE(request_data)
     INITIAL_CONTEXT_SETUP_REQUEST_Data=INITIAL_CONTEXT_SETUP_REQUEST(INITIAL_UE_MESSAGE_Data)
-    print(INITIAL_UE_MESSAGE_Data)
-    return jsonify({})
+    BEARER_CONTEXT_SETUP_REQUEST_Data=BEARER_CONTEXT_SETUP_REQUEST(INITIAL_CONTEXT_SETUP_REQUEST_Data)
+    BEARER_CONTEXT_SETUP_RESPONSE_Data=BEARER_CONTEXT_SETUP_RESPONSE(BEARER_CONTEXT_SETUP_REQUEST_Data)
+    UE_CONTEXT_SETUP_REQUEST_Data=UE_CONTEXT_SETUP_REQUEST("UE_A",BEARER_CONTEXT_SETUP_RESPONSE_Data)
+    return jsonify(UE_CONTEXT_SETUP_REQUEST_Data)
 
 """
 Fumctions about AMF
@@ -176,8 +212,46 @@ def INITIAL_CONTEXT_SETUP_REQUEST(INITIAL_UE_MESSAGE_Data):
 
 """
 Functions about CU-UP
-1.
+1.BEARER_CONTEXT_SETUP_REQUEST
 """
+
+#Step(9)
+def BEARER_CONTEXT_SETUP_REQUEST(INITIAL_CONTEXT_SETUP_REQUEST_Data):
+    BEARER_CONTEXT_SETUP_REQUEST_Data={
+        "gNB_CU_CP_UE_E1AP_ID":"{0:b}".format(random.randint(0,2**32)),
+        "Security_Information":{
+            "Security_Algorithm":{
+                "Ciphering_Algorithm":"NEA0",
+                "Integrity_Protection_Algorithm":"128-NIA1"
+            },
+            "User_Plane_Security_Keys":{
+                "Encryption_Key":"",
+                "Integrity_Protection_Key":{
+                    "PDU_Session_Resource_To_Setup_List":[]
+                }
+            }
+        },
+        "UE_DL_Aggregate_Maximum_Bit_Rate":INITIAL_CONTEXT_SETUP_REQUEST_Data["UE_Aggregate_Maximum_Bit_Rate"]["UE_Aggregate_Maximum_Bit_Rate_Uplink"],
+        "UE_DL_Maximum_Integrity_Protected_Data_Rate":2038,
+        "Serving_PLMN":46692,
+        "Bearer_Context_Status_Change":"SETUP",
+        "PDU_Session_Resource_Setup_List":[],
+        "DRB_Setup_List":[]
+    }
+    return BEARER_CONTEXT_SETUP_REQUEST_Data
+
+#Step 10
+def BEARER_CONTEXT_SETUP_RESPONSE(BEARER_CONTEXT_SETUP_REQUEST_Data):
+    BEARER_CONTEXT_SETUP_RESPONSE_Data={
+        "gNB_CU_CP_UE_E1AP_ID":BEARER_CONTEXT_SETUP_REQUEST_Data["gNB_CU_CP_UE_E1AP_ID"],
+        "gNB_CU_UP_UE_E1AP_ID":"{0:b}".format(random.randint(0,2**32)),
+        "CHOICE_System":"NG-RAN",
+        "PDU_Session_Resource_Setup_List":[],
+        "PDU_Session_Resource_Failed_List":[],
+        "DRB_Setup_List":[],
+        "DRB_Failed_List":[]
+    }
+    return BEARER_CONTEXT_SETUP_RESPONSE_Data
 
 """
 Functions of RSRP Detections

@@ -1,0 +1,10 @@
+{
+    "Y_RANGE": 800,
+    "X_RANGE": 800,
+    "Range_Type":"Rectangle",
+    "Range_Color":"#9C0C0C",
+    "Rectangle_Start_X":-291,
+    "Rectangle_Start_Y":-223,
+    "Rectangle_Width":591,
+    "Rectangle_Length":395
+}
