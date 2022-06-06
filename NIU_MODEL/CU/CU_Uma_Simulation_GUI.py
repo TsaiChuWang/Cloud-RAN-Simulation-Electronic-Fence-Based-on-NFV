@@ -10,6 +10,8 @@ import matplotlib.patches as patches
 import datetime
 import logging
 
+from matplotlib.collections import PolyCollection
+
 import requests
 import time
 from flask import jsonify
@@ -51,7 +53,15 @@ def Obtain_gNB_Information(gNB_Name):
 def Obtain_UEs_Configurations(UE_Name):
     UEs_Configurations={}
     with open('./configuration/UEs_Configuration.json') as UEs_Configurations_file:
-        UEs_Configurations = json.load(UEs_Configurations_file)
+        try:
+            UEs_Configurations = json.load(UEs_Configurations_file)
+        except json.decoder.JSONDecodeError:
+            print(" except json.decoder.JSONDecodeError")
+            time.sleep(1)
+            try:
+                UEs_Configurations = json.load(UEs_Configurations_file)
+            except json.decoder.JSONDecodeError:
+                UEs_Configurations = json.load(UEs_Configurations_file)
         UEs_Configurations_file.close()
     if(UE_Name==""):
         return UEs_Configurations
@@ -69,65 +79,52 @@ def Update_UEs_Configurations(UE_Name,data):
 def INITIALZATION():
     gNBs_List=Obtain_gNB_Information("gNBs_List")
 
-figure=plt.figure(figsize=(8,8))
+figure=plt.figure(figsize=(10,5.55))
+img=plt.imread("NIU_MAP.png")
+# fig,ax=plt.subplots()
 
-
+def UE_OUT_OF_RANGE(UE_Position_X,UE_Position_Y):
+    X_OUT=False
+    Y_OUT=False
+    if(UE_Position_X<=-2385 or UE_Position_X>=-1985):
+        X_OUT=True
+    if(UE_Position_Y<=-800 or UE_Position_Y>=-135):
+        Y_OUT=True
+    return X_OUT or Y_OUT
 #Animation
 def animate(i):
+    plt.clf()
     axes=axisartist.Subplot(figure,111) 
-    axes.set_title('Plot of Multiple gNBs LOS Uma System \n')
+    axes.set_title('Plot of Multiple gNBs LOS Uma System with NIU Models\n')
+
+    axes.imshow(img,extent=[-3000,3000,-1600,1600])
     figure.add_axes(axes)
-    axes.axis[:].set_visible(False)
 
-    axes.axis["x"]=axes.new_floating_axis(0,0,axis_direction="bottom")
-    axes.axis["y"]=axes.new_floating_axis(1,0,axis_direction="bottom")
-
-    axes.axis["x"].set_axisline_style("->",size=1.0)
-    axes.axis["y"].set_axisline_style("->",size=1.0)
-
-    plt.xlim((-1)*Obtain_System_Field_Configuration("X_RANGE"),Obtain_System_Field_Configuration("X_RANGE"))
-    plt.ylim((-1)*Obtain_System_Field_Configuration("Y_RANGE"),Obtain_System_Field_Configuration("Y_RANGE")) 
-
-    axes.add_patch(
-        patches.Rectangle(
-            ((-1)*Obtain_System_Field_Configuration("X_RANGE"), (-1)*Obtain_System_Field_Configuration("Y_RANGE")),
-            Obtain_System_Field_Configuration("X_RANGE")*2,
-            Obtain_System_Field_Configuration("X_RANGE")*2,    
-            color="white",
-            edgecolor="white"
-        )
-    )
     gNBs_List=Obtain_gNB_Information("gNBs_List")
     for gNB_Name in gNBs_List:
         gNB=Obtain_gNB_Information(gNB_Name)
-        # print(gNB["gNB_Position_X"])
-        # print(gNB["gNB_Position_Y"])
-        # print(gNB["gNB_Center_Color"])
-        gNB_Center_Point= plt.Circle((gNB["gNB_Position_X"],gNB["gNB_Position_Y"]), 10,color=gNB["gNB_Center_Color"])
+        gNB_Center_Point= plt.Circle((gNB["gNB_Position_X"],gNB["gNB_Position_Y"]), 15,color="#FF359A")
         axes.add_artist(gNB_Center_Point)
-        plt.text(gNB["gNB_Position_X"]-150, gNB["gNB_Position_Y"],gNB_Name, fontsize=10, color=gNB["gNB_Center_Color"])
+        plt.text(gNB["gNB_Position_X"]-260, gNB["gNB_Position_Y"]-20,gNB_Name, fontsize=11, color="#FF359A")
     
-    Range_Type=Obtain_System_Field_Configuration("Range_Type")
-    if(Range_Type=="Rectangle"):
-        axes.add_patch(
-            patches.Rectangle(
-                (Obtain_System_Field_Configuration("Rectangle_Start_X"), Obtain_System_Field_Configuration("Rectangle_Start_Y")),
-                Obtain_System_Field_Configuration("Rectangle_Width"),
-                Obtain_System_Field_Configuration("Rectangle_Length"),    
+    Dormitory=Obtain_System_Field_Configuration("Dormitory")
+    if(Dormitory=="Male"):
+        plt.plot([Obtain_System_Field_Configuration("Male_Start_X"),Obtain_System_Field_Configuration("Male_Second_X")], [Obtain_System_Field_Configuration("Male_Start_Y"),Obtain_System_Field_Configuration("Male_Second_Y")],color=Obtain_System_Field_Configuration("Male_Color"),linewidth=1)
+        plt.plot([Obtain_System_Field_Configuration("Male_Third_X"),Obtain_System_Field_Configuration("Male_Second_X")], [Obtain_System_Field_Configuration("Male_Third_Y"),Obtain_System_Field_Configuration("Male_Second_Y")],color=Obtain_System_Field_Configuration("Male_Color"),linewidth=1)
+        plt.plot([Obtain_System_Field_Configuration("Male_Third_X"),Obtain_System_Field_Configuration("Male_End_X")], [Obtain_System_Field_Configuration("Male_Third_Y"),Obtain_System_Field_Configuration("Male_End_Y")],color=Obtain_System_Field_Configuration("Male_Color"),linewidth=1)
+        plt.plot([Obtain_System_Field_Configuration("Male_Start_X"),Obtain_System_Field_Configuration("Male_End_X")], [Obtain_System_Field_Configuration("Male_Start_Y"),Obtain_System_Field_Configuration("Male_End_Y")],color=Obtain_System_Field_Configuration("Male_Color"),linewidth=1)
+        
+        plt.text(Obtain_System_Field_Configuration("Male_Start_X"),Obtain_System_Field_Configuration("Male_Start_Y")-55,"Range :Student Dormitory", fontsize=10, color=Obtain_System_Field_Configuration("Male_Color"))
 
-                edgecolor=Obtain_System_Field_Configuration("Range_Color"),
-                fill=False
-            )
-        )
-        plt.text(Obtain_System_Field_Configuration("Rectangle_Start_X"), Obtain_System_Field_Configuration("Rectangle_Start_Y")-25,"Range_Type: "+Range_Type, fontsize=10, color=Obtain_System_Field_Configuration("Range_Color"))
-    
     UEs_List=Obtain_UEs_Configurations("UEs_List")
     for index,UE_Name in enumerate(UEs_List):
         UE=Obtain_UEs_Configurations(UE_Name)
         UE_Position_X=UE["UE_Position_X"]
         UE_Position_Y=UE["UE_Position_Y"]
         UE_Color=UE["UE_Color"]
-        UE_Point = plt.Circle((UE_Position_X,UE_Position_Y), 10,color=UE_Color)
+        if(UE_OUT_OF_RANGE(UE_Position_X,UE_Position_Y)):
+            UE_Color="#ff0000"
+        UE_Point = plt.Circle((UE_Position_X,UE_Position_Y), 12,color=UE_Color)
         axes.add_artist(UE_Point)
 
         PCell=Obtain_gNB_Information(UE["Connected_Primary_Cell_Name"])
@@ -137,13 +134,11 @@ def animate(i):
         SCell=Obtain_gNB_Information(UE["Connected_Secondary_Cell_Name"])
         SCell_X=SCell["gNB_Position_X"]
         SCell_Y=SCell["gNB_Position_Y"]
-        plt.plot([UE_Position_X,PCell_X], [UE_Position_Y, PCell_Y],color=UE_Color,linewidth=0.8)
-        plt.plot([UE_Position_X,SCell_X], [UE_Position_Y, SCell_Y],color=UE_Color,linewidth=0.8,linestyle=':')
-        # if(UE["UE_OUT_OF_RANGE"]):
-        #     UE_Color="#ff0000"
-        plt.text(Obtain_System_Field_Configuration("X_RANGE")-400, 0-Obtain_System_Field_Configuration("Y_RANGE")+300-(index*30), UE_Name+": "+"{:.7f}".format(UE["RSRP"])+ "dBm", fontsize=10, color=UE_Color)
+        plt.plot([UE_Position_X,PCell_X], [UE_Position_Y, PCell_Y],color=UE_Color,linewidth=1)
+        plt.plot([UE_Position_X,SCell_X], [UE_Position_Y, SCell_Y],color=UE_Color,linewidth=1,linestyle=':')
+        plt.text(Obtain_System_Field_Configuration("X_RANGE"),0-Obtain_System_Field_Configuration("Y_RANGE")+600-(index*50), UE_Name+": "+"{:.7f}".format(UE["RSRP"])+ "dBm", fontsize=10, color=UE_Color)
         
 
 
-anim = animation.FuncAnimation(figure, animate, interval=5000) 
+anim = animation.FuncAnimation(figure, animate, interval=1500) 
 plt.show()

@@ -1,10 +1,14 @@
 {
-    "Y_RANGE": 800,
-    "X_RANGE": 800,
-    "Range_Type":"Rectangle",
-    "Range_Color":"#9C0C0C",
-    "Rectangle_Start_X":-291,
-    "Rectangle_Start_Y":-223,
-    "Rectangle_Width":591,
-    "Rectangle_Length":395
+    "Y_RANGE": 1600,
+    "X_RANGE": 3200,
+    "Male_Color":"#9C0C0C",
+    "Male_Start_X":-2385,
+    "Male_Start_Y":-800,
+    "Male_Second_X":-1950,
+    "Male_Second_Y":-753,
+    "Male_Third_X":-1985,
+    "Male_Third_Y":-135,
+    "Male_End_X":-2420,
+    "Male_End_Y":-155,
+    "Dormitory":"Male"
 }

@@ -1,4 +1,5 @@
 from os import close, stat
+import re
 from flask import Flask, jsonify, request
 import time
 import logging
@@ -100,15 +101,14 @@ def Calculate_RSRPs_Threephase_Stator(request_data):
     return UE_Position_X,UE_Position_Y
 
 def UE_OUT_OF_RANGE(UE_Name,UE_Position_X,UE_Position_Y):
-    Range_Type=Obtain_System_Field_Configuration("Range_Type")
     X_OUT=False
     Y_OUT=False
-    if(Range_Type=="Rectangle"):
-        if(UE_Position_X<=Obtain_System_Field_Configuration("Rectangle_Start_X") or UE_Position_X>=Obtain_System_Field_Configuration("Rectangle_Start_X")+Obtain_System_Field_Configuration("Rectangle_Width")):
-            X_OUT=True
-        if(UE_Position_Y<=Obtain_System_Field_Configuration("Rectangle_Start_Y") or UE_Position_Y>=Obtain_System_Field_Configuration("Rectangle_Start_Y")+Obtain_System_Field_Configuration("Rectangle_Length")):
-            Y_OUT=True
-        Update_UEs_Configurations(UE_Name,{"UE_OUT_OF_RANGE":(X_OUT or Y_OUT)})
+    if(UE_Position_X<=-2420 or UE_Position_X>=-1950):
+        X_OUT=True
+    if(UE_Position_Y<=-800 or UE_Position_Y>=-135):
+        Y_OUT=True
+    print(X_OUT or Y_OUT)
+    Update_UEs_Configurations(UE_Name,{"UE_OUT_OF_RANGE":(X_OUT or Y_OUT)})
     
 """
 Functions response to DU
@@ -164,6 +164,7 @@ def DL_RRC_MESSAGE_TRANSFER(request_data):
 def RecievegNB_Information():
     request_data=request.get_json()
     Update_Information_gNBs(request_data)
+    print(request_data)
     return "RECIEVE SUCCESS"
 
 #Recive RSRP from UE
@@ -200,6 +201,7 @@ def Recieve_RSRP():
     Update_UEs_Configurations(UE_Name,{"Connected_Secondary_gNB_Position_X":Connected_Secondary_gNB_Position_X})
     Update_UEs_Configurations(UE_Name,{"Connected_Secondary_gNB_Position_Y":Connected_Secondary_gNB_Position_Y})
     UE_OUT_OF_RANGE(UE_Name,UE_Position_X,UE_Position_Y)
+        
     return jsonify({"msg":"ok"})
 
 if __name__ == '__main__':

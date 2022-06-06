@@ -29,6 +29,7 @@ def Initialize():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     s.connect(("8.8.8.8", 80))
     gNB_IP=s.getsockname()[0]
+    
 Initialize()
 
 def RANDOMVREATEGNBS():
@@ -38,17 +39,8 @@ def RANDOMVREATEGNBS():
         for gNB_Name in gNB_List:
             gNB_Identity="{0:b}".format(random.randint(0,2**22))
             Cell_Identity="{0:b}".format(random.randint(0,2**14))
-            max_x=0
-            max_y=0
-            if(CellGroup_Name=="Cell_Group_A"):
-                max_x=0
-                max_y=0
-            if(CellGroup_Name=="Cell_Group_B"):
-                max_x=-600
-                max_y=-600
-            if(CellGroup_Name=="Cell_Group_C"):
-                max_x=0
-                max_y=-600
+            max_x=2500
+            max_y=1400
             data={
                 "gNB_Name": gNB_Name,
                 "gNB_IP": gNB_IP,
@@ -63,9 +55,8 @@ def RANDOMVREATEGNBS():
                 "Frequency_Band_Name":"GSM 900 / UMTS 2100",
                 "Bit_Length_gNB_ID":22,
                 "Bit_Length_Cell_ID":14,
-
-                "gNB_Position_X":random.randint(max_x,max_x+600),
-                "gNB_Position_Y":random.randint(max_y,max_y+600),
+                "gNB_Position_X":random.randint(max_x*(-1),max_x),
+                "gNB_Position_Y":random.randint(max_y*(-1),max_y),
                 "gNB_BS_Height":25,
 
                 "NR_Operating_Band":"n78",
@@ -89,12 +80,13 @@ def RANDOMVREATEGNBS():
                 "NR-ARFCN": 653333,
                 "eNodeB_Admission_Control": True,
                 "gNB_Limit_Range": 500,
-                "gNB_Center_Color": "#2CD8C1",
+                "gNB_Center_Color": "#CB4335",
                 "gNB_Range_Color": "#40F8DF"
             }
             Update_Cell_Group_Configuration_gNB(CellGroup_Name,gNB_Name,data)
             print(gNB_Name)
         print(CellGroup_Name)
+
 
 # Obtain Cell Group Configuration
 def Obtain_Cell_Group_Configuration(CellGroup_Name):
@@ -301,6 +293,9 @@ def RRCSetup(request_data):
 Functions of sub process RSRP
 """
 
+# RANDOMVREATEGNBS()
+
+
 def RSRPTRANSFER(request_data):
     url = "http://"+"10.0.2.99"+":1441/Recieve_RSRP"
     payload={
@@ -331,6 +326,8 @@ def RRCSetupRequest():
     response_data=INITIAL_UL_RRC_MESSAGE_TRANSFER(request_data)
     response_data=RRCSetup(response_data)
     return jsonify(response_data)
+
+
 
 """
 Functions of RSRP Detection

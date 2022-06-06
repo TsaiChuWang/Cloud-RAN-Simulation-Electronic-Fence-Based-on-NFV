@@ -54,8 +54,8 @@ def Update_UEs_Configurations_WHOLE(UE_Name,data):
 def INITIALIZE_CONFIGURATION():
     UEs_List=Obtain_UEs_Configurations("UEs_List")
     for UE_Name in UEs_List:
-        UE_Position_X=random.randint(-400,400)
-        UE_Position_Y=random.randint(-400,400)
+        UE_Position_X=random.randint(-2800,2000)
+        UE_Position_Y=random.randint(-1200,1200)
         # gNB=Find_Primary_Cell(UE_Position_X,UE_Position_Y)
         Script_Line_Origin_Array=[0,0,0,0,1,-1]
         data={
@@ -310,8 +310,6 @@ def RSRPTRANSFERgNB(UE_Name):
     
     if(not(response_data["Connected_Secondary_Cell_Name"]==Connected_Secondary_Cell_Name)):
         Update_UEs_Configurations(UE_Name,{"Connected_Secondary_Cell_Name":response_data["Connected_Secondary_Cell_Name"]})
-
-
         
 """
 Functions of Calculation
@@ -364,8 +362,12 @@ def PathLoss_2(UE_Name):
 def Calculate_RSRP(UE_Name):
     UE=Obtain_UEs_Configurations(UE_Name)
     gNB_Antenna_Power=UE['Connected_Primary_Cell_gNB_Antenna_Power']
+    # print("gNB_Antenna_Power="+str(gNB_Antenna_Power))
     PathLoss=UE['PathLoss']
+    # print("PathLoss="+str(PathLoss))
     RSRP=gNB_Antenna_Power-PathLoss
+    # print("RSRP="+str(RSRP))
+    # print("==========")
     Update_UEs_Configurations(UE_Name,{"RSRP":RSRP})
 
 
@@ -381,7 +383,11 @@ for UE_Name in UEs_List:
             break;
 
 Require_Information_gNBs()
+for UE_Name in UEs_List:
+    Update_gNB_UEs_Pairs(UE_Name)
 
+for UE_Name in UEs_List:
+    Update_UEs_Configurations(UE_Name,{"Script_Line":[random.choice([0,1,1,-1,-1]) for i in range(180)]})
 index=0
 while(index<180):
     for UE_Name in UEs_List:
@@ -401,6 +407,7 @@ while(index<180):
             Calculate_Distance_3D(UE_Name)
             PathLoss_1(UE_Name)
             Calculate_RSRP(UE_Name)
+            
             RSRPTRANSFERgNB(UE_Name)
     index=index+1
-    time.sleep(2)
+    time.sleep(1.5)
