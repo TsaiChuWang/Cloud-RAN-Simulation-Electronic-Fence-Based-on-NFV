@@ -167,6 +167,60 @@ def UL_RRC_MESSAGE_TRANSFER(request_data):
     response = requests.request("POST", url, headers=headers, data=payload)
     return json.loads(response.text)
 
+#STEP(13)
+def UE_CONTEXT_SETUP_RESPONSE(request_data):
+    payload={
+        "gNB_Name":Obtain_gNB_Configuration()["gNB_Name"],
+        "gNB_IP":gNB_IP,
+        "gNB_DU_UE_F1AP_ID":Obtain_gNB_DU_UE_F1AP_ID("UE_A"),
+        "gNB_CU_UE_F1AP_ID":Obtain_gNB_UEs_Configuration()["UE_A"]["gNB_CU_UE_F1AP_ID"],
+        "DU_to_CU_RRC_Information":"",
+        "C_RNTI":Obtain_gNB_UEs_Configuration()["UE_A"]["C_RNTI"],
+        "Resource_Coordination_Transfer_Container":"Resource_Coordination_Transfer_Container",
+        "Full_Configuration":{},
+        "DRB_Setup_List":['DRB to Be Setup List'],
+        "DRB_Failed_to_Setup_List":[],
+        "SRB_Setup_List":['SRB to Be Setup List'],
+        "SCell_Failed_To_Setup_List":[],
+        "Inactivity_Monitoring":"Support"
+    }
+    url = "http://"+CU_IP+":1440/UE_CONTEXT_SETUP_RESPONSE"
+    payload=json.dumps(payload)
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    print(response.text)
+
+#Step(12)
+def SecurityModeCommand(request_data):
+    SecurityModeCommand_Data={
+        "Extended_Protocol_Discriminator":"10000110",
+        "Security_Header_Type":"1100",
+        "Spare_Half_Octet":"1101",
+        "Security_Mode_Command_Message_Identity":"11001100",
+        "Selected_NAS_Security_Algorithms":"17",
+        "ngKSI":"3653606",
+        "Replayed_UE_Security_Capabilities":""
+    }
+    return SecurityModeCommand_Data
+
+
+def UL_RRC_MESSAGE_TRANSFER_Security():
+    UE_Name="UE_A"
+    payload={
+        "gNB_DU_UE_F1AP_ID":Obtain_gNB_DU_UE_F1AP_ID(UE_Name),
+        "gNB_CU_UE_F1AP_ID":Obtain_gNB_UEs_Configuration()[UE_Name]["gNB_CU_UE_F1AP_ID"],
+        "SRB_ID":2,
+        "RRC_Container":"RRC_CONNECTION_SETUP_COMPLETE",
+    }
+    url = "http://"+CU_IP+":1440/UE_CONTEXT_SETUP_RESPONSE"
+    payload=json.dumps(payload)
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    print(response.text)
 #Response RSRP tp CU
 def RSRPRequest(UE_Name):
     url = "http://"+CU_IP+":1440/RecieveRSRPResponse"
@@ -193,6 +247,12 @@ def RRCSetup():
     data={"RRC":"RRCSetUp","radioBearerConfig":radioBearerConfig,"masterCellGroup":CellGroupConfig}
     return data
 
+def RRCReconfiguration():
+    RRCReconfiguration_Data={
+
+    }
+    return RRCReconfiguration_Data
+
 """
 Functions of APIs to UE Access
 1.RRCSetupRequest
@@ -216,10 +276,18 @@ def RRCSetupRequest():
 @app.route("/RRC_CONNECTION_SETUP_COMPLETE", methods=['POST'])
 def RRC_CONNECTION_SETUP_COMPLETE():
     request_data=request.get_json()
-    print(request_data)
-    UL_RRC_MESSAGE_TRANSFER(request_data)
-    return jsonify({})
+    UL_RRC_MESSAGE_TRANSFER_Data=UL_RRC_MESSAGE_TRANSFER(request_data)
+    UE_CONTEXT_SETUP_RESPONSE(UL_RRC_MESSAGE_TRANSFER_Data)
+    return jsonify(SecurityModeCommand(UL_RRC_MESSAGE_TRANSFER_Data))
 
+#Step(5) RRC_CONNECTION_SETUP_COMPLETE
+@app.route("/SecurityModeComplete", methods=['POST'])
+def RSecurityModeComplete():
+    request_data=request.get_json()
+    print(request_data)
+    UL_RRC_MESSAGE_TRANSFER_Security()
+    
+    return jsonify(RRCReconfiguration())
 """
 Functions od RSRP Detections
 1.gNB_Information_Request

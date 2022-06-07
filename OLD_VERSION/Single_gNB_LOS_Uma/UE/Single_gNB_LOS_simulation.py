@@ -10,8 +10,8 @@
 # print(response.text)
 import random
 print(2**22)
-ID=random.randint(0,2**32)
-print("{0:b}".format(ID))
+ID=random.randint(0,8**8)
+print("{0:o}".format(ID))
 
 # start_x=random.randint(-600,600)
 # start_y=random.randint(-600,600)

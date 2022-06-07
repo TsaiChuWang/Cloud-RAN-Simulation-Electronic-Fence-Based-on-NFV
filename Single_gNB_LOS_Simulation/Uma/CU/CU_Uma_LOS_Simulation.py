@@ -130,13 +130,22 @@ def UE_CONTEXT_SETUP_REQUEST(UE_Name,BEARER_CONTEXT_SETUP_RESPONSE_Data):
             "Index_RAT_Frequency_Selection_Priority":random.randint(0,256)
         },
         "RRC_Container":"SecurityModeCommand",
-        "gNB_DU_UE_Aggregate_Maximum_Bit_Rate_Uplink":BEARER_CONTEXT_SETUP_RESPONSE_Data["UE_DL_Aggregate_Maximum_Bit_Rate"],
+        "gNB_DU_UE_Aggregate_Maximum_Bit_Rate_Uplink":BEARER_CONTEXT_SETUP_RESPONSE_Data["gNB_DU_UE_Aggregate_Maximum_Bit_Rate_Uplink"],
         "Serving_PLMN":46692,
         "RRC_Delivery_Status_Request":True,
         "Resource_Coordination_Transfer_Information":"",
         "servingCellMO":{}
     }
     return UE_CONTEXT_SETUP_REQUEST_Data
+
+def DL_RRC_MESSAGE_TRANSFER_Security():
+    DL_RRC_MESSAGE_TRANSFER_Data={
+        "gNB_DU_UE_F1AP_ID":"",
+        "gNB_CU_UE_F1AP_ID":"",
+        "SRB_ID":2,
+        "RRC_Container":"RRC_CONNECTION_SETUP_COMPLETE",
+    }
+    return DL_RRC_MESSAGE_TRANSFER_Data
 
 """
 Functions of APIs to UE Access(CU-CP)
@@ -161,6 +170,19 @@ def UL_RRC_MESSAGE_TRANSFER():
     UE_CONTEXT_SETUP_REQUEST_Data=UE_CONTEXT_SETUP_REQUEST("UE_A",BEARER_CONTEXT_SETUP_RESPONSE_Data)
     return jsonify(UE_CONTEXT_SETUP_REQUEST_Data)
 
+@app.route("/UE_CONTEXT_SETUP_RESPONSE", methods=['POST'])
+def UE_CONTEXT_SETUP_RESPONSE():
+    request_data=request.get_json()
+    print(request_data)
+    BEARER_CONTEXT_MODIFICATION_REQUEST_Data=BEARER_CONTEXT_MODIFICATION_REQUEST(request_data)
+    
+    return jsonify(BEARER_CONTEXT_MODIFICATION_RESPONSE(BEARER_CONTEXT_MODIFICATION_REQUEST_Data))
+
+@app.route("/UL_RRC_MESSAGE_TRANSFER_Security", methods=['POST'])
+def UL_RRC_MESSAGE_TRANSFER_Security():
+    request_data=request.get_json()
+    print(request_data)
+    return jsonify(DL_RRC_MESSAGE_TRANSFER_Security())
 """
 Fumctions about AMF
 1.INITIAL UE MESSAGE
@@ -249,10 +271,36 @@ def BEARER_CONTEXT_SETUP_RESPONSE(BEARER_CONTEXT_SETUP_REQUEST_Data):
         "PDU_Session_Resource_Setup_List":[],
         "PDU_Session_Resource_Failed_List":[],
         "DRB_Setup_List":[],
-        "DRB_Failed_List":[]
+        "DRB_Failed_List":[],
+        "gNB_DU_UE_Aggregate_Maximum_Bit_Rate_Uplink":BEARER_CONTEXT_SETUP_REQUEST_Data["UE_DL_Aggregate_Maximum_Bit_Rate"]
     }
     return BEARER_CONTEXT_SETUP_RESPONSE_Data
 
+
+def BEARER_CONTEXT_MODIFICATION_REQUEST(request_data):
+    BEARER_CONTEXT_MODIFICATION_REQUEST_Data={
+        "gNB_CU_CP_UE_E1AP_ID":"{0:b}".format(random.randint(0,2**32)),
+        "gNB_CU_UP_UE_E1AP_ID":"{0:b}".format(random.randint(0,2**32)),
+        "CHOICE_System":"NG-RAN",
+        "DRB_To_Modify_List":[],
+        "PDU_Session_Resource_To_Setup_List":[],
+        "PDU_Session_Resource_To_Modify_List":[],
+        "PDU_Session_Resource_To_Remove_List":[]
+    }
+    return BEARER_CONTEXT_MODIFICATION_REQUEST_Data
+
+def BEARER_CONTEXT_MODIFICATION_RESPONSE(BEARER_CONTEXT_MODIFICATION_REQUEST_Data):
+    BEARER_CONTEXT_MODIFICATION_RESPONSE_Data={
+        "gNB_CU_CP_UE_E1AP_ID":"{0:b}".format(random.randint(0,2**32)),
+        "gNB_CU_UP_UE_E1AP_ID":"{0:b}".format(random.randint(0,2**32)),
+        "CHOICE_System":"NG-RAN",
+        "DRB_To_Modify_List":[],
+        "PDU_Session_Resource_To_Setup_List":[],
+        "PDU_Session_Resource_To_Modify_List":[],
+        "PDU_Session_Resource_To_Remove_List":[],
+        "PDU_Session_Resource_Failed_List":[]
+    }
+    return BEARER_CONTEXT_MODIFICATION_RESPONSE_Data
 """
 Functions of RSRP Detections
 1.RecieveRSRPResponse

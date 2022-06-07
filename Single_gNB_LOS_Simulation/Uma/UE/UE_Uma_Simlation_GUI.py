@@ -261,13 +261,30 @@ def RRC_CONNECTION_SETUP_COMPLETE():
         'Content-Type': 'application/json'
     }
     response = requests.request("POST", url, headers=headers, data=payload)
-    print(response.text)
+    # print(response.text)
+    SecurityModeComplete()
     # if(json.loads(response.text)['cipheringAlgorithm']==""):
     #     print("SecurityMode Set UP Failed")
     #     UEConfig_Update({"SecurityMode_Set_UP":False})
     # else:
     #     print("SecurityMode Set UP Success")
     #     UEConfig_Update({"SecurityMode_Set_UP":True})
+
+#Step(17) RRC CONNECTION SETUP COMPLETE
+def SecurityModeComplete():
+    url = "http://"+Obtain_UE_Configuration()["Connected_Primary_Cell_IP"]+":1440/SecurityModeComplete"
+    UE=Obtain_UE_Configuration()
+    payload={
+        "Extended_Protocol_Discriminator":"10000110",
+        "Security_Header_Type":"1100",
+        "Spare_Half_Octet":"1101",
+        "Security_Mode_Command_Message_Identity":"11001100",
+    }
+    payload=json.dumps(payload)
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    response = requests.request("POST", url, headers=headers, data=payload)
 
 """
 Functions of RSRP Request and Response

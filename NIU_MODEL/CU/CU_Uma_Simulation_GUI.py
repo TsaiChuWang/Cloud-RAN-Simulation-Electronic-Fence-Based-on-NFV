@@ -107,36 +107,38 @@ def animate(i):
         axes.add_artist(gNB_Center_Point)
         plt.text(gNB["gNB_Position_X"]-260, gNB["gNB_Position_Y"]-20,gNB_Name, fontsize=11, color="#FF359A")
     
-    Dormitory=Obtain_System_Field_Configuration("Dormitory")
-    if(Dormitory=="Male"):
-        plt.plot([Obtain_System_Field_Configuration("Male_Start_X"),Obtain_System_Field_Configuration("Male_Second_X")], [Obtain_System_Field_Configuration("Male_Start_Y"),Obtain_System_Field_Configuration("Male_Second_Y")],color=Obtain_System_Field_Configuration("Male_Color"),linewidth=1)
-        plt.plot([Obtain_System_Field_Configuration("Male_Third_X"),Obtain_System_Field_Configuration("Male_Second_X")], [Obtain_System_Field_Configuration("Male_Third_Y"),Obtain_System_Field_Configuration("Male_Second_Y")],color=Obtain_System_Field_Configuration("Male_Color"),linewidth=1)
-        plt.plot([Obtain_System_Field_Configuration("Male_Third_X"),Obtain_System_Field_Configuration("Male_End_X")], [Obtain_System_Field_Configuration("Male_Third_Y"),Obtain_System_Field_Configuration("Male_End_Y")],color=Obtain_System_Field_Configuration("Male_Color"),linewidth=1)
-        plt.plot([Obtain_System_Field_Configuration("Male_Start_X"),Obtain_System_Field_Configuration("Male_End_X")], [Obtain_System_Field_Configuration("Male_Start_Y"),Obtain_System_Field_Configuration("Male_End_Y")],color=Obtain_System_Field_Configuration("Male_Color"),linewidth=1)
+    # Dormitory=Obtain_System_Field_Configuration("Dormitory")
+    # if(Dormitory=="Male"):
+    #     plt.plot([Obtain_System_Field_Configuration("Male_Start_X"),Obtain_System_Field_Configuration("Male_Second_X")], [Obtain_System_Field_Configuration("Male_Start_Y"),Obtain_System_Field_Configuration("Male_Second_Y")],color=Obtain_System_Field_Configuration("Male_Color"),linewidth=1)
+    #     plt.plot([Obtain_System_Field_Configuration("Male_Third_X"),Obtain_System_Field_Configuration("Male_Second_X")], [Obtain_System_Field_Configuration("Male_Third_Y"),Obtain_System_Field_Configuration("Male_Second_Y")],color=Obtain_System_Field_Configuration("Male_Color"),linewidth=1)
+    #     plt.plot([Obtain_System_Field_Configuration("Male_Third_X"),Obtain_System_Field_Configuration("Male_End_X")], [Obtain_System_Field_Configuration("Male_Third_Y"),Obtain_System_Field_Configuration("Male_End_Y")],color=Obtain_System_Field_Configuration("Male_Color"),linewidth=1)
+    #     plt.plot([Obtain_System_Field_Configuration("Male_Start_X"),Obtain_System_Field_Configuration("Male_End_X")], [Obtain_System_Field_Configuration("Male_Start_Y"),Obtain_System_Field_Configuration("Male_End_Y")],color=Obtain_System_Field_Configuration("Male_Color"),linewidth=1)
         
-        plt.text(Obtain_System_Field_Configuration("Male_Start_X"),Obtain_System_Field_Configuration("Male_Start_Y")-55,"Range :Student Dormitory", fontsize=10, color=Obtain_System_Field_Configuration("Male_Color"))
+    #     plt.text(Obtain_System_Field_Configuration("Male_Start_X"),Obtain_System_Field_Configuration("Male_Start_Y")-55,"Range :Student Dormitory", fontsize=10, color=Obtain_System_Field_Configuration("Male_Color"))
 
-    UEs_List=Obtain_UEs_Configurations("UEs_List")
-    for index,UE_Name in enumerate(UEs_List):
-        UE=Obtain_UEs_Configurations(UE_Name)
-        UE_Position_X=UE["UE_Position_X"]
-        UE_Position_Y=UE["UE_Position_Y"]
-        UE_Color=UE["UE_Color"]
-        if(UE_OUT_OF_RANGE(UE_Position_X,UE_Position_Y)):
-            UE_Color="#ff0000"
-        UE_Point = plt.Circle((UE_Position_X,UE_Position_Y), 12,color=UE_Color)
-        axes.add_artist(UE_Point)
+    # UEs_List=Obtain_UEs_Configurations("UEs_List")
+    # for index,UE_Name in enumerate(UEs_List):
+    #     UE=Obtain_UEs_Configurations(UE_Name)
+    #     UE_Position_X=UE["UE_Position_X"]
+    #     UE_Position_Y=UE["UE_Position_Y"]
+    #     UE_Color=UE["UE_Color"]
+    #     if(UE_OUT_OF_RANGE(UE_Position_X,UE_Position_Y)):
+    #         UE_Color="#ff0000"
+    #     UE_Point = plt.Circle((UE_Position_X,UE_Position_Y), 12,color=UE_Color)
+    #     axes.add_artist(UE_Point)
+    #     plt.text(UE_Position_X+50,UE_Position_Y,UE_Name, fontsize=10, color=UE_Color)
 
-        PCell=Obtain_gNB_Information(UE["Connected_Primary_Cell_Name"])
-        PCell_X=PCell["gNB_Position_X"]
-        PCell_Y=PCell["gNB_Position_Y"]
-        print(UE_Name+": "+str(UE["RSRP"])+ "dBm")
-        SCell=Obtain_gNB_Information(UE["Connected_Secondary_Cell_Name"])
-        SCell_X=SCell["gNB_Position_X"]
-        SCell_Y=SCell["gNB_Position_Y"]
-        plt.plot([UE_Position_X,PCell_X], [UE_Position_Y, PCell_Y],color=UE_Color,linewidth=1)
-        plt.plot([UE_Position_X,SCell_X], [UE_Position_Y, SCell_Y],color=UE_Color,linewidth=1,linestyle=':')
-        plt.text(Obtain_System_Field_Configuration("X_RANGE"),0-Obtain_System_Field_Configuration("Y_RANGE")+600-(index*50), UE_Name+": "+"{:.7f}".format(UE["RSRP"])+ "dBm", fontsize=10, color=UE_Color)
+
+    #     PCell=Obtain_gNB_Information(UE["Connected_Primary_Cell_Name"])
+    #     PCell_X=PCell["gNB_Position_X"]
+    #     PCell_Y=PCell["gNB_Position_Y"]
+    #     print(UE_Name+": "+str(UE["RSRP"])+ "dBm")
+    #     SCell=Obtain_gNB_Information(UE["Connected_Secondary_Cell_Name"])
+    #     SCell_X=SCell["gNB_Position_X"]
+    #     SCell_Y=SCell["gNB_Position_Y"]
+    #     plt.plot([UE_Position_X,PCell_X], [UE_Position_Y, PCell_Y],color=UE_Color,linewidth=1)
+    #     plt.plot([UE_Position_X,SCell_X], [UE_Position_Y, SCell_Y],color=UE_Color,linewidth=1,linestyle=':')
+    #     plt.text(Obtain_System_Field_Configuration("X_RANGE"),0-Obtain_System_Field_Configuration("Y_RANGE")+600-(index*50), UE_Name+": "+"{:.7f}".format(UE["RSRP"])+ "dBm", fontsize=10, color=UE_Color)
         
 
 
