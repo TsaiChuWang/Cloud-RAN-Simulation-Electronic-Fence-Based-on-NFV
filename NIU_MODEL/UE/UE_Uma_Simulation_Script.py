@@ -386,8 +386,8 @@ Require_Information_gNBs()
 for UE_Name in UEs_List:
     Update_gNB_UEs_Pairs(UE_Name)
 
-for UE_Name in UEs_List:
-    Update_UEs_Configurations(UE_Name,{"Script_Line":[random.choice([0,1,1,-1,-1]) for i in range(180)]})
+# for UE_Name in UEs_List:
+#     Update_UEs_Configurations(UE_Name,{"Script_Line":[random.choice([0,1,1,-1,-1]) for i in range(180)]})
 index=0
 while(index<180):
     for UE_Name in UEs_List:
