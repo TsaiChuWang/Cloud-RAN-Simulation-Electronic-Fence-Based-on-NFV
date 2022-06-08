@@ -6,5 +6,14 @@
     "Rectangle_Start_X":-291,
     "Rectangle_Start_Y":-223,
     "Rectangle_Width":591,
-    "Rectangle_Length":395
+    "Rectangle_Length":395,
+    "Ellipse_Start_X":-61,
+    "Ellipse_Start_Y":43,
+    "Ellipse_Width":591,
+    "Ellipse_Length":455,
+    "Ellipse_Angle":34,
+    "PolyCollection_Edges":5,
+    "PolyCollection_Points":[[-250, 150], [350, 300], [330, -120], [2, -240],[-300,-130]],
+    "ConcavePolygon_Edges":5,
+    "ConcavePolygon_Points":[[-250, 150], [350, 300], [70, -60], [2, -440],[-300,-130]]
 }

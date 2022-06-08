@@ -9,7 +9,8 @@ import mpl_toolkits.axisartist as axisartist
 import matplotlib.patches as patches
 import datetime
 import logging
-
+from matplotlib.patches import Ellipse, Circle
+from matplotlib.collections import PolyCollection
 import requests
 import time
 from flask import jsonify
@@ -108,6 +109,7 @@ def animate(i):
         plt.text(gNB["gNB_Position_X"]-150, gNB["gNB_Position_Y"],gNB_Name, fontsize=10, color=gNB["gNB_Center_Color"])
     
     Range_Type=Obtain_System_Field_Configuration("Range_Type")
+    Range_Color=Obtain_System_Field_Configuration("Range_Color")
     if(Range_Type=="Rectangle"):
         axes.add_patch(
             patches.Rectangle(
@@ -121,6 +123,34 @@ def animate(i):
         )
         plt.text(Obtain_System_Field_Configuration("Rectangle_Start_X"), Obtain_System_Field_Configuration("Rectangle_Start_Y")-25,"Range_Type: "+Range_Type, fontsize=10, color=Obtain_System_Field_Configuration("Range_Color"))
     
+    if(Range_Type=="Ellipse"):
+        axes.add_patch(
+            patches.Ellipse(xy = (Obtain_System_Field_Configuration("Ellipse_Start_X"), Obtain_System_Field_Configuration("Ellipse_Start_X")), width = Obtain_System_Field_Configuration("Ellipse_Width"), height = Obtain_System_Field_Configuration("Ellipse_Length"), angle = Obtain_System_Field_Configuration("Ellipse_Angle"), fill=False,edgecolor= Obtain_System_Field_Configuration("Range_Color") , alpha=0.3 )
+        )
+        plt.text(Obtain_System_Field_Configuration("Ellipse_Start_X")+300, Obtain_System_Field_Configuration("Ellipse_Start_Y")-25,"Range_Type: "+Range_Type, fontsize=10, color=Obtain_System_Field_Configuration("Range_Color"))
+
+    if(Range_Type=="PolyCollection"):
+        Points_Array=Obtain_System_Field_Configuration("PolyCollection_Points")
+        for ind,point in enumerate(Points_Array):
+            next_ind=ind+1
+            if(next_ind==len(Points_Array)):
+                next_ind=0
+            start_point=point
+            end_point=Points_Array[next_ind]
+            plt.plot([start_point[0],end_point[0]], [start_point[1], end_point[1]],color=Range_Color,linewidth=1.5)
+            plt.text(200, -250,"Range_Type: "+Range_Type, fontsize=10, color=Obtain_System_Field_Configuration("Range_Color"))
+
+    if(Range_Type=="ConcavePolygon"):
+        Points_Array=Obtain_System_Field_Configuration("ConcavePolygon_Points")
+        for ind,point in enumerate(Points_Array):
+            next_ind=ind+1
+            if(next_ind==len(Points_Array)):
+                next_ind=0
+            start_point=point
+            end_point=Points_Array[next_ind]
+            plt.plot([start_point[0]-50,end_point[0]-50], [start_point[1]+50, end_point[1]+50],color=Range_Color,linewidth=1.5)
+            plt.text(40, -80,"Range_Type: "+Range_Type, fontsize=10, color=Obtain_System_Field_Configuration("Range_Color"))
+
     UEs_List=Obtain_UEs_Configurations("UEs_List")
     for index,UE_Name in enumerate(UEs_List):
         UE=Obtain_UEs_Configurations(UE_Name)
@@ -129,7 +159,8 @@ def animate(i):
         UE_Color=UE["UE_Color"]
         UE_Point = plt.Circle((UE_Position_X,UE_Position_Y), 10,color=UE_Color)
         axes.add_artist(UE_Point)
-
+        if(UE["UE_OUT_OF_RANGE"]):
+            UE_Color="#ff0000"
         PCell=Obtain_gNB_Information(UE["Connected_Primary_Cell_Name"])
         PCell_X=PCell["gNB_Position_X"]
         PCell_Y=PCell["gNB_Position_Y"]
@@ -139,8 +170,7 @@ def animate(i):
         SCell_Y=SCell["gNB_Position_Y"]
         plt.plot([UE_Position_X,PCell_X], [UE_Position_Y, PCell_Y],color=UE_Color,linewidth=0.8)
         plt.plot([UE_Position_X,SCell_X], [UE_Position_Y, SCell_Y],color=UE_Color,linewidth=0.8,linestyle=':')
-        # if(UE["UE_OUT_OF_RANGE"]):
-        #     UE_Color="#ff0000"
+        
         plt.text(Obtain_System_Field_Configuration("X_RANGE")-400, 0-Obtain_System_Field_Configuration("Y_RANGE")+300-(index*30), UE_Name+": "+"{:.7f}".format(UE["RSRP"])+ "dBm", fontsize=10, color=UE_Color)
         
 
