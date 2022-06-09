@@ -159,8 +159,8 @@ def animate(i):
         UE_Color=UE["UE_Color"]
         UE_Point = plt.Circle((UE_Position_X,UE_Position_Y), 10,color=UE_Color)
         axes.add_artist(UE_Point)
-        if(UE["UE_OUT_OF_RANGE"]):
-            UE_Color="#ff0000"
+        # if(UE["UE_OUT_OF_RANGE"]):
+        #     UE_Color="#ff0000"
         PCell=Obtain_gNB_Information(UE["Connected_Primary_Cell_Name"])
         PCell_X=PCell["gNB_Position_X"]
         PCell_Y=PCell["gNB_Position_Y"]
@@ -175,5 +175,5 @@ def animate(i):
         
 
 
-anim = animation.FuncAnimation(figure, animate, interval=5000) 
+anim = animation.FuncAnimation(figure, animate, interval=2000) 
 plt.show()
