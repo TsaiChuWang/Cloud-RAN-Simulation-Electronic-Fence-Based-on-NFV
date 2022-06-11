@@ -1,0 +1,48 @@
+{
+    "gNB_Lists": ["gNB_A", "gNB_B", "gNB_C", "gNB_D", "gNB_E"],
+    "gNB_A": {
+        "gNB_Position_X": -2317,
+        "gNB_Position_Y": -321,
+        "gNB_BS_Height": 25,
+        "gNB_Center_Frequency": 3308.1308662294405,
+        "gNB_Antenna_Power": 33.671520898470746,
+        "gNB_Center_Color": "#2CD8C1",
+        "gNB_Range_Color": "#40F8DF"
+    },
+    "gNB_B": {
+        "gNB_Position_X": -766,
+        "gNB_Position_Y": 501,
+        "gNB_BS_Height": 25,
+        "gNB_Center_Frequency": 3308.1308662294405,
+        "gNB_Antenna_Power": 33.671520898470746,
+        "gNB_Center_Color": "#2CD8C1",
+        "gNB_Range_Color": "#40F8DF"
+    },
+    "gNB_C": {
+        "gNB_Position_X": 1665,
+        "gNB_Position_Y": -371,
+        "gNB_BS_Height": 25,
+        "gNB_Center_Frequency": 3308.1308662294405,
+        "gNB_Antenna_Power": 33.671520898470746,
+        "gNB_Center_Color": "#2CD8C1",
+        "gNB_Range_Color": "#40F8DF"
+    },
+    "gNB_D": {
+        "gNB_Position_X": 1757,
+        "gNB_Position_Y": 523,
+        "gNB_BS_Height": 25,
+        "gNB_Center_Frequency": 3308.1308662294405,
+        "gNB_Antenna_Power": 33.671520898470746,
+        "gNB_Center_Color": "#2CD8C1",
+        "gNB_Range_Color": "#40F8DF"
+    },
+    "gNB_E": {
+        "gNB_Position_X": -626,
+        "gNB_Position_Y": -508,
+        "gNB_BS_Height": 25,
+        "gNB_Center_Frequency": 3308.1308662294405,
+        "gNB_Antenna_Power": 33.671520898470746,
+        "gNB_Center_Color": "#2CD8C1",
+        "gNB_Range_Color": "#40F8DF"
+    }
+}
