@@ -92,14 +92,14 @@ def writePoints(interval,gNB_Lists):
             points.append([i,j])
     for point in points:
         line="("+str(point[0])+","+str(point[1])+") "
-        max_index=1
-        max=-1
+        max_index=-1
+        max=-150
         RSRPs=[]
         num=random.randint(5,20)
         for i in range(num):
             line="("+str(point[0])+","+str(point[1])+") "
             max_index=-1
-            max=-1
+            max=-150
             for gNB_Name in gNB_Lists:
                 RSRP=CalRSRP(gNB_Name,point[0],point[1])
                 RSRPs.append(RSRP)
@@ -113,7 +113,10 @@ def writePoints(interval,gNB_Lists):
                     max_index=ind
                 else:
                     continue
-            line=line+gNB_Lists[max_index]
+            if(max==-150):
+                line=line+"None"
+            else:
+                line=line+gNB_Lists[max_index]
             RSRPs=[]
             text=text+line+"\n"
     

@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="d3OIymw5-aVt0ZqUq43Z" name="Flow Chart">
-        <mxGraphModel dx="2750" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2750" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -71,7 +71,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="XXcM9xsE1CxuUHpmo7bm" name=" Establish an RRC connection">
-        <mxGraphModel dx="2750" dy="-329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2750" dy="-576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="EwcNz54N74t9UpvTEoii-0"/>
                 <mxCell id="EwcNz54N74t9UpvTEoii-1" parent="EwcNz54N74t9UpvTEoii-0"/>
@@ -256,7 +256,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="G6Sp99064H83OwRWWRzO" name="RRCSetUpRequest">
-        <mxGraphModel dx="2750" dy="-1429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2750" dy="-1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="HcNbiPOe6ggSaZb_H2xu-0"/>
                 <mxCell id="HcNbiPOe6ggSaZb_H2xu-1" parent="HcNbiPOe6ggSaZb_H2xu-0"/>
@@ -319,7 +319,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="w7GqPcGIdLIWsLZiP9QQ" name="INITIAL_UL_RRC_MESSAGE_TRANSFER">
-        <mxGraphModel dx="2750" dy="-4729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2750" dy="-4976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="xxCp7EhQaBBqAfONVUY9-0"/>
                 <mxCell id="xxCp7EhQaBBqAfONVUY9-1" parent="xxCp7EhQaBBqAfONVUY9-0"/>
@@ -462,7 +462,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="-vcTvqHNUdTF4YXlSf_i" name="INITIAL_UL_RRC_MESSAGE_TRANSFER">
-        <mxGraphModel dx="2750" dy="-4729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="4325" dy="-4190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="Fg8RnG6Q3sly9G9Cty0i-0"/>
                 <mxCell id="Fg8RnG6Q3sly9G9Cty0i-1" parent="Fg8RnG6Q3sly9G9Cty0i-0"/>
@@ -605,7 +605,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="WwwP-12kMbVQZA7yzIn7" name="DL RRC MESSAGE TRANSFER">
-        <mxGraphModel dx="1900" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1900" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="cVtck4FJjnXxOCOkSIwr-0"/>
                 <mxCell id="cVtck4FJjnXxOCOkSIwr-1" parent="cVtck4FJjnXxOCOkSIwr-0"/>
@@ -718,7 +718,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="XrTs6Jd9-OYPFpg4Z6rh" name="Execute a reconfiguration with sync">
-        <mxGraphModel dx="1900" dy="-3629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1900" dy="-3876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="apej7UHXUEtV_DgkS7oX-0"/>
                 <mxCell id="apej7UHXUEtV_DgkS7oX-1" parent="apej7UHXUEtV_DgkS7oX-0"/>
@@ -825,7 +825,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="oexNtNrDrwN_UPK9K0iU" name="Perform Cell Group Configuration">
-        <mxGraphModel dx="1900" dy="-1429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1900" dy="-1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="ZaHN-muW_qi3iCYnxRyt-0"/>
                 <mxCell id="ZaHN-muW_qi3iCYnxRyt-1" parent="ZaHN-muW_qi3iCYnxRyt-0"/>
@@ -1016,7 +1016,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="htUFmVjLdIQsgosK7MQw" name="Reception of the RRCSetup by the UE ">
-        <mxGraphModel dx="2750" dy="-2529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2750" dy="-2776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="XMhZtcgcBXGXwFpGlEAI-0"/>
                 <mxCell id="XMhZtcgcBXGXwFpGlEAI-1" parent="XMhZtcgcBXGXwFpGlEAI-0"/>
@@ -1147,7 +1147,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="8cetjBkki0h4QdD1up1D" name="Reception of the RRCReject by the UE ">
-        <mxGraphModel dx="2750" dy="-3629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2750" dy="-3876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="UDJj3uM3SnWdYRWBOtLa-0"/>
                 <mxCell id="UDJj3uM3SnWdYRWBOtLa-1" parent="UDJj3uM3SnWdYRWBOtLa-0"/>
